@@ -1,0 +1,26 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[1] Config.pm:346> INFO - Logfile is 'buildfiles/nbiot.blg'
+[120] biber-darwin:290> INFO - === Fri Feb 23, 2018, 11:37:03
+[145] Biber.pm:351> INFO - Reading 'buildfiles/nbiot.bcf'
+[257] Biber.pm:776> INFO - Found 23 citekeys in bib section 0
+[271] Biber.pm:3493> INFO - Processing section 0
+[301] Biber.pm:3657> INFO - Looking for bibtex format file 'mybib.bib' for section 0
+[310] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[316] bibtex.pm:1048> INFO - Found BibTeX data source 'mybib.bib'
+[341] Utils.pm:149> WARN - I didn't find a database entry for 'mail:teliaMailThread' (section 0)
+[344] Utils.pm:149> WARN - The field 'author' in entry 'pcpng35052:online' cannot be null, deleting it
+[344] Utils.pm:149> WARN - The field 'month' in entry 'pcpng35052:online' cannot be null, deleting it
+[344] Utils.pm:149> WARN - The field 'year' in entry 'pcpng35052:online' cannot be null, deleting it
+[345] Utils.pm:149> WARN - The field 'author' in entry 'fluke88435:online' cannot be null, deleting it
+[345] Utils.pm:149> WARN - The field 'month' in entry 'fluke88435:online' cannot be null, deleting it
+[345] Utils.pm:149> WARN - The field 'year' in entry 'fluke88435:online' cannot be null, deleting it
+[345] Utils.pm:149> WARN - The field 'author' in entry 'ingagrue31:online' cannot be null, deleting it
+[345] Utils.pm:149> WARN - The field 'month' in entry 'ingagrue31:online' cannot be null, deleting it
+[345] Utils.pm:149> WARN - The field 'year' in entry 'ingagrue31:online' cannot be null, deleting it
+[377] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[377] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[377] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[377] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[400] bbl.pm:526> INFO - Writing 'buildfiles/nbiot.bbl' with encoding 'UTF-8'
+[405] bbl.pm:619> INFO - Output to buildfiles/nbiot.bbl
+[405] Biber.pm:108> INFO - WARNINGS: 10

@@ -1,0 +1,6 @@
+server.post(api + '/nodes/:id', (req, res) => {
+    let data = req.body;
+    let timestamp = moment.utc(data.timestamp);
+
+    ...
+}
