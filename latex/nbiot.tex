@@ -18,6 +18,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{caption}
 \usepackage[hidelinks]{hyperref}
+\usepackage{float}
 
 \definecolor{jskeywords}{HTML}{E4D00A}% JavaScript keywords
 \definecolor{jsextkeywords}{HTML}{FF6700}% JavaScript extended keywords
@@ -225,30 +226,16 @@ Another motivator for \acrshort{iot} is the expected easiness of the setup. With
 
 The idea of some of the new \acrfull{lpwan} is to use the same hardware as \acrshort{lte} and add software to enable an \acrshort{iot} Platform. The most promising technology for sensor networks is \acrfull{nb-iot} and is enabled with a \acrshort{lte} core network as the bearing network. We will discuss how to implement \acrshort{nb-iot} in a \acrshort{lte} network in section, \vref{section:nb-iot-deployment}. This new technology should support an extreme amount of devices as well as them being in a secure environment. Security is a big concern when discussing \acrshort{iot} and we will elaborate on how this new network will provide security for the users in section, \vref{ssection:nb-iot-security}. Another concern is bandwidth and power consumption as mentioned. The bandwidth is reduced to a minimum and the power consumption is one of the main focuses. In section \ref{section:nb-iot-deployment} we will go into detail on this technology.
 
-\section{Parking - a realistic use case} %%HH refactor
-There are several applications for \acrshort{lpwan} and most mobile network companies are realizing this. Telenor started the \acrshort{nb-iot} network test late 2016, with hardware mainly from Huawei. The goal of the test was to set up a \acrshort{nb-iot} network and test the communication with Q-Free´s parking sensors. Telenor ran different tests on this network so that it could be launched for the public. They aim to launch their \acrshort{nb-iot} network in 2017.
-
-I will mainly focus on Telenor´s solution and use the parking use case as a reference when performing our tests. The sensors from Q-Free will be supplied with a SIM-card and the \acrshort{nb-iot} chip will be able to communicate directly with Telenor´s \acrshort{nb-iot} network.
-
-\subsection{Outline of the sensor} \label{ssection:sensoroutline}
-The sensor is housed in by a small plastic case which will be leveled with the ground. It withstands extreme forces and detects cars by magnetometer and pulsed Doppler radar. The housing is the most expensive part of the sensor, being able to withstand rough conditions for over 10 years. The idea is that the sensor is drilled into the ground, and will communication over \acrshort{nb-iot}. It will send status of the occupancy of the parking spot with a fixed interval, as well as reporting parking events when they occur. The growth of these types of sensors will increase and hopefully will they enrich our daily lives. See figure \ref{pic:parkingsensor} for a photo of the parking sensor from Q-Free.
-
-\begin{figure}[ht]
-  \centering\includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg}
-  \caption{Parking sensor  \cite{person:ola}}
-  \label{pic:parkingsensor}
-\end{figure}
-
 \section{Current status}
 \subsection{Internet}
-The main idea of the Internet we know today is quite similar to the past, but the scale and reach has outgrown what anyone thought could be achieved. In 2015 Google´s data centers achieved high speed transfers up to 1 Petabit. "According to Vahdat, that is enough bandwidth for more than 100,000 servers to exchange data at 10 Gbps each, or transmit all scanned contents of the Library of Congress in under one-tenth of a second"\cite{online:petabitGoogle}. The reason for these data centers is the use of online resources. Offices, as well as home users require more bandwidth and reliability of the services provided from e.g. Google, VPNs, data storage and so forth.
+The main idea of the Internet we know today is quite similar to the past, but the scale and reach has outgrown what anyone thought could be achieved. In 2015 Google's data centers achieved high speed transfers up to 1 Petabit. "According to Vahdat, that is enough bandwidth for more than 100,000 servers to exchange data at 10 Gbps each, or transmit all scanned contents of the Library of Congress in under one-tenth of a second"\cite{online:petabitGoogle}. The reason for these data centers is the use of online resources. Offices, as well as home users require more bandwidth and reliability of the services provided from e.g. Google, VPNs, data storage and so forth.
 Internet is everywhere and will continue to grow the coming years. As we will discuss in a later section we are seeing signs of a future where literally everything comes online. This includes wearables, industry monitoring and management systems and this will hopefully engage in a smarter and healthier society.
 
 \subsection{Mobile networks}
-Norway´s GSM network came online in 1993 \cite{online:gsmTelenorNetcom} and Norway has pressured the current technology to reach higher standards from this time. The evolution of wireless radio technology has usually been focused on making it faster, while under prioritizing battery lifetime and simplicity. However, because this technology is used in mobile devices, it is for most users good news. \acrshort{lte} offers high \acrfull{ul} and \acrfull{dl} speeds and good coverage. One problem with \acrshort{lte} and older wireless technologies is that it consumes a lot of power. People are experiencing high speed transfers to their mobile devices, but at a cost draining their batteries. In the future, power efficiency has to be one of the main features of networks established. This is especially the case for sensor networks as these devices need to be connected to a mobile network. Such sensors are often established in remote locations without steady power. Using \acrshort{lte} or some other standard solution would give these devices short lifetime.
+Norway's GSM network came online in 1993 \cite{online:gsmTelenorNetcom} and Norway has pressured the current technology to reach higher standards from this time. The evolution of wireless radio technology has usually been focused on making it faster, while under prioritizing battery lifetime and simplicity. However, because this technology is used in mobile devices, it is for most users good news. \acrshort{lte} offers high \acrfull{ul} and \acrfull{dl} speeds and good coverage. One problem with \acrshort{lte} and older wireless technologies is that it consumes a lot of power. People are experiencing high speed transfers to their mobile devices, but at a cost draining their batteries. In the future, power efficiency has to be one of the main features of networks established. This is especially the case for sensor networks as these devices need to be connected to a mobile network. Such sensors are often established in remote locations without steady power. Using \acrshort{lte} or some other standard solution would give these devices short lifetime.
 
 \subsection{A closer look at \acrshort{lte}} \label{ssection:lte}
-\acrfull{lte} networks consists of some particular nodes for the network to connect to \acrfull{ue} and Internet. We call this structure \acrfull{epc} \cite{online:epc}. In this section we will get a better look at some of the attributes of \acrshort{lte} and the parts which make the \acrshort{epc} network. We really need to understand the underlying network to get a grasp of the new technologies we will investigate. Some of the standards we will mention are using proprietary solutions, but most of them are using \acrshort{lte} as the main infrastructure. \acrshort{lte} was introduced in release 8 of the \acrshort{3gpp} in 2008. In a summation by Ericsson they state some facts about \acrshort{lte} from the initial release. \acrshort{lte} from release 8 supported 100Mbps \acrshort{dl} and 50Mbps \acrshort{ul}(Not peak speeds), reduced latency(down to 10ms) and was cost-effective to set up. \cite{online:lteIntroduction} As of release 10 by \acrshort{3gpp}(year 2011) the speeds were at astonishing 1 Gbps \acrshort{dl} and 500Mbps \acrshort{ul}, but still the network is not suited for low powered devices.
+\acrfull{lte} networks consists of some particular nodes for the network to connect to \acrfull{ue} and Internet. We call this structure \acrfull{epc} \cite{online:epc}. In this section we will get a better look at some of the attributes of \acrshort{lte} and the parts which make the \acrshort{epc} network. We really need to understand the underlying network to get a grasp of the new technologies we will investigate. Some of the standards we will mention are using proprietary solutions, but most of them are using \acrshort{lte} as the main infrastructure. \acrshort{lte} was introduced in release 8 of the \acrshort{3gpp} in 2008. In a summation by Ericsson they state some facts about \acrshort{lte} from the initial release. \acrshort{lte} from release 8 supported 100Mbps \acrshort{dl} and 50Mbps \acrshort{ul}(Not peak speeds), reduced latency(down to 10ms) and was cost-effective to set up. \cite{online:lteIntroduction} As of release 10 by \acrshort{3gpp}(year 2011) the speeds were at astonishing 1 Gbps \acrshort{dl} and 500Mbps \acrshort{ul}, however the network is not suited for low powered devices.
 
 
 \acrshort{lte} is composed by 5 components which interact with each other. \acrshort{mme}, \acrshort{hss}, \acrshort{s-gw} and \acrshort{p-gw} constitutes \acrfull{epc}. See outline of \acrshort{lte} topology in figure \vref{online:lteTopology}.
@@ -278,12 +265,10 @@ The \acrshort{p-gw} is responsible for the communication between the mobile intr
 \section{Future - mobile networks} \label{section:futureapplications}
 For the past ten years we have seen a rise in sensor activity. In the evolution of \acrshort{iot} devices, some has ported to \acrshort{lpwan}. However, as stated in the motivation, mobile \acrshort{iot} devices rely on good coverage and stability. Many people think of home electronics when discussing \acrshort{iot}, but this is not the main goal of \acrshort{iot}. Oslo's public transport operator(Ruter) has payment cards communicating with activation boxes over RFID, which in turn communicate with Internet. The Norwegian transport agency uses RFID in their tolling stations to communicate with cars. We also see smarter ways to implement these solutions. In the following sections we will give examples of application usage related to future mobile networks. In section \vref{ssection:wirelesstech} we will discuss how to approach technical solutions of future applications.
 
-\subsection{Applications}
+\subsection{Applications} \label{ssection:applications}
 Sensors used for applications are not new. Already back in 2009 a forum called \acrfull{oecd} discussed ways to take advantage of sensors to support a green growth \cite{online:industryApplications}. This forum has members from all over the world, including Norway. The idea is that sensors can surveil and monitor emission numbers as well as act upon them. \acrshort{oecd} came up with a group of applications which were important to investigate. Some of them are smart grids and energy control systems, smart buildings, transport and logistics, agriculture and other general industrial applications. Together these fields combines most of the energy use today and with smarter systems we can reduce power consumption.
 
-
 With this in mind we can clearly see that many of the fields \acrshort{oecd} discussed has been implemented, or is in the deployment stage. However the current status of industry activities related to these fields are running over 2G/3G networks. These networks provides good coverage while keeping the cost and energy low, but with billions of devices enrolling, this is not a sustainable model.
-
 
 \acrfull{gsma} has made an overview of the most applicable areas of use. In figure \vref{pic:lpwan} some bullet points are presented for each area. In the next section we will comment special use cases for some of the areas.
 
@@ -294,10 +279,16 @@ With this in mind we can clearly see that many of the fields \acrshort{oecd} dis
 \end{figure}
 
 \subsubsection{Utilities and smart cities}
-This section resolves to what we will investigate in this thesis. Cities are getting smarter by the day and \acrshort{lpwan} can give us the stable network to deploy a large sensor network for monitoring and manage cities. \acrfull{its} is an initiative to control and manage traffic. The system provides communication between cars, trucks and sensors. The sensors are mounted in traffic lights, signs and other objects known in the transport field. The connected devices can adopt to the environment and help the society in several ways. Emergency units can set a route to an accident and the overlaying \acrshort{its} system will clear the way remotely to enable the emergency unit to quickly arrive at the location.
+This domain resolves to what we are investigating in this thesis. Cities are getting smarter by the day and \acrshort{lpwan} can give us the stable network to deploy a large sensor network for monitoring and manage cities. \acrfull{its} is an initiative to control and manage traffic. The system provides communication between cars, trucks and sensors. The sensors are mounted in traffic lights, signs and other objects known in the transport field. The connected devices can adopt to the environment and help the society in several ways. Emergency units can set a route to an accident and the overlaying \acrshort{its} system will clear the way remotely to enable the emergency unit to quickly arrive at the location.
 
-Smart parking is a hot topic in big cities. Even though cars may be banned from the city center, parking at a nearby location can easier be managed with sensors communicating over \acrshort{lpwan}.
+\paragraph{Parking - a realistic use case} \label{paragraph:sensoroutline}
+Smart parking is a big investment point in big cities. Even though cars may be banned from the cities in some cities, parking at a nearby location can easier be managed with sensors communicating over \acrshort{lpwan}. Q-Free is mainly focusing on parking sensors related to \acrshort{nb-iot}. The sensor is housed in by a small plastic case which will be leveled with the ground. It withstands extreme forces and detects cars by magnetometer and pulsed Doppler radar. The housing is the most expensive part of the sensor, being able to withstand rough conditions for over 10 years. The idea is that the sensor is drilled into the ground, and will communication over \acrshort{nb-iot}. It will send status of the occupancy of the parking spot with a fixed interval, as well as reporting parking events when they occur. The growth of these types of sensors will increase and hopefully will they enrich our daily lives. See figure \ref{pic:parkingsensor} for a photo of the parking sensor from Q-Free.
 
+\begin{figure}[ht]
+  \centering\includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg}
+  \caption{Parking sensor  \cite{person:ola}}
+  \label{pic:parkingsensor}
+\end{figure}
 
 Other usage areas of sensors in cities are e.g. waste areas, power monitoring and \ce{CO2} monitoring. Operations can heavily benefit from more information, as well as automated procedures. There are many use cases where monitoring can be difficult and costly. With simple and cheap devices one could monitor hundreds of different things. As a result the work effort could decrease and the processes can be more efficient. A good example is garbage disposal. If garbage containers were fitted with measuring sensors, the control system can be notified when it is time to empty the garbage. The use case for this will probably be bigger companies and industrial sites, however it might be used for private residents as well.
 
@@ -348,32 +339,14 @@ The \acrshort{lora} solution provides an \acrshort{lpwan} at relatively low cost
 \end{figure}
 
 \chapter{A dive into NarrowBand IoT} \label{section:nb-iot}
+Telenor started their \acrshort{nb-iot} network test late 2016, with hardware mainly from Huawei. The goal of the test was to set up a \acrshort{nb-iot} network and test the communication with Q-Free's parking sensors, and run own tests before releasing the network to the public. They aim to launch their \acrshort{nb-iot} network in 2018 (HH)
+
+We will focus on a general approach towards \acrshort{nb-iot} as technology and will test both Telenor and Telia's solution. In section, \vref{section:testing} we will discuss how and where we did the tests as well as giving you examples and results.
+
 \acrfull{nb} \acrfull{iot} is the most promising \acrshort{lpwan} solution and the focusing technology in this thesis. The standard is made by \acrfull{3gpp} and \acrfull{etsi}, and was launched late summer of 2016 with the 13th release of the The Mobile Broadband Standard. The technology takes advantage of the current \acrshort{lte} infrastructure in a very sufficient way. The deployment requires no extra hardware, so the software necessary can be implemented into current hardware. In section \vref{section:nb-iot-deployment}, we will elaborate on the software required, as well as three ways to deploy \acrshort{nb-iot} in the frequency plan.
 
-\section{Deployment} \label{section:nb-iot-deployment} %% HH legge til info om deployment i et LTE nett
-In figure \vref{online:lteTopology} we saw the current infrastructure of \acrshort{lte}. To manage security issues and new features, a solution is to introduce a new term called \acrfull{iot-platform}. This platform will keep track of communication between outside applications and inside nodes. In theory the communication would suffice without this platform, but due to the extreme security issues regarding sensors we need a way to authenticate traffic. Many \acrshort{iot} devices are easy to hack and can be used for \acrfull{ddos} attacks. We have seen many service struggling with downtime due to overloading of their servers because of \acrshort{ddos} attacks. The platform ensures that traffic between two entities is secure, where one being the sensor and the other being the application server. For an application to receive traffic from a sensor, it will have to negotiate with the \acrshort{iot-platform} to gain access. After the setup procedure the \acrshort{iot-platform} acts as a \acrshort{nat} device, as well as matching correct application to correct user group, often called subscription. We might see other solutions for securing the internal network without negotiations.
-
-
-\acrshort{iot-platform} is just one way to solve these issues. This software is in fact just an application proxy, or a firewall. Either way it can be implemented in the current hardware, but it is also possible to provide an extra rack mounted device to deal with this. In Telenor's test case, spring 2017, all the servers/hardware required was located at one location and the \acrshort{iot-platform} was running on private hardware from Huawei.
-
-\subsection{Operation modes}
-\acrshort{nb-iot} occupies 180kHz bandwidth and there are currently three ways to integrate \acrshort{nb-iot} with \acrshort{lte}. The available operation modes are standalone, in-band and guard-band - see figure \vref{figure:nbiot-operationmodes} for illustrative definition. Standalone operation uses a dedicated GSM channel, utilizing the ability to deploy \acrshort{nb-iot} in \acrshort{gsm} as well as \acrshort{lte}. In figure \vref{figure:nbiot-operationmodes} we illustrate this operation mode to point out that \acrshort{nb-iot} can be deloyed in \acrshort{gsm}, even though this is not for the long run.
-
-In-band operation utilizes bandwidth within one \acrshort{lte} carrier. This is the most technical and advanced solution and requires more work by the mobile network provider. The reason for this is because of interference between the \acrshort{lte} and \acrshort{nb-iot} sections in the carrier. It is worth noting that not all resource blocks within one carrier is available for \acrshort{nb-iot}. TODO verify??
-
-Guard-band operation makes use of the bands not in use by \acrshort{lte} due to interference between \acrshort{lte} carriers. This in-between section is called a guard band and guards the carries for interfering with each other. This band can be used by \acrshort{nb-iot} and is a solution where one would want to utilize all resources of a cell tower.
-
-\begin{figure}[ht]
-  \centering\includegraphics[width=12cm,height=4cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg}
-  \caption{\acrshort{nb-iot} operation modes \cite{online:legacyWire}}
-  \label{figure:nbiot-operationmodes}
-\end{figure}
-
-\subsection{Security} \label{ssection:nb-iot-security}
-
-
-\section{System design} %%HH move up to right after introduction of nbiot "dive into etc"
-In a system design process it is important to analyze the use of the new technology. It is crucial to understand how people and the industry will take use of \acrshort{nb-iot}. A good example of a standard which is causing problems today is \acrshort{ipv4}. When this standard was introduced, no one could predict the growth of online devices. For this reason \acrshort{nb-iot} has some specific system design features which hopefully will cover its use for foreseeable years ahead. In the next section we will briefly introduce the system requirements.
+\section{System design}
+In a system design process it is important to analyze the use of the new technology. It is crucial to understand how people and the industry will take use of \acrshort{nb-iot}. A good example of a standard which is causing problems today is \acrshort{ipv4}. When this standard was introduced, no one could predict the growth of online devices and for this reason \acrshort{nb-iot} has some specific system design features which hopefully will cover its use for foreseeable years ahead. In the next section we will briefly introduce the system requirements.
 
 \begin{itemize}
   \item Link budget improvement \newline
@@ -382,7 +355,7 @@ In a system design process it is important to analyze the use of the new technol
   \item Density \newline
   In the article from Cisco \cite{online:IoT2020}, they predict the growth of \acrshort{iot} devices. The prediction is that each household has on average 4 devices. According to Oslo council there are approximately 332 568 households per 1.1.2016 \cite{online:husholdningstatistikk}. This means that if we were to calculate the device pool today it would be around 1.3 million devices only for house holds. Taking into account that these devices will be broadly used by the industry as well, the device density will be very high. To put this into perspective we can investigate the device density of \acrshort{gsm}. For each \acrshort{gsm} cannel (200 KHz) there are 8 time slots, giving 8 concurrently connected devices. In one cell tower there are approximately 8 channels, and they are often split between mobile providers. If we assume that all of them belong to one provider, one cell tower can support up to 64 devices concurrently. One \acrshort{gsm} cell tower will provide coverage for the surrounding 1km, and since cell towers to close to each other will cause interference only one cell tower can provide coverage for 1km in radius. \acrshort{lte} has much more resources and can provide coverage for more devices, using time and wave division multiplexing.
 
-  There is however a presumption to why \acrshort{nb-iot} can support so many devices per carrier. In the specifications one \acrshort{nb-iot} channel can support more than 50 thousand devices and keep in mind that \acrshort{nb-iot} can be deployed in one \acrshort{gsm} channel, which only supported 8 devices. The way this is supposed to work is due to the infrequent updates from the devices. One device might send a message every second hour and another might even send messages only once every day. One scenario where this might fail is if every programmer/company sends updates on specific times. Typically one would want updates at the hour marker(ie. 14:00, or 15:00). If thousands of devices do this at the same time, congestion and latency will definitively effect the experience for the devices. (TODO teste dette??)
+  There is however a presumption to why \acrshort{nb-iot} can support so many devices per carrier. In the specifications one \acrshort{nb-iot} channel can support more than 50 thousand devices and keep in mind that \acrshort{nb-iot} can be deployed in one \acrshort{gsm} channel, which only supported 8 devices. The way this is supposed to work is due to the infrequent updates from the devices. One device might send a message every second hour and another might even send messages only once every day. One scenario where this might cause problems is if every programmer/company sends updates on specific times. Typically one would want updates at the hour marker(ie. 14:00, or 15:00). If thousands of devices do this at the same time, congestion and latency will definitively effect the experience for the devices.
 
   \item Low complexity \newline %%low cost
   A key feature for the devices supporting \acrshort{nb-iot} is that the complexity level is low. The new standard is less intricate than ordinary \acrshort{lte} which means that the devices can be less complex, resulting in cheaper hardware. This is an important factor for success since these devices need to be cheap to be broadly deployed. The complexity in this technology resides in the core mobile network for it to support many devices. Other than this, the technology supports average speed and average latency, perfect for monitoring purposes.
@@ -396,11 +369,32 @@ In a system design process it is important to analyze the use of the new technol
   For most applications applied to this new technology, latency is not key feature. We would like the device to send frequent, or infrequent message to a server or another device, but the time used is not important. However, what is actually a long time? A ping request on a normal wired connection today uses around 5-100ms, and even less for fiber connections. On mobile networks like \acrshort{lte}, the usual ping time is on average higher than on a wired connection, but usually it does not exceed 100ms. \acrshort{nb-iot} aims at a peak latency of 10 seconds. In comparison that is 100 times longer than a normal \acrshort{wan} connection, but it should suffice for most applications using \acrshort{lpwan}. The latency could probably be lowered, but it might interfere other design features, such as device density.
 
   \item Security \newline
-  A big issue in Internet today is security, specially \acrshort{ddos} attacks. These attacks are more frequent and is an attack form which enables thousands of machines to continually spam one or several IP addresses, which in practice disables the application. In the fall of 2016, the DNS service provider "Dyn" was down because of a \acrshort{ddos} attack. Being a big DNS server, Dyn´s downtime impacted major Internet platforms in both USA and Europe \cite{online:ddosAttack}. Since an attack like this needs a huge device pool it is likely to think that \acrshort{iot} devices are a potential tool for hackers. If hackers could access millions of devices with Internet access, they could easily perform global \acrshort{ddos} attacks which would halt our infrastructure, in turn disabling many of us to do our jobs.
-
+  A big issue in Internet today is security, specially \acrshort{ddos} attacks. These attacks are more frequent and is an attack form which enables thousands of machines to continually spam one or several IP addresses, which in practice disables the application. In the fall of 2016, the DNS service provider "Dyn" was down because of a \acrshort{ddos} attack. Being a big DNS server, Dyn's downtime impacted major Internet platforms in both USA and Europe \cite{online:ddosAttack}. Since an attack like this needs a huge device pool it is likely to think that \acrshort{iot} devices are a potential tool for hackers. If hackers could access millions of devices with Internet access, they could easily perform global \acrshort{ddos} attacks which would halt our infrastructure, in turn disabling many of us to do our jobs.
 
   With this in mind, the engineers and designers of \acrshort{nb-iot} needed to consider security issues like this. We mentioned the \acrshort{iot} platform when discussing the deployment in section \ref{section:nb-iot-deployment}. This platform is the glue of \acrshort{nb-iot} and also a huge contributor of security measures in cooperation with \acrshort{mme} and \acrshort{hss}. The system requirement of \acrshort{nb-iot} is that no one should be able to directly access a \acrshort{nb-iot} device. One additional security feature in general with mobile networks is SIM cards. Like cell phones, \acrshort{nb-iot} devices will be fitted with a SIM card, which will enable the core network to authenticate the device, and visa versa. The SIM card has a subscription connected to the service provider, hence making a strong authentication scheme.
 \end{itemize}
+
+\section{Deployment} \label{section:nb-iot-deployment} %% HH legge til info om deployment i et LTE nett
+In figure \vref{online:lteTopology} we saw the current infrastructure of \acrshort{lte}. To manage security issues and new features, a solution is to introduce a new term called \acrfull{iot-platform}. This platform will keep track of communication between outside applications and inside nodes. In theory the communication would suffice without this platform, but due to the extreme security issues regarding sensors we need a way to authenticate traffic. Many \acrshort{iot} devices are easy to hack and can be used for \acrfull{ddos} attacks. We have seen many service struggling with downtime due to overloading of their servers because of \acrshort{ddos} attacks. The platform ensures that traffic between two entities is secure, where one being the sensor and the other being the application server. For an application to receive traffic from a sensor, it will have to negotiate with the \acrshort{iot-platform} to gain access. After the setup procedure the \acrshort{iot-platform} acts as a \acrshort{nat} device, as well as matching correct application to correct user group, often called subscription. We might see other solutions for securing the internal network without negotiations.
+
+\acrshort{iot-platform} is just one way to solve these issues. This software is in fact just an application proxy, or a firewall. Either way it can be implemented in the current hardware, but it is also possible to provide an extra rack mounted device to deal with this. In Telenor's test case, spring 2017, all the servers/hardware required was located at one location and the \acrshort{iot-platform} was running on private hardware from Huawei.
+
+%% HH add section about the three states + graphs
+\subsection{Operation modes}
+\acrshort{nb-iot} occupies 180kHz bandwidth and there are currently three ways to integrate \acrshort{nb-iot} with \acrshort{lte}. The available operation modes are standalone, in-band and guard-band - see figure \vref{figure:nbiot-operationmodes} for illustrative definition. Standalone operation uses a dedicated GSM channel, utilizing the ability to deploy \acrshort{nb-iot} in \acrshort{gsm} as well as \acrshort{lte}. In figure \vref{figure:nbiot-operationmodes} we illustrate this operation mode to point out that \acrshort{nb-iot} can be deloyed in \acrshort{gsm}, even though this is not for the long run.
+
+In-band operation utilizes bandwidth within one \acrshort{lte} carrier. This is the most technical and advanced solution and requires more work by the mobile network provider. The reason for this is because of interference between the \acrshort{lte} and \acrshort{nb-iot} sections in the carrier. It is worth noting that not all resource blocks within one carrier is available for \acrshort{nb-iot}. TODO verify??
+
+Guard-band operation makes use of the bands not in use by \acrshort{lte} due to interference between \acrshort{lte} carriers. This in-between section is called a guard band and guards the carries for interfering with each other. This band can be used by \acrshort{nb-iot} and is a solution where one would want to utilize all resources of a cell tower.
+
+\begin{figure}[ht]
+  \centering\includegraphics[width=12cm,height=4cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg}
+  \caption{\acrshort{nb-iot} operation modes \cite{online:legacyWire}}
+  \label{figure:nbiot-operationmodes}
+\end{figure}
+
+%%HH
+\subsection{Security} \label{ssection:nb-iot-security}
 
 \section{Introduction to energy saving} \label{section:energysaving}
 Power saving is an important part of mobile communications for sensors. Several techniques are used to reduce power consumption, and \acrfull{drx} and \acrfull{psm} are two of them. \acrshort{drx} has existed for 20 years and is implemented in \acrshort{lte}, while \acrshort{psm} was introduced with the development of \acrshort{lpwan}. These two modes, together with paging\ref{ssection:paging} introduces an improved network, especially suited for sensors. In figure \vref{figure:nb-iot-timeconverge} you can see an outline of the communication process for a device. RRC Connected mode is the mode where the device actually can communicate with the network. The following procedures shows a possible time convergence graph for a device. We will explain the techniques used, as well as the specific time periods of the figure in the next sections.
@@ -411,7 +405,6 @@ Power saving is an important part of mobile communications for sensors. Several 
   \label{figure:nb-iot-timeconverge}
 \end{figure}
 
-%% HH add section about the three states + graphs
 \subparagraph{Prerequisites}
 To get a good understanding of the results we need to closely look at the outcome of the results and understand the meaning. In the following sections will describe details about how \acrshort{nb-iot} works and what the specifications are saying. As stated we will be mostly focus our tests on coverage and power usage, which relates closely. Coverage is measured in \acrfull{dbm} and provides a relation between the distance between the base station and the \acrshort{ue}, and the transmit power of the \acrshort{ue}. In theory a device will transmit with the relative strength according to the coverage, so that the signal is received at the base station. Depending on the coverage of the device it will adjust the transmit power.
 
@@ -434,7 +427,7 @@ After ending RRC connected mode the device enters RRC idle mode listening for pa
 
 When designing \acrshort{nb-iot}, \acrshort{drx} had to be implemented. However if the device always checks for paging the battery would decrease at a high rate. \acrshort{edrx} is therefor an outcome of the idea of \acrshort{drx} in the special case of sensor networks. It is a new way to handle communication for sensors which needs to wake up for certain events or messages from the network. In an article about \acrshort{edrx} and \acrshort{psm} for \acrshort{lte-m1} we find a great figure showing \acrshort{edrx} \vref{figure:edrx}. Even though this is for \acrshort{lte-m1} it applies for \acrshort{nb-iot} as well. After a device has communicated, either sending or receiving packets over the network, we want it to use as little power as possible. By default the device will enter \acrshort{drx} mode for a network-specified time and if configured go into \acrshort{psm} mode after the given time. As mentioned, for some applications we want the device to be able to receive packets without waking it self up.
 
-The device will then go into \acrshort{edrx} instead of \acrshort{psm} mode. This means that for the most of the time the device will sleep, but periodically it will check for new information(paging). The period where the device sleeps is configurable in the network. Since the internal clocks in the devices often are unreliable, and the time between these syncs may be long(typically 1-2 hours), we need to first sync the clock and information between the device and the network. We call this operation sync guard. We have to do this due to communication based on time(time slots/\acrlong{tdma}). After this process the device will operate in normal \acrshort{drx} mode for a certain period(~10 seconds) and go to sleep after that period. This is a very power efficient way to keep the device more synchronized with the network, but it raises some practical problems. (either remove the last sentence or discuss it later). In the parking use case we only need to send information, hence we don´t need to activate \acrshort{edrx} mode.
+The device will then go into \acrshort{edrx} instead of \acrshort{psm} mode. This means that for the most of the time the device will sleep, but periodically it will check for new information(paging). The period where the device sleeps is configurable in the network. Since the internal clocks in the devices often are unreliable, and the time between these syncs may be long(typically 1-2 hours), we need to first sync the clock and information between the device and the network. We call this operation sync guard. We have to do this due to communication based on time(time slots/\acrlong{tdma}). After this process the device will operate in normal \acrshort{drx} mode for a certain period(~10 seconds) and go to sleep after that period. This is a very power efficient way to keep the device more synchronized with the network, but it raises some practical problems. (either remove the last sentence or discuss it later). In the parking use case we only need to send information, hence we don't need to activate \acrshort{edrx} mode.
 
 \begin{figure}[ht]
   \centering\includegraphics[width=12cm,height=6cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg}
@@ -447,7 +440,7 @@ The device will then go into \acrshort{edrx} instead of \acrshort{psm} mode. Thi
 \subsection{\acrfull{psm}} \label{ssection:psm}
 \acrshort{psm} is the core of power saving in \acrshort{nb-iot}, as well as many other \acrshort{lpwan}. The idea of almost all \acrshort{lpwan} is that the devices send information periodically, while sleeping 99\% the rest of the time. After a typical connected period we want to enter a sleeping mode where very little power is drawn, usually by an internal clock. This mode is called \acrshort{psm} and enables the device to sleep for a network configured time period. In our test case this time(\acrfull{T3412}) is set to 300 hours, almost two weeks. That means that the device will be removed from all meta data in the \acrshort{mme} after 300 hours if there is no communication. This technique is foremost for the devices which only sends information to a server. The way it works is that the device goes from connected mode, to \acrshort{drx} mode listening for information from the network. After this the device enters \acrshort{psm} mode if activated. When in \acrshort{psm} mode the only thing going on in the device is an internal clock which can start the system at a specific time. This is necessary since we want the device to wake up at a specific time and perform POST/SEND operations towards a server.
 
-In \acrshort{psm} the power usage is 3 $\mu$A, which is extremely low and the main reason \acrshort{nb-iot} might give a sensor 10 years of battery lifetime.
+In \acrshort{psm} the chips power usage will be as low as 3$\mu$A, which is extremely low and the main reason why we can expect these types of sensors to achieve 10 years of battery lifetime.
 
 %%http://www.link-labs.com/blog/lte-e-drx-psm-explained-for-lte-m1
 \subsection{Paging} \label{ssection:paging}
@@ -459,14 +452,14 @@ As mentions in section, \vref{ssection:rrc}, the \acrshort{ue}s will enter diffe
 In \acrshort{ecl}0 the device will transmit the data once, and in level 1 and 2 the \acrshort{ue} will retransmit the data to ensure delivery of the packet.
 
 \subsection{The transmit procedure}
-We have looked at several techniques for \acrshort{nb-iot} and the specifications looks very good when the \acrshort{ue} has good coverage. In good coverage areas devices will transmit data with -40\acrshort{dbm}, with an average transmit time of ~200ms, this results in a power usage of approximately 0.0001\acrshort{mw}*0.2S=0,00002\acrshort{mws}. However in worst case situations, the sensor will boost the signal up to +23\acrshort{dbm}, which in terms of power usage is two million times as high. In addition, as stated, a sensor with bad reception will try to retransmit data. Depending on the coverage the device will enter different coverage modes, described in section \vref{ssection:ecl}. Given that the sensor has bad coverage, and is operating in \acrshort{ecl}2 mode the transmit time might be as long as 5 seconds for a single data transmit. The actual power usage increases rapidly and the chip would use 200\acrshort{mw} for as long as 5 seconds, resulting in a power usage of 200\acrshort{mw}*5S=1000\acrshort{mws}, which actually is 50 million times increase in power usage compared to optimal conditions. However, as we will see in our tests, -40\acrshort{dbm} is normally not possible to achieve.
+We have looked at several techniques for \acrshort{nb-iot} and the specifications looks very good when the \acrshort{ue} has good coverage. In good coverage areas devices will transmit data with -40\acrshort{dbm}, with an average actual transmit time of ~200ms. However in worst case situations, the sensor will boost the signal up to +23\acrshort{dbm}, which in terms of power usage is two million times as high - (10\^2,3) / (10\^-4) = ~2 000 000. In addition, as stated, a sensor with bad reception will try to retransmit data. Depending on the coverage the device will enter different coverage modes, described in section \vref{ssection:ecl}. Given that the sensor has bad coverage, and is operating in \acrshort{ecl}2 mode the transmit time might be as long as 5 seconds for a single data transmit. The actual power usage increases rapidly and the chip would use 200\acrshort{mw} for as long as 5 seconds, resulting in a power usage of 200\acrshort{mw}*5S=1000\acrshort{mws}, which actually is 50 million times increase in power usage compared to optimal conditions. However, as we will see in our tests, -40\acrshort{dbm} is normally not possible to achieve.
 
-In the following figure, \vref{figure:ecl_dbm}, is an outline of how the device chooses \acrshort{ecl} mode dependent on the signal quality. In theory the device should lower its transmit power equally to the signal strength. However, we have seen that this is not always the case. HH Sette inn power thingy fra Ola-Martin
+In the following figure, \vref{figure:ecl_dbm}, is an outline of how the device chooses \acrshort{ecl} mode dependent on the signal quality. In theory the device should lower its transmit power equally to the signal strength. The graph represent the theory behind the adjustment of the transmit power and you will see how this actually works in section, \vref{section:testing}.
 
 %%https://cdn.rohde-schwarz.com/pws/dl_downloads/dl_application/application_notes/1ma266/1MA266_0e_NB_IoT.pdf
 
 \begin{figure}[ht]
-  \centering\includegraphics[width=12cm,height=6cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg}
+  \centering\includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png}
   \caption{\acrshort{ecl} and \acrshort{dbm}}
   \label{figure:ecl_dbm}
 \end{figure}
@@ -480,11 +473,16 @@ Parking is a huge market and therefore a great way to test both the coverage and
   \label{pic:sensorcommunication}
 \end{figure}
 
-
 In this setup, the sensor is the one sending data to the server. One could also implement it the other way around. If each parking spot had a sensor with an ID of some sort. Then the car could extract the ID and send a message about parking at that particular parking spot. This might enable several parking operators to cooperate over a general infrastructure. %%HH privacy complications?
 
 \section{Challenges}
 %%HH change first line
+what if the network fails?
+power outage?
+what should the application do if the sensor wont send?
+how long should the sensor wait until doing anything?
+
+
 With new standards there are always complications and challenges. One challenge in particular is the amount of communication between \acrshort{ue}s and the network. Say that your application needs to communicate every minute and the producer wants to use \acrshort{nb-iot}. The implementation will work, but might not be the optimal solution.
 
 Another challenge for software developers and power usage is that some \acrshort{ue}s connected to \acrshort{nb-iot} will be online for a decade. This means changes in the network and possible power outages, which implies that the sensor has to cope with network changes and downtime in the network. Each time the sensor has to wake up and search for network the power usage increases and the lifetime of the sensor decreases. See section, \vref{ssection:downtimetest}, for tests.
@@ -497,11 +495,12 @@ Even though parking could raise congestion problems, the flow of cars to a parki
 
 We will try to test these types of edge cases to see whether \acrshort{nb-iot} can handle difficult scenarios or if these applications would have to use a different technology.
 
-\part{The project}                    %% ... or ??
-\chapter{Planning the project}        %% ... or ??
+\part{The project}
+\chapter{Planning the project}
 To get accurate and meaningful results we had a long planning phase. First of all we needed to decide how and what to test. We decided to set up a server, which can receive data from a \acrshort{nb-iot} chip. In addition, this server will be able to analyze the data and display the results in a meaningful way. We also needed a way to send data over \acrshort{nb-iot} to the to the server. We were so lucky to borrow a development kit for \acrshort{nb-iot} from Q-Free which enabled us to connect to the network. We also borrowed a SIM-card from Q-Free which used Telenor network. We also managed to get a SIM-card from Telia so that we could try to do some comparison between the two network providers. In section, \vref{section:detailedtest}, we will go into further detail about how the setup was and why we did the different tests.
 
 With this in mind, we will describe and give you an introduction to the different parts of the setup and show you how they are tied together.
+
 
 \section{The web application}
 In order to collect data we needed a web server and we needed to consider a few things, what should be included in the server, which platform should the server run on and where should the server be located. At the same time it was important to think about how the data would be used. The simple solution would be to collect the data and import it into an excel document for analysis. However, the amount of data is big - in fact the db consists of XXX (HH) GB of data with over XXX elements. Rendering this in an excel document would not suffice for an effective analyzation of the data after the test. We decided to implement a web app to display information about the sensors. This web app can display uptime, latency and coverage data about each sensor as well as displaying average of all of them. In this way it is easy to view the data and draw conclusions.
@@ -509,17 +508,16 @@ In order to collect data we needed a web server and we needed to consider a few 
 In the following sections we will discuss the implementation of the server and the web app.
 
 \subsection{Backend: Node.js}
-We decided to use node.js as programming language for what would become the backend of the server. Node.js is a new and modern way to create simple REST APIs. A REST API follows a set of rules to make it robust and stateless. It also should include all CRUD operations(create, read, update and delete) and should use the appropriate request method, such as POST, GET, PUT and DELETE. A big difference from standard backend programming is that Node.js uses javascript as programming language. Even though javascript is not the cleanest programming language it is efficient and the codebase is kept low. In addition node.js takes advantage of using \acrfull{npm}. \acrshort{npm} offers packages for all applications, both frontend and backend, and we will discuss some of the packages used in the server.
+We decided to use node.js for what would become the backend of the server. Node.js is a new and modern way to create simple REST APIs. A REST API follows a set of rules to make it robust and stateless. It also should include all CRUD operations(create, read, update and delete) and should use the appropriate request method, such as POST, GET, PUT and DELETE. A big difference from standard backend programming is that Node.js uses javascript as programming language. Even though javascript is not the cleanest programming language it is efficient and the codebase is kept low. In addition node.js takes advantage of using \acrfull{npm}. \acrshort{npm} offers packages for all applications, both frontend and backend, and we will discuss some of the packages used in the server.
 
+The server hosts multiple API endpoints. The most important are of course collecting data and retrieving data. The database contains a lot of data collected from different tests and it would require a lot of rendering to do analysis on the client side. We decided to analyze the data at specific intervals so that the client would simple display the data. We will describe the analysis and data which is displayed in section, \vref{ssection:analysis}.
 
-The server hosts multiple API endpoints. The most important are of course collecting data and retrieving data. The database contains a lot of data and it is not easy to represent it in a good way without doing some kind of analysis on the data. We decided to make collections of data representing average data based on different time intervals. The data can be represented with 5, 10, 30 and 60 minute interval averages. A disadvantage of this is that we may miss peaks in the data. We will discuss potential deviations in section \vref{section:deviations}
-
-\subparagraph{The database}
+\subsubsection{The database}
 There are multiple ways to store data and there is always a trade off when choosing the platform. PostgreSQL is a great example of a database which is fast and reliable, but it can be complicated to set up and is SQL driven which means all data has to fit into one or several tables. Since this project is small and the data is be represented in a couple (HH describe in "the project") of different ways we have chosen to use a NoSQL database. There are many good tools for storing data in a NoSQL database. ArangoDB and MongoDB are the most commonly used databases and both works well with Node.js. ArangoDB is often used for geo specific tasks and mongoDB was a bit easier to use, so we decided to use mongoDB for our data storage. In paragraph, \vref{subparagraph:mongodb}, we will explain how we used mongoDB for our implementation.
 
-\subsubsection{\acrshort{npm}}
+\subsubsection{\acrlong{npm}}
 
-\subparagraph{Express}
+\subsubsection{Express}
 Express is a fast and robust package for handling routes and offers nice APIs for listening on specific ports and so forth. In the following code example, \vref{code:express}, you can see the base setup for making your server handle requests. The port is set with a combination of the processes port and user specific port selection. The reason why this might be useful is if your server is hosted on a payed server which might be deployed on different IP and port for each deploy. With this implementation you won't need to consider this. In the example you can see a GET for a specific path, however you can also redirect all routes to a separate file for cleaner code. The last thing we need to do is to listen for incoming requests on the specific port. Now express will handle all request with an event loop.
 
 \begin{lstlisting}[caption={Base express setup},label={code:express},language=JavaScript]
@@ -536,7 +534,7 @@ server.listen(port, () => {
 });
 \end{lstlisting}
 
-\subparagraph{Coap} %%HH remove if we end up not using this package
+\subparagraph{Coap}
 Coap is a simple network protocol and offers request like HTTP, but without all the overhead. Coap is designed for low powered devices and will be used for our tests. I have used node-coap package for including coap support on the server. Since the protocol is simple, we need to handle the request a bit different. The following code example, \vref{code:coap}, shows a simple node-coap setup.
 
 \begin{lstlisting}[caption={Base coap setup},label={code:coap},language=JavaScript]
@@ -635,15 +633,50 @@ server.post(api + '/nodes/:id', (req, res) => {
 With a solid backend in Node.js we went with React for our web app. We will not go in detail on the different packages used for the web app, since this is not related to the thesis. However, we will give a brief introduction on how to use the app and what kind of analysis you can do with it.
 
 \subsubsection{Layout}
+The web app is used for hosting data related to long term tests and how the device performs on a more abstract level than with the detailed tests in section, \vref{section:detailedtest}. The home page contains a short paragraph about the thesis and links to the latests version of the thesis, source code related to the project and results from the detailed tests, see screenshot \vref{pic:homepage}. Further more you can select nodes on the left which includes data from different sites and network providers. In some of the intersections there might be data from other network providers, hence we can disregard data which looks completely different from the rest of the data related to that node, see screenshot \vref{pic:nodepage1} and \vref{pic:nodepage2}.
 
-\subsubsection{Analysis}
-When visiting the web page, average overview is automatically chosen. This overview will show you average statistics over all nodes in the system over a given period, accumulated up to a given interval. By default the graphs will display data one day backwards from the latest data entry, with accumulated values over ten minutes. So if the day you visit the page is 20.07.18, and the latest data entry is 02.03.18, you will see data from 1-2 March of 2018. The data displayed is uptime(in percentage), latency(in milliseconds) and coverage(in dBm). Since latency and coverage usually correlate we decided to add these values to a common graph.
+By default the graphs will display data one day backwards from the latest data entry. So if the day you visit the page is 20.07.18, and the latest data entry is 02.03.18, you will see data from 1-2 March of 2018. The time range is stored across nodes, so please double click on one of the graphs to display all data. You can also inspect certain areas by selecting an area of one of the graphs and the other graphs will adjust. In a production version of the web app we would apply some logic to separate x axis range between selected nodes.
 
-In addition you are served a number of values which may be of interest, such as: highest measured latency, badest coverage. This enables us to show bad values even though we accumulate values in the graphs.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png}
+  \caption{SensorApp homepage}
+  \label{pic:homepage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png}
+  \caption{SensorApp nodepage part 1}
+  \label{pic:nodepage1}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png}
+  \caption{SensorApp nodepage part 2}
+  \label{pic:nodepage2}
+\end{figure}
+
+\subsubsection{Analysis} \label{ssection:analysis}
+When selecting a node to explore you can explore the different graphs and we think this is a good way to display statistical data. The graphs data represents the output of the analysis on the server and we will try to describe what the graphs present and why we chose the different aspects of the behavior of the network. Remember that the data is mostly produced by \textbf{AT+NUESTATS}, so read, \vref{section:deviations}, for any deviations.
+
+\paragraph{Coverage and Latency}
+One of the main features of \acrshort{nb-iot} is coverage, hence we wanted to display coverage statistics over time. One interesting point of coverage is that it is closely related to the power usage of the device. The latency of \acrshort{nb-iot} is not a key feature, but the desired latency is under ten seconds according to the specifications\vref{datasheet:ubloxchip} and by displaying the latency in the same graph as coverage we can clearly see how the different coverage levels inflict latency in the network. The output of coverage and latency is directly from the output of \textbf{AT+NUESTATS}.
+
+\paragraph{Recieve and transmit time}
+The output from \textbf{AT+NUESTATS} gives us a counter from receive and transmit time in milliseconds. We used the value between each entry to calculate how much time the receive and transmit time. The analysis produces a percentage which relates to how much time the device was in receive or transmit state in one interval. This is also closely related to the coverage of the device and also the \acrshort{ecl} level which indicates the number of retransmits per packet sent. The reason why we would like to monitor this data is because the device will mostly use power in these periods, so if the device is active for longer periods in either receive or transmit state we know that the expected lifetime is degraded. Most of the time the active percentage will be low due to usage of release indicator flag and \acrshort{psm} mode, however if the transmit frequency is low the device will more frequently be in some kind of active state, hence the transmit and receive time will increase.
+
+\paragraph{\acrshort{ecl}}
+The coverage mode is also closely related to the power usage of the device and an important factor we could monitor. You can clearly see that the power usage increases when the device enters \acrshort{ecl} mode 1 and 2 in the testing section, \vref{section:testing}. The output of \acrshort{ecl} level directly from the output of \textbf{AT+NUESTATS}.
+
+\paragraph{Transmit power}
+The amount of power used for transmit is decided by software and is key to power usage. The output we get from \textbf{AT+NUESTATS} show us the latest transmit power level of the device. Sometimes the device will send a \acrfull{nack}, which is always sent with +23\acrshort{dbm} signal strength and is what \textbf{AT+NUESTATS} sometimes picks up as the latest transmit power level. In the long term tests with graphs from the web app the logging of transmit power might not be correct related to what transmit power level the device actually used for transmitting the packet. However in the section on detailed tests, \vref{section:detailedtest}, we will log the status of the device up to ten times a second which will give a better understanding of what is happening with the transmit power level.
+
 %%HH add to this when the app is finished
 
 \section{The chip}
-In section \vref{ssection:sensoroutline}, we looked at Q-Free's parking sensor, which houses a \acrshort{nb-iot} Ublox chip. In this section we will look at the most essential modem commands for the \acrshort{nb-iot} chip. Modem commands are often referred to as AT-commands and we will use this notation. As mentioned in section, \vref{section:energysaving}, there are configurable timers in the network, as well as flags to keep in mind while developing software for low powered sensors. These parameters can be configured with AT-commands and has proven to give good results when taking power usage into consideration. In addition we will show you the AT-command for sending data, and how we intend to structure the data being sent.
+In section \vref{paragraph:sensoroutline}, we looked at Q-Free's parking sensor, which houses a \acrshort{nb-iot} Ublox chip. The chip is produced by one of the leading producers in chip design and implementation. The chip features specifications in the same lines which \acrshort{nb-iot} specifies and we will use this chip for our testing. In this section we will look at the most essential modem commands for the \acrshort{nb-iot} chip. Modem commands are often referred to as AT-commands and we will use this notation throughout this paper. As mentioned in section, \vref{section:energysaving}, there are configurable timers in the network, as well as flags to keep in mind while developing software for low powered sensors. These parameters can be configured with AT-commands and has proven to give good results when taking power usage into consideration. In addition we will show you the AT-command for sending data, and how we intend to structure the data being sent.
 
 In the following subsections we will give a brief introduction to the most important AT-commands taken from the AT Commands Manual for the \acrshort{nb-iot} chip \cite{atcommand:ubloxchip}. In section, \vref{section:testing}, we will give a more detailed description on the parameters used.
 
@@ -681,14 +714,14 @@ Monitoring is an important part of developing and a way to verify that your soft
 We believe that using \textbf{AT+NUESTATS} will give us accurate results. In addition we will use a high precision multimeter to monitor the current through the \acrshort{nb-iot} chip. We will introduce you to this device in section \vref{ssection:devices}. See section, \vref{section:deviations}, for any deviations.
 
 \subsection{Time - CCLK}
-Time is another tool we often use for developing software. We want to know how long a process endures, and in our case we want to monitor the latency of a send operation from the sensor to the server. With the AT-command \textbf{AT+CCLK?} we can read the time from the chip. This time is kept in sync with the network and stored in the \acrshort{mt}. The read operation returns a string with the time in the following format "yy/MM/dd,hh:mm:ss+TZ", where the characters represent, year, month, day, hours, minutes, seconds and time zone. The format of the timestamp is long so in our program running on the sensor we convert the timestamp into an int representing seconds from 1/1/1900 00:00. %%HH verify when developing software
+Time is another tool we often use for developing software. We want to know how long a process endures, and in our case we want to monitor the latency of a send operation from the sensor to the server. With the AT-command \textbf{AT+CCLK?} we can read the time from the chip. This time is kept in sync with the network and stored in the \acrshort{mt}. The read operation returns a string with the time in the following format "yy/MM/dd,hh:mm:ss+TZ", where the characters represent, year, month, day, hours, minutes, seconds and time zone.
 
 \subsection{\acrshort{ue} behaviour - NCONFIG}
 With the AT-command \textbf{AT+NCONFIG} we are able to decide how we want the \acrshort{ue} to behave. HH skal vi bruke denne?
 
 \subsection{CSQ} signal quality? Different from nuestats?
 
-\subsection{CEDRXS - \acrshort{edrx} settings}
+\subsection{\acrshort{edrx} settings - CEDRXS}
 In section, \vref{ssection:edrx}, we explained how \acrshort{edrx} works and how we can configure the \acrshort{ue}. With the AT-command \textbf{AT+CEDRXS} we are able to define how \acrshort{edrx} is performed on the \acrshort{ue}. We can issue this AT-command, \textbf{AT+CEDRXS: 1, 5, "0101"}, to put the \acrshort{ue} into \acrshort{edrx} mode with cycle length of 163.84 seconds.
 
 \subsection{\acrshort{psm} settings - CPSMS}
@@ -700,7 +733,7 @@ Force bands to use a given power class?
 \subsection{Create socket - NSOCR}
 Opens a port on the \acrshort{ue}, which enables data transfer on the given port. In our application we will open an \acrshort{udp} socket on a port. The port used can be a number between 0-65535, except for 5683 since this is used by the chip to send coap messages. The command returns a socket number which will be used for trailing send(NSOSTF) commands.
 
-\subsection{SendTo command with flags - NSOSTF}
+\subsection{Send command with flags - NSOSTF}
 This AT-command enabled the device to send \acrshort{udp} packets on a given port with a flag. The command takes a set of parameters and the data in hexadecimal format. The parameters are, socket number(given by the AT-command NSOCR), remote IP address, remote port, flag, data length and actual data. The flag can be used to specify the behavior of the \acrshort{ue} after the data has been transmitted, see table, \vref{table:flag}, for details.
 
 \begin{center} \label{table:flag}
@@ -732,12 +765,12 @@ Gives us the status of \acrshort{psm} on the device. It will return 1,1 if the d
 %%HH change introduction to fit the tests we are performing
 In the test chapter we will be looking at tests, with as many scenarios as possible. We will describe testing environment, devices and parameters that effects the tests. At the end we will try to conclude wether or not \acrshort{nb-iot} is as promising as it looks on paper.
 
-The test phase began early January and was completed early March. The reason for the long test phase was due to a number of things. First of all the hardware and software related to \acrshort{nb-iot} was not available on a stable platform until late 2017, and Telenor and Telia had limited \acrshort{nb-iot} enabled base stations. Even at the beginning of 2018 the devices acquired were not production ready, hence our tests were somewhat inadmissible. However the equipment was at a stage where the error rate was very low and the test phase could start. We will describe the equipment used first and then move to how we proceeded to the tests.
+The test phase began early January and was completed early March. The reason for the long test phase was due to a number of things. First of all the hardware and software related to \acrshort{nb-iot} was not available on a stable platform until late 2017, and Telenor and Telia had limited \acrshort{nb-iot} enabled base stations. Even at the beginning of 2018 the devices acquired were not production ready, hence our tests were somewhat inadmissible. However the equipment was at a stage where the error rate was very low and the test phase could start. Given the hypothesis we needed to test the chip and the network with good equipment and at several locations. In section, \vref{section:testingenv}, we will give you an overview of the testing premissis and the devices used.
 
-\section{Testing environment}
-The testing took place at UiO and at my apartment at Lambertseter(HH). With two locations and two network providers we could collect more information, hence we got a better understanding of the results.
+\section{Testing environment} \label{section:testingenv}
+The testing took place at several locations - UiO, at my apartment at Lambertseter and at Q-Free's office by Solli Plass. With three locations and two network providers we could collect more information, hence we got a better understanding of the results.
 
-Not all base stations in these areas are \acrshort{nb-iot} enabled, but you will see that different coverage levels will affect the results and we can compare the results to a "perfect world"/specification setup. The coverage of the chip is related to the supplied antenna and the direction of this. With the \acrshort{nb-iot} devkit there was an antenna and we could position it the way with the best result. See pictures, \vref{pic:uio_nbiot_setup} and \vref{pic:antenna_position}, to see the setup at UiO.
+Not all base stations in these areas are \acrshort{nb-iot} enabled, but you will see that different coverage levels will affect the results and we can compare the results to a "perfect world"/specification setup. The coverage of the chip is related to the supplied antenna and the direction of this. With the \acrshort{nb-iot} development kit there was an antenna and we could position it the way with the best result. See pictures, \vref{pic:uio_nbiot_setup} and \vref{pic:antenna_position}, to see the setup at UiO.
 
 \begin{figure}[ht]
   \centering\includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg}
@@ -787,7 +820,7 @@ You should at this point have an idea of the setup and how things are connected,
   \label{figure:labsetup}
 \end{figure}
 
-We started writing test features for the development kit using python. We connect the program to the serial port and set the device up to make sure that everything is according to our setup, see code \vref{code:modem}.
+We started writing test features for the development kit using python. We setup a connection between the program and the serial port and configure the device to make sure that everything is according to our setup, see code \vref{code:modem}.
 
 \begin{lstlisting}[caption={Development kit initiation},label={code:modem},language=Python]
 uart_modem = serial.Serial('/dev/tty.usbserial-146100', 9600, timeout = 0)
@@ -807,26 +840,26 @@ We started experimenting with different AT commands and created small programs t
   2C31363A31363A35362B30305F31325F"
 \end{lstlisting}
 
-We proceeded working on communication towards the multimeter, which was quite easy. The multimeter was given an \acrshort{ip} address which was related to the \acrshort{ip} address of the connected machine. Creating a socket to this IP address in python and connecting to it was simple. The test programs would start off by clear all buffers with \textbf{:INIT} and then fetch for data on a regular interval with \textbf{:FETCH?; :INIT}. With each reading we converted the string into a list of numbers which we appended to a global list of readings. We found that fetching for new data every 5th second was a good tradeoff between fetching all the time and very rare. We added these functions to the helper file and went on writing a program which would monitor a chain of transmits towards the application server or with random data of different sizes.
+We proceeded working on communication towards the multimeter, which was quite easy. The multimeter was given an \acrshort{ip} address which was related to the \acrshort{ip} address of the connected machine. Creating a socket to this IP address in python and connecting to it was simple. The test programs would start off by clear all buffers with \textbf{:INIT} and then fetch for data on a regular interval with \textbf{:FETCH?; :INIT}. With each reading we converted the string into a list of numbers which we appended to a global list of readings. We found that fetching for new data every 5th second was a good tradeoff between fetching all the time and very rare. We added these functions to the helper file, \textbf{nbiot\_labtest\_helpers.py}, and went on writing a couple of programs to monitor the behaviour of the chip.
 
 %%HH
-The program is called \textbf{nbiot\_labtest.py} and uses \textbf{nbiot\_labtest\_helpers.py}, and enabled us to test different scenarios and log the results in a representable way with graphs. The program takes in a list of parameters described in table, \vref{table:labtestparameters}.
-
+\paragraph{\textbf{nbiot\_labtest.py}}
+This program continuously transmits packets over \acrshort{nb-iot} - either status packets towards the server or random data of different sizes. It enabled us to test different scenarios and log the results in a representable way with graphs. The program uses The program takes in a list of parameters described in table, \vref{table:labtestparameters}.
 
 \begin{center} \label{table:labtestparameters}
   \begin{tabular}{ | l | m{10cm} | }
     \hline
     Parameter & Description \\
     \hline
-    id & ID which you want to POST towards the server. Default: 0 \\
+    -id & ID which you want to POST towards the server. Default: 0 \\
     \hline
-    gn & Output graph name. The supplied name will lead the heading, followed by a list of the rest of the parameters. \\
+    -gn & Output graph name. The supplied name will lead the heading, followed by a list of the rest of the parameters. \\
     \hline
-    d & Set the desired delay between each iteration. Default: 5 \\
+    -d & Set the desired delay between each iteration. Default: 5 \\
     \hline
-    i & Set the desired iterations. Default: 1 \\
+    -i & Set the desired iterations. Default: -1 which means that the program will loop until the user presses ctrl+c \\
     \hline
-    b & Set the desired length of the payload in bytes. If 0 is requested, NUESTATS command will be sent to server. Default: 100 \\
+    -b & Set the desired length of the payload in bytes. If 0 is requested, statistics from \textbf{NUESTATS} will be sent to server. Default: 100 \\
     \hline
     -r & Set release indicator. Default: false \\
     \hline
@@ -837,8 +870,6 @@ The program is called \textbf{nbiot\_labtest.py} and uses \textbf{nbiot\_labtest
 
 \section{Detailed \acrshort{nb-iot} tests} \label{section:detailedtest}
 In this section we will investigate how the \acrshort{nb-iot} chip handles normal usage and edge cases where non default behavior is activated.
-
-%%HH picture of dev kit
 
 \subsection{Latency test} \label{ssection:latencytest}
 
@@ -856,9 +887,6 @@ Try different packet sizes and check power usage (are there any perfect packet s
 
 
 \section{Long term tests} \label{section:longtermtest}
-
-\paragraph{The setup}
-In the long term tests we will use Q-Free's sensors. The sensors will be flashed with a program which sends data to the server. The sending frequency will be at a frequency more similar to real applications. The sensors are positioned in different parts of Oslo, to cover variable coverage and locations. Also, we have changed the sending rate on different sensors to see what impact this has on coverage, latency and power usage. HH
 
 \subsection{Coverage and latency}
 

@@ -23,7 +23,7 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 
 api = 'http://158.39.77.97:9000/'
-HOST, PORT = '192.168.1.2', 3490
+HOST, PORT = '10.0.1.2', 3490
 VOLTAGE = 3.3
 
 keys = ['25', '50', '100', '200', '400', '512']
@@ -48,30 +48,40 @@ def generate_scatter( points, function ):
 
 def do_log( graph_name, delay, iterations, release_indicator, modem, fluke_socket, nbiot_socket ):
 	sendToXBytes( modem, 10, nbiot_socket, 0, 1)
-	sleep(delay)
+	sleep(10)
 
-	for key in keys:
-		for x in range(0,iterations):
-			wait_for_psm( modem )
+	for x in range(0, iterations):
+		for key in keys:
+			fluke_reading = []
+			prev_do_fluke = 0
 
 			send_and_receive_fluke( fluke_socket, ":INIT")
 			start = time()
-			sendToXBytes( modem, int(key), nbiot_socket, 0, release_indicator)
-			elapsed = time() - start
-			sleep( delay - elapsed )
 
-			fluke_reading = handle_fluke_reading( fluke_socket )
+			sendToXBytes( modem, int(key), nbiot_socket, 0, release_indicator)
+			while True:
+				do_fluke = math.ceil( int( time() - start ) )
+				if do_fluke % 2 is 0 and do_fluke is not prev_do_fluke:
+					fluke_reading.extend( handle_fluke_reading( fluke_socket ) )
+					prev_do_fluke = do_fluke
+
+				if int( time() - start ) >= delay:
+					break
+			
+			time_usage = time() - start
+			fluke_reading.extend( handle_fluke_reading( fluke_socket ) )
+
 			fluke_reading = list( map(remove_high_convert_to_ma, fluke_reading) )
 			fluke_reading = list( filter( None, fluke_reading) )
-			
+
 			avg_a = np.mean( fluke_reading )
-			print(avg_a, delay, round( ( (avg_a * VOLTAGE) / 60 / 60 ) * delay, 6 ))
-			power_usage = round( ( (avg_a * VOLTAGE) / 60 / 60 ) * delay, 6 )
+			power_usage = round( ( (avg_a * VOLTAGE) / 60 / 60 ) * time_usage, 6 )
 
 			results[key].append( power_usage )
-			
-
-		print(results[key])
+			print(results[key], avg_a, time_usage, round( ( (avg_a * VOLTAGE) / 60 / 60 ) * time_usage, 6 ))
+			sleep(10)
+	
+	for key in keys:
 		traces[key] = go.Scatter(x=list( range(1, iterations+1) ), y=results[key], mode = 'lines', line=dict(
 																				       shape='spline',
 																				    ), name=key + "B (mWh)")
@@ -112,9 +122,9 @@ def do_log( graph_name, delay, iterations, release_indicator, modem, fluke_socke
 	
 	plotly.offline.plot(fig, filename=filename.replace(" ", "_") + ".html")
 
-	#fluke_socket.close()
+	fluke_socket.close()
 
-	#close_socket( modem, nbiot_socket )
+	close_socket( modem, nbiot_socket )
 	sys.exit()
 
 if __name__ == "__main__":

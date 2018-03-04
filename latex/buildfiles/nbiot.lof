@@ -6,38 +6,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.1}{\ignorespaces \acrshort {iot} Growth \cite {online:IoT2020}\relax }}{4}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Parking sensor \cite {person:ola}\relax }}{6}{figure.caption.7}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \acrlong {epc} \cite {online:lteTopology}\relax }}{7}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces \acrlong {epc} \cite {online:lteTopology}\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \acrshort {lpwan} example applications \cite {online:lpwaFuture}\relax }}{9}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces \acrshort {lpwan} example applications \cite {online:lpwaFuture}\relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Parking sensor \cite {person:ola}\relax }}{10}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces \acrshort {lora} infrastructure \cite {online:LoRa}\relax }}{14}{figure.caption.21}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces \acrshort {lora} infrastructure \cite {online:LoRa}\relax }}{13}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces \acrshort {lpwan} emerging solutions \cite {online:legacyWire}\relax }}{14}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \acrshort {nb-iot} operation modes \cite {online:legacyWire}\relax }}{16}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \acrshort {nb-iot} time convergence \cite {person:ola}\relax }}{19}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces \acrshort {edrx} operation mode \cite {online:edrxpsm}\relax }}{22}{figure.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces \acrshort {ecl} and \acrshort {dbm}\relax }}{24}{figure.caption.27}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Outline of sensor communication \cite {person:ola}\relax }}{25}{figure.caption.28}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces \acrshort {lpwan} emerging solutions \cite {online:legacyWire}\relax }}{14}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \acrshort {nb-iot} operation modes \cite {online:legacyWire}\relax }}{19}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \acrshort {nb-iot} time convergence \cite {person:ola}\relax }}{20}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \acrshort {edrx} operation mode \cite {online:edrxpsm}\relax }}{22}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \acrshort {ecl} and \acrshort {dbm}\relax }}{24}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Outline of sensor communication \cite {person:ola}\relax }}{25}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \acrshort {nb-iot} and multimeter setup\relax }}{40}{figure.caption.39}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces SensorApp homepage\relax }}{35}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces \acrshort {nb-iot} antenna position\relax }}{41}{figure.caption.40}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces SensorApp nodepage part 1\relax }}{35}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ublox \acrshort {nb-iot} development kit\relax }}{42}{figure.caption.42}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces SensorApp nodepage part 2\relax }}{36}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Lab setup \cite {pcpng35052:online} \cite {fluke88435:online} \cite {ingagrue31:online}\relax }}{43}{figure.caption.44}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \acrshort {nb-iot} and multimeter setup\relax }}{42}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \acrshort {nb-iot} antenna position\relax }}{43}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ublox \acrshort {nb-iot} development kit\relax }}{44}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Lab setup \cite {pcpng35052:online} \cite {fluke88435:online} \cite {ingagrue31:online}\relax }}{45}{figure.caption.52}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

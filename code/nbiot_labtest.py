@@ -22,8 +22,10 @@ from plotly import tools
 import plotly.plotly as py
 import plotly.graph_objs as go
 
+import signal
+
 api = 'http://158.39.77.97:9000/'
-HOST, PORT = '192.168.1.2', 3490
+HOST, PORT = '10.0.1.2', 3490
 VOLTAGE = 3.3
 
 date_points = []
@@ -39,11 +41,19 @@ psm_points = []
 cscon_points = []
 cereg_points = []
 
+print_graph = False
+
+def signal_handler(signal, frame):
+	print('You pressed Ctrl+C... generating graphs')
+	global print_graph
+
+	print_graph = True
+
 def do_log( modem, prev_time, prev_rx_val, prev_tx_val ):
 	rx_point = 0
 	tx_point = 0
 	tx_pwr_point = 0
-	psm_point = 0 
+	psm_point = 0
 	cscon_point = 0
 	coverage_point = 0
 	ecl_point = 0
@@ -103,6 +113,8 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 
 	fluke_points = []
 
+	signal.signal(signal.SIGINT, signal_handler)
+
 	global date_points
 	global coverage_points
 	global ecl_points
@@ -119,8 +131,8 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 	
 	prev_time = datetime.datetime.now()
 
-	send_and_receive_fluke( fluke_socket, ":INIT")
 	prev_time, prev_rx_val, prev_tx_val = do_log( modem, prev_time, prev_rx_val, prev_tx_val)
+	send_and_receive_fluke( fluke_socket, ":INIT")
 	if nr_bytes is not 0:
 		sendToXBytes( modem, nr_bytes, nbiot_socket, id, release)
 	else:
@@ -138,17 +150,19 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 			fluke_points.extend( handle_fluke_reading( fluke_socket ) )
 			prev_do_fluke = do_fluke
 
-		if int( time() - start ) > delay:
-			idx += 1
-
-			if idx is (iterations + 1):
+		if int( time() - start ) >= delay:
+			if idx == iterations and iterations != -1:
 				break
 
+			idx += 1
 			if nr_bytes is not 0:
 				sendToXBytes( modem, nr_bytes, nbiot_socket, id, release)
 			else:
 				send_status_command( modem, nbiot_socket, idx, id, release )
 			start = time()
+
+		if print_graph:
+			break
 		
 	fluke_points.extend( handle_fluke_reading( fluke_socket ) )
 
@@ -243,9 +257,9 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 	if logging is 0:
 		logging_string = " NO DEVICE LOGGING "
 
-	filename = graph_name + " " + str(datetime.date.today()) + " " + str(logging) + " " + flag + " " + str(delay) + " " +  str(iterations) + " " + str(nr_bytes)
+	filename = graph_name + " " + str(datetime.date.today()) + " " + str(logging) + " " + flag + " " + str(delay) + " " +  str(idx) + " " + str(nr_bytes)
 	power_usage = round( ( (avg_a * VOLTAGE) / 60 / 60 ) * time_usage, 6 )
-	graph_name += " " + str(datetime.date.today()) + " " + logging_string + flag + " " + str(delay) + " SEC " + str(iterations) + " INTERVALS (TIME USED: " + str(int(time_usage)) +  "S ) " + str(nr_bytes) + " BYTES - AVERAGE LOAD " + str( avg_a ) + "mA, POWER USAGE " + str( power_usage ) + "mWh"
+	graph_name += " " + str(datetime.date.today()) + " " + logging_string + flag + " " + str(delay) + " SEC " + str(idx) + " INTERVALS (TIME USED: " + str(int(time_usage)) +  "S ) " + str(nr_bytes) + " BYTES - AVERAGE LOAD " + str( avg_a ) + "mA, POWER USAGE " + str( power_usage ) + "mWh"
 	fig['layout'].update(width = 1800, height = 1000, title = graph_name)
 
 	plotly.offline.plot(fig, filename=filename.replace(" ", "_") + ".html")
@@ -262,11 +276,10 @@ if __name__ == "__main__":
 	parser.add_argument('-id', action='store', dest='node_id', help='Node id', type=str, default=0)
 	parser.add_argument('-gn', action='store', dest='graph_name', help='Graph name')
 	parser.add_argument('-d', action='store', dest='delay', help='Set delay', type=int, default=5)
-	parser.add_argument('-i', action='store', dest='iterations', help='Set iterations', type=int, default=1)
+	parser.add_argument('-i', action='store', dest='iterations', help='Set iterations', type=int, default=-1)
 	parser.add_argument('-b', action='store', dest='nr_bytes', help='Set nr bytes (0 equals send NUESTATS)', type=int, default=100)
 	parser.add_argument('-r', action='store_true', dest='release_indicator', help='Set release_indicator (0-1)')
 	parser.add_argument('-l', action='store_true', dest='logging', help='Set device logging (0-1)')
-
 
 	# Parse arguments from user
 	r = parser.parse_args()

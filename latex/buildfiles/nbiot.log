@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 FEB 2018 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2018 15:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1420,16 +1420,23 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip94
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count425
+\float@exts=\toks36
+\float@box=\box51
+\@float@everytoks=\toks37
+\@floatcapt=\box52
 )
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `nbiot.glo'.
 
-Package glossaries Info: Writing glossary file nbiot.glo on input line 173.
+Package glossaries Info: Writing glossary file nbiot.glo on input line 174.
 \glo@acronym@file=\write7
 \openout7 = `nbiot.acn'.
 
-Package glossaries Info: Writing glossary file nbiot.acn on input line 173.
+Package glossaries Info: Writing glossary file nbiot.acn on input line 174.
  (./glossary.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1450,42 +1457,42 @@ File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 ))) (buildfiles/nbiot.aux)
 \openout1 = `nbiot.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 182.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 182.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 183.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 183.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 182.
-LaTeX Font Info:    ... okay on input line 182.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 182.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 183.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count425
+\scratchcounter=\count426
 \scratchdimen=\dimen181
-\scratchbox=\box51
-\nofMPsegments=\count426
-\nofMParguments=\count427
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count428
+\scratchbox=\box53
+\nofMPsegments=\count427
+\nofMParguments=\count428
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count429
 \MPscratchDim=\dimen182
-\MPnumerator=\count429
-\makeMPintoPDFobject=\count430
-\everyMPtoPDFconversion=\toks37
+\MPnumerator=\count430
+\makeMPintoPDFobject=\count431
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1513,43 +1520,44 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 182.
-Package biblatex Info: Reference segment=0 on input line 182.
+Package biblatex Info: Reference section=0 on input line 183.
+Package biblatex Info: Reference segment=0 on input line 183.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 182.
+. Activating mapping `default' on line 183.
 .................................................
-\c@lstlisting=\count431
+\c@lstlisting=\count432
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 182.
+\AtBeginShipoutBox=\box54
+Package hyperref Info: Link coloring OFF on input line 183.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count432
+\c@section@level=\count433
 LaTeX Info: Redefining \Ref on input line 513.
 )
-LaTeX Info: Redefining \ref on input line 182.
-LaTeX Info: Redefining \pageref on input line 182.
-LaTeX Info: Redefining \nameref on input line 182.
+LaTeX Info: Redefining \ref on input line 183.
+LaTeX Info: Redefining \pageref on input line 183.
+LaTeX Info: Redefining \nameref on input line 183.
  (buildfiles/nbiot.out) (buildfiles/nbiot.out)
 \@outlinefile=\write8
 \openout8 = `nbiot.out'.
 
-LaTeX Info: Redefining \Ref on input line 182.
-Package hyperref Info: Option `pageanchor' set `false' on input line 186.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 186.
+LaTeX Info: Redefining \Ref on input line 183.
+Package hyperref Info: Option `pageanchor' set `false' on input line 187.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-) <DUO_UiO_segl.png, id=285, 142.3719pt x 142.3719pt>
+) <DUO_UiO_segl.png, id=277, 142.3719pt x 142.3719pt>
 File: DUO_UiO_segl.png Graphic file (type png)
  <use DUO_UiO_segl.png>
-Package pdftex.def Info: DUO_UiO_segl.png used on input line 186.
+Package pdftex.def Info: DUO_UiO_segl.png used on input line 187.
 (pdftex.def)             Requested size: 170.71652pt x 170.73027pt.
  [1
 
@@ -1557,39 +1565,39 @@ Package pdftex.def Info: DUO_UiO_segl.png used on input line 186.
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./DUO_UiO_segl.png>] [2]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 186.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 187.
  [1]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 186.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 186.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 186.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 186.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 186.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 186.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 186.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 ) [1]
-Package hyperref Info: Option `pageanchor' set `true' on input line 186.
+Package hyperref Info: Option `pageanchor' set `true' on input line 187.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 189.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 190.
  [1
 
 
@@ -1623,258 +1631,288 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 198.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 199.
  [1
 
 ] [2]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 203.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 204.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3
 
-] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg, id=494, 2557.555pt x 1081.03876pt>
+] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg, id=490, 2557.555pt x 1081.03876pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg used on input line 210.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg used on input line 211.
 (pdftex.def)             Requested size: 341.43057pt x 170.70987pt.
- [4 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg>] [5] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg, id=515, 1003.75pt x 664.4825pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg used on input line 237.
-(pdftex.def)             Requested size: 341.43896pt x 227.62444pt.
- [6 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg>]
+ [4 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg>] [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 250.
+(hyperref)                removing `\acrshort' on input line 237.
 
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg, id=527, 1959.32pt x 718.685pt>
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg, id=515, 1959.32pt x 718.685pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg used on input line 256.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg used on input line 243.
 (pdftex.def)             Requested size: 341.4212pt x 170.7114pt.
- [7]
+ [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 261.
+(hyperref)                removing `\acrshort' on input line 248.
 
 
 Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [8 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>] [9] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg, id=554, 1405.25pt x 803.0pt>
+ [7 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>] [8] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg, id=542, 1405.25pt x 803.0pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg used on input line 291.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg used on input line 276.
 (pdftex.def)             Requested size: 341.42671pt x 170.71794pt.
- [10 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>] [11] [12] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg, id=585, 1423.3175pt x 776.9025pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg, id=546, 1003.75pt x 664.4825pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg used on input line 288.
+(pdftex.def)             Requested size: 341.43896pt x 227.62444pt.
+ [9 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>] [10 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg>] [11] [12] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg, id=583, 1423.3175pt x 776.9025pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg used on input line 337.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg used on input line 328.
 (pdftex.def)             Requested size: 341.42944pt x 170.71754pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg, id=588, 1305.87875pt x 580.1675pt>
+
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg, id=586, 1305.87875pt x 580.1675pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg used on input line 345.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg used on input line 336.
 (pdftex.def)             Requested size: 341.41344pt x 170.71414pt.
- [13] [14 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>]
+ [13 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg>] [14 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>]
 Chapter 2.
 [15
 
-] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg, id=609, 1411.2725pt x 407.5225pt>
+] [16] [17] [18] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg, id=630, 1411.2725pt x 407.5225pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg used on input line 367.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg used on input line 391.
 (pdftex.def)             Requested size: 341.42564pt x 113.80704pt.
- [16 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg>] [17] [18] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg, id=635, 1547.7825pt x 417.56pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg, id=635, 1547.7825pt x 417.56pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg used on input line 409.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg used on input line 403.
 (pdftex.def)             Requested size: 341.43428pt x 170.71646pt.
- [19 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>] [20]
+ [19 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg>] [20 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrfull' on input line 432.
+(hyperref)                removing `\acrfull' on input line 425.
 
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg, id=652, 1304.875pt x 827.09pt>
+[21] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg, id=656, 1304.875pt x 827.09pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg used on input line 440.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg used on input line 433.
 (pdftex.def)             Requested size: 341.42978pt x 170.7156pt.
- [21]
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrfull' on input line 447.
+(hyperref)                removing `\acrfull' on input line 440.
 
-[22 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>]
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg used on input line 469.
-(pdftex.def)             Requested size: 341.42978pt x 170.7156pt.
- [23] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg, id=674, 2583.6525pt x 1638.12pt>
+[22 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>] [23] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png, id=674, 3733.95pt x 2096.83376pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png Graphic file (type png)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png used on input line 462.
+(pdftex.def)             Requested size: 341.3967pt x 227.6129pt.
+ [24 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg, id=681, 2583.6525pt x 1638.12pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg used on input line 478.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg used on input line 471.
 (pdftex.def)             Requested size: 341.40588pt x 227.61053pt.
-
-Underfull \vbox (badness 3579) has occurred while \output is active []
-
- [24] [25 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>] [26] [27
+ [25 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>] [26] [27
 
 ] [28]
 Chapter 3.
 [29
 
 ] [30]
-Overfull \hbox (17.0pt too wide) in paragraph at lines 525--525
+Overfull \hbox (17.0pt too wide) in paragraph at lines 523--523
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 525.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 523.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 527.
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 530.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 525.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 528.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (17.0pt too wide) in paragraph at lines 542--542
+Overfull \hbox (17.0pt too wide) in paragraph at lines 540--540
 [][] 
  []
 
 [31]
-Overfull \hbox (17.0pt too wide) in paragraph at lines 563--563
+Overfull \hbox (17.0pt too wide) in paragraph at lines 561--561
 [][] 
  []
 
 [32]
-Overfull \hbox (17.0pt too wide) in paragraph at lines 602--602
+Overfull \hbox (17.0pt too wide) in paragraph at lines 600--600
 [][] 
  []
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 625--625
+Overfull \hbox (17.0pt too wide) in paragraph at lines 623--623
 [][] 
  []
 
-[33] [34]
-Overfull \hbox (7.64133pt too wide) in paragraph at lines 654--679
+[33] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png, id=822, 3364.57pt x 1866.975pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png Graphic file (type png)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png used on input line 642.
+(pdftex.def)             Requested size: 341.40527pt x 227.61679pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png, id=836, 3372.6pt x 1866.975pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png Graphic file (type png)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png used on input line 649.
+(pdftex.def)             Requested size: 341.3967pt x 227.61679pt.
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png, id=837, 3372.6pt x 1778.645pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png Graphic file (type png)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png used on input line 656.
+(pdftex.def)             Requested size: 341.3967pt x 227.59521pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png>]
+
+LaTeX Warning: Hyper reference `datasheet:ubloxchip' on page 36 undefined on input line 665.
+
+
+LaTeX Warning: Reference `datasheet:ubloxchip' on page 36 undefined on input line 665.
+
+[36 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png>] [37]
+Overfull \hbox (7.64133pt too wide) in paragraph at lines 687--712
  [] 
  []
 
-[35]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 686.
+(hyperref)                removing `\acrshort' on input line 719.
+
+[38]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\acrshort' on input line 724.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 691.
+(hyperref)                removing `\acrshort' on input line 727.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 694.
-
-[36]
+[39]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 728.
+(hyperref)                removing `\acrshort' on input line 761.
 
-[37] [38
-
-]
+[40]
 Chapter 4.
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg, id=856, 4047.12pt x 3035.34pt>
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg, id=886, 4047.12pt x 3035.34pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg used on input line 743.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg used on input line 776.
 (pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg, id=857, 4047.12pt x 3035.34pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg, id=887, 4047.12pt x 3035.34pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg used on input line 749.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg used on input line 782.
 (pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
- [39] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg, id=863, 4047.12pt x 3035.34pt>
+ [41
+
+] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg, id=894, 4047.12pt x 3035.34pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg used on input line 761.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg used on input line 794.
 (pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
- [40 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg>]
-Overfull \hbox (1.34554pt too wide) in paragraph at lines 770--779
+ [42 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg>]
+Overfull \hbox (1.34554pt too wide) in paragraph at lines 803--812
  [] 
  []
 
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg, id=873, 803.0pt x 803.0pt>
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg, id=904, 803.0pt x 803.0pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg used on input line 785.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg used on input line 818.
 (pdftex.def)             Requested size: 284.534pt x 284.534pt.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (17.0pt too wide) in paragraph at lines 792--792
+Overfull \hbox (17.0pt too wide) in paragraph at lines 825--825
 [][] 
  []
 
-[41 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg>]
-Overfull \hbox (17.0pt too wide) in paragraph at lines 802--802
+[43 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg>]
+Overfull \hbox (17.0pt too wide) in paragraph at lines 835--835
 [][] 
  []
 
-[42 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>]
+[44 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 838.
+(hyperref)                removing `\acrshort' on input line 871.
 
 
-Underfull \vbox (badness 3148) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>]
-Underfull \vbox (badness 7540) has occurred while \output is active []
+ [46] [47] [48] [49
 
- [44] [45] [46
-
-] [47] [48]
+] [50]
 Chapter 5.
-[49
+[51
 
-] [50
+] [52
 
-] [51
+] [53
 
-] (buildfiles/nbiot.acr [52] [53
+] (buildfiles/nbiot.acr [54] [55
 
 
-] [54])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 897.
- [55]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 897.
+] [56])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 925.
+ [57]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 925.
  (buildfiles/nbiot.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 897.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 897.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 925.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 925.
 Package rerunfilecheck Info: File `nbiot.out' has not changed.
-(rerunfilecheck)             Checksum: C2C80EAB6ED454D2640E5A4EB3BE840C;4641.
+(rerunfilecheck)             Checksum: 3C88ABB08B1632C9D208D750D7041871;4487.
+
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'nbiot.run.xml'.
 \openout1 = `nbiot.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33707 strings out of 493014
- 587031 string characters out of 6133351
- 1152538 words of memory out of 5000000
- 36434 multiletter control sequences out of 15000+600000
+ 33842 strings out of 493014
+ 589920 string characters out of 6133351
+ 1155326 words of memory out of 5000000
+ 36552 multiletter control sequences out of 15000+600000
  50982 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,92p,10347b,2449s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on buildfiles/nbiot.pdf (69 pages, 8799579 bytes).
+Output written on buildfiles/nbiot.pdf (71 pages, 9391646 bytes).
 PDF statistics:
- 1111 PDF objects out of 1200 (max. 8388607)
- 990 compressed objects within 10 object streams
- 297 named destinations out of 1000 (max. 500000)
- 636 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1143 PDF objects out of 1200 (max. 8388607)
+ 1011 compressed objects within 11 object streams
+ 305 named destinations out of 1000 (max. 500000)
+ 640 words of extra memory for PDF output out of 10000 (max. 10000000)
 
