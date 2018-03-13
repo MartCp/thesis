@@ -281,18 +281,29 @@ With this in mind we can clearly see that many of the fields \acrshort{oecd} dis
 \subsubsection{Utilities and smart cities}
 This domain resolves to what we are investigating in this thesis. Cities are getting smarter by the day and \acrshort{lpwan} can give us the stable network to deploy a large sensor network for monitoring and manage cities. \acrfull{its} is an initiative to control and manage traffic. The system provides communication between cars, trucks and sensors. The sensors are mounted in traffic lights, signs and other objects known in the transport field. The connected devices can adopt to the environment and help the society in several ways. Emergency units can set a route to an accident and the overlaying \acrshort{its} system will clear the way remotely to enable the emergency unit to quickly arrive at the location.
 
-\paragraph{Parking - a realistic use case} \label{paragraph:sensoroutline}
-Smart parking is a big investment point in big cities. Even though cars may be banned from the cities in some cities, parking at a nearby location can easier be managed with sensors communicating over \acrshort{lpwan}. Q-Free is mainly focusing on parking sensors related to \acrshort{nb-iot}. The sensor is housed in by a small plastic case which will be leveled with the ground. It withstands extreme forces and detects cars by magnetometer and pulsed Doppler radar. The housing is the most expensive part of the sensor, being able to withstand rough conditions for over 10 years. The idea is that the sensor is drilled into the ground, and will communication over \acrshort{nb-iot}. It will send status of the occupancy of the parking spot with a fixed interval, as well as reporting parking events when they occur. The growth of these types of sensors will increase and hopefully will they enrich our daily lives. See figure \ref{pic:parkingsensor} for a photo of the parking sensor from Q-Free.
+Other usage areas of sensors in cities are e.g. waste areas, power monitoring and \ce{CO2} monitoring. Operations can heavily benefit from more information, as well as automated procedures. There are many use cases where monitoring can be difficult and costly. With simple and cheap devices one could monitor hundreds of different things. As a result the work effort could decrease and the processes can be more efficient. A good example is garbage disposal. If garbage containers were fitted with measuring sensors, the control system can be notified when it is time to empty the garbage. The use case for this will probably be bigger companies and industrial sites, however it might be used for private residents as well.
 
-\begin{figure}[ht]
+These devices need to be cost efficient since they will be deployed in large scale. In 2014 a power supplier in Norway called Lyse began installing smart power meters in over 140 000 households \cite{online:lyseAMS}. These devices communicate with the mobile network in the area over a proprietary standard. While it is important to explore new solutions, this is one of many examples where standardized solutions will greatly outperform proprietary solutions.
+
+\paragraph{Parking - a realistic use case} \label{paragraph:sensoroutline}
+Big cities are investing in smart parking even though cars may be banned from the cities in some cities. We know that many people will still prioritize traveling with car and facilitating for parking at a nearby location in these cases is crucial. These parking lots can be managed with sensors communicating over \acrshort{lpwan}. For Q-Free next generation parking sensor, they are mainly focusing \acrshort{nb-iot}. The sensor is housed in by a small plastic case which will be leveled with the ground. It withstands extreme forces and detects cars by magnetometer and pulsed Doppler radar. The housing is the most expensive part of the sensor, being able to withstand rough conditions for over 10 years. The idea is that the sensor is drilled into the ground, and will communicate over \acrshort{nb-iot}. The \acrshort{ue} will send status of the occupancy of the parking spot with a fixed interval, as well as reporting parking events when they occur. See \ref{pic:parkingsensor} for a photo of the parking sensor from Q-Free.
+
+As of 2016 the parking sensors communicated to a common gateway(\acrshort{lte} embedded device), a device which communicates with the sensors using a proprietary narrowband communication technology in the ISM band, and to the Internet over \acrshort{lte}. This works fine, but as you might realized, the cost of the devices themselves and managing them are lowered significantly with \acrshort{lpwan} like \acrshort{nb-iot}. Q-Free has chosen to go with \acrshort{nb-iot} since this is the most promising technology providing the necessary specifications for their application. The communication between the sensor and the server is outlined in figure \vref{pic:sensorcommunication}. The sensor sends data to the eNB which in turn sends the data to the \acrshort{iot} platform. If a server has been authenticated within the platform the message is sent to the server. The server receives the packet and can display the message however necessary.
+
+\begin{figure}[H]
   \centering\includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg}
   \caption{Parking sensor  \cite{person:ola}}
   \label{pic:parkingsensor}
 \end{figure}
 
-Other usage areas of sensors in cities are e.g. waste areas, power monitoring and \ce{CO2} monitoring. Operations can heavily benefit from more information, as well as automated procedures. There are many use cases where monitoring can be difficult and costly. With simple and cheap devices one could monitor hundreds of different things. As a result the work effort could decrease and the processes can be more efficient. A good example is garbage disposal. If garbage containers were fitted with measuring sensors, the control system can be notified when it is time to empty the garbage. The use case for this will probably be bigger companies and industrial sites, however it might be used for private residents as well.
+\begin{figure}[H]
+  \centering\includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg}
+  \caption{Outline of sensor communication \cite{person:ola}}
+  \label{pic:sensorcommunication}
+\end{figure}
 
-These devices need to be cost efficient since they will be deployed in large scale. In 2014 a power supplier in Norway called Lyse began installing smart power meters in over 140 000 households \cite{online:lyseAMS}. These devices communicate with the mobile network in the area over a proprietary standard. While it is important to explore new solutions, this is one of many examples where standardized solutions will greatly outperform proprietary solutions.
+In this setup, the sensor is the one sending data to the server. A more general approach to this problem is to implement the logic in the car. The parking spot would be equipped with a sensor with an ID of some sort. The sensor in the car could extract the ID and send a message about parking at that particular parking spot. This might enable several parking operators to cooperate over a general infrastructure.
+%%HH privacy complications?
 
 \subsubsection{Logistics}
 Today parcel tracking is a huge success and some companies are using sensors in their trucks and parcels for real time tracking. Using \acrshort{lpwan} networks will reduce cost of the devices and with long battery lifetime the sensors can be reused. In addition, the coverage for tracing the parcels will have to be great. However, for trucks it might be a better idea to wire the sensor to the trucks power outage. If you want real time, or near real time tracking, the sensor would have to send position data often and this will drain the battery substantially. There are some pros to use \acrshort{lpwan} networks for information collection, but this is probably not the biggest \acrshort{iot} area.
@@ -464,17 +475,6 @@ In the following figure, \vref{figure:ecl_dbm}, is an outline of how the device 
   \label{figure:ecl_dbm}
 \end{figure}
 
-\section{Parking - outline of the communication}
-Parking is a huge market and therefore a great way to test both the coverage and practical use of \acrshort{nb-iot}. As of 2016 the parking sensors communicates to a common gateway(\acrshort{lte} embedded device), a device which communicates with the sensors using a proprietary narrowband communication technology in the ISM band, and to the Internet over \acrshort{lte}. This works fine, but as you might realized, the cost of the devices themselves and managing them are lowered significantly with \acrshort{lpwan} like \acrshort{nb-iot}. Q-Free has chosen to go with \acrshort{nb-iot} since this is the most promising technology providing the necessary specifications for their application. The communication between the sensor and the server is outlined in figure \vref{pic:sensorcommunication}. The sensor will send uplink messages every time there is a change to the parking spot or every half hour, or another configured time period. The sensor sends data to the eNB which in turn sends the data to the \acrshort{iot} platform. If a server has been authenticated within the platform the message is sent to the server. The server receives the packet and can display the message however it is necessary.
-
-\begin{figure}[ht]
-  \centering\includegraphics[width=12cm,height=8cm]{/Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg}
-  \caption{Outline of sensor communication \cite{person:ola}}
-  \label{pic:sensorcommunication}
-\end{figure}
-
-In this setup, the sensor is the one sending data to the server. One could also implement it the other way around. If each parking spot had a sensor with an ID of some sort. Then the car could extract the ID and send a message about parking at that particular parking spot. This might enable several parking operators to cooperate over a general infrastructure. %%HH privacy complications?
-
 \section{Challenges}
 %%HH change first line
 what if the network fails?
@@ -501,9 +501,8 @@ To get accurate and meaningful results we had a long planning phase. First of al
 
 With this in mind, we will describe and give you an introduction to the different parts of the setup and show you how they are tied together.
 
-
 \section{The web application}
-In order to collect data we needed a web server and we needed to consider a few things, what should be included in the server, which platform should the server run on and where should the server be located. At the same time it was important to think about how the data would be used. The simple solution would be to collect the data and import it into an excel document for analysis. However, the amount of data is big - in fact the db consists of XXX (HH) GB of data with over XXX elements. Rendering this in an excel document would not suffice for an effective analyzation of the data after the test. We decided to implement a web app to display information about the sensors. This web app can display uptime, latency and coverage data about each sensor as well as displaying average of all of them. In this way it is easy to view the data and draw conclusions.
+In order to collect data we needed a web server and we needed to consider a few things, what should be included in the server, which platform should the server run on and where should the server be located. At the same time it was important to think about how the data would be used. The simple solution would be to collect the data and import it into an excel document for analysis. However, the amount of data is big - in fact the db consists of XXX (HH) GB of data with over XXX elements. Rendering this in an excel document would not suffice for an effective analyzation of the data after the test. We decided to implement a web app to display information about the sensors. This web app can display latency, coverage and power related data about each sensor as well. In this way it is easy to view the data and gain knowledge about the statistics created.
 
 In the following sections we will discuss the implementation of the server and the web app.
 
@@ -714,7 +713,7 @@ Monitoring is an important part of developing and a way to verify that your soft
 We believe that using \textbf{AT+NUESTATS} will give us accurate results. In addition we will use a high precision multimeter to monitor the current through the \acrshort{nb-iot} chip. We will introduce you to this device in section \vref{ssection:devices}. See section, \vref{section:deviations}, for any deviations.
 
 \subsection{Time - CCLK}
-Time is another tool we often use for developing software. We want to know how long a process endures, and in our case we want to monitor the latency of a send operation from the sensor to the server. With the AT-command \textbf{AT+CCLK?} we can read the time from the chip. This time is kept in sync with the network and stored in the \acrshort{mt}. The read operation returns a string with the time in the following format "yy/MM/dd,hh:mm:ss+TZ", where the characters represent, year, month, day, hours, minutes, seconds and time zone.
+Time is another tool we often use for developing software. We want to know how long a process endures, and in our case we want to monitor the latency of a send operation from the sensor to the server. With the AT-command \textbf{AT+CCLK?} we can read the time from the chip. This time is kept in sync with the network and stored in the \acrshort{mt}. The read operation returns a string with the time in the following format "yy/MM/dd,hh:mm:ss+TZ", where the characters represent, year, month, day, hours, minutes, seconds and time zone. However, the internal clock is not very good and after the device had been operational for a day the internal clock would be skewed and the latency results were not as accurate as we wanted. We will elaborate in more detail about this problem in section, \vref{section:deviations}, but our suspicion is that the clock is not updated very often and with an imprecise internal clock the time will be wrong. As explained in section, \vref{section:testing}, about testing we only did test with the development kit from Ublox, hence we could use the clock of the machine connected to the kit and send this timestamp to the server. This did not only give us a more updated clock, but the timestamp also included milliseconds which gave the result higher precision.
 
 \subsection{\acrshort{ue} behaviour - NCONFIG}
 With the AT-command \textbf{AT+NCONFIG} we are able to decide how we want the \acrshort{ue} to behave. HH skal vi bruke denne?
@@ -763,9 +762,9 @@ Gives us the status of \acrshort{psm} on the device. It will return 1,1 if the d
 
 \chapter{Testing} \label{section:testing}
 %%HH change introduction to fit the tests we are performing
-In the test chapter we will be looking at tests, with as many scenarios as possible. We will describe testing environment, devices and parameters that effects the tests. At the end we will try to conclude wether or not \acrshort{nb-iot} is as promising as it looks on paper.
+In the test chapter we will be looking at tests, with as many scenarios as possible. We will describe testing environments, devicess and parameters that effects the tests. At the end we will try to conclude wether or not \acrshort{nb-iot} is as promising as it looks on paper.
 
-The test phase began early January and was completed early March. The reason for the long test phase was due to a number of things. First of all the hardware and software related to \acrshort{nb-iot} was not available on a stable platform until late 2017, and Telenor and Telia had limited \acrshort{nb-iot} enabled base stations. Even at the beginning of 2018 the devices acquired were not production ready, hence our tests were somewhat inadmissible. However the equipment was at a stage where the error rate was very low and the test phase could start. Given the hypothesis we needed to test the chip and the network with good equipment and at several locations. In section, \vref{section:testingenv}, we will give you an overview of the testing premissis and the devices used.
+The test phase began early January and was completed early March. The reason for the late test phase was due to a number of things. First of all the hardware and software related to \acrshort{nb-iot} was not available on a stable platform until late 2017, and Telenor and Telia had limited \acrshort{nb-iot} enabled base stations. Even at the beginning of 2018 the devices acquired were not production ready, hence our tests would uncover some bugs and give an indication of the production readiness of the networks. The equipment was at a stage where the error rate was very low and the test phase could start. Given the hypothesis we needed to test the chip and the network with good equipment and at several locations. In section, \vref{section:testingenv}, we will give you an overview of the testing premissis and the devices used.
 
 \section{Testing environment} \label{section:testingenv}
 The testing took place at several locations - UiO, at my apartment at Lambertseter and at Q-Free's office by Solli Plass. With three locations and two network providers we could collect more information, hence we got a better understanding of the results.
@@ -797,7 +796,7 @@ We are using a development kit from Ublox with their \acrshort{nb-iot} chip call
 \end{figure}
 
 \subsubsection{Fluke precision multimeter}
-Q-Free was so lucky to borrow a precision multimeter from ... (HH - OML) which we used to measure the current through the \acrshort{nb-iot} chip. With the multimeter we managed to pinpoint different stages of the chip. In addition we added corresponding statistics from \textbf{AT+NUESTATS} which increased the precision. As sketched in figure, \vref{figure:labsetup}, we connected the multimeter to the computer using an ethernet cable, enabling us to fetch readings from the device. Depending on the selected precision of the measurements we collected between 30-300 samples per second. The most detailed tests required high sample rate, while we used higher precision measurements on longer tests. The device responded on commands much like a \acrfull{repl}, where you issue a request with a command and the device will respond with an answer. In table, \vref{table:fluke_commands}, you can see the commands we used and a short description related to them.
+Q-Free was so lucky to borrow a precision multimeter from ... (HH - OML) which we used to measure the current through the \acrshort{nb-iot} chip. With the multimeter we managed to pinpoint different stages of the chip. In addition we added corresponding statistics from \textbf{AT+NUESTATS} which increased the precision. As sketched in figure, \vref{figure:labsetup}, we connected the multimeter to the computer using an ethernet cable, enabling us to fetch readings from the device. Depending on the selected precision of the measurements we collected between 30-300 samples per second. The most detailed tests required high sample rate, while we used lower precision measurements on longer tests. The device responded on commands much like a \acrfull{repl}, where you issue a request with a command and the device will respond with an answer. In table, \vref{table:fluke_commands}, you can see the commands we used and a short description related to them.
 
 \begin{center} \label{table:fluke_commands}
   \begin{tabular}{ | l | m{10cm} | }
@@ -823,11 +822,11 @@ You should at this point have an idea of the setup and how things are connected,
 We started writing test features for the development kit using python. We setup a connection between the program and the serial port and configure the device to make sure that everything is according to our setup, see code \vref{code:modem}.
 
 \begin{lstlisting}[caption={Development kit initiation},label={code:modem},language=Python]
-uart_modem = serial.Serial('/dev/tty.usbserial-146100', 9600, timeout = 0)
-uart_modem.close()
-uart_modem.open()
-uart_modem.flushInput()
-uart_modem.flushOutput()
+  uart_modem = serial.Serial(<serial port>, 9600, timeout = 0)
+  uart_modem.close()
+  uart_modem.open()
+  uart_modem.flushInput()
+  uart_modem.flushOutput()
 \end{lstlisting}
 
 We started experimenting with different AT commands and created small programs to test the functionality of the chip and the connection towards the server. We created a simple program which sent \textbf{AT+NUESTATS} to the application server and went on transforming this program to helper methods we could use later on. A sample packet with a COAP header would look something like the example, \vref{samplecommand}, where the payload is converted to hexadecimal. We used some time creating the correct COAP packet for the server to accept it as a COAP packet. If you don't want to use COAP you can simply fill the payload with data without the COAP header, but this means that you are missing the features of COAP which could be beneficial for your application. Dropping the COAP header means that you are sending a pure \acrshort{udp} packet through the network and it is harder to verify the packet when it is received on an eventual application server.
@@ -840,7 +839,7 @@ We started experimenting with different AT commands and created small programs t
   2C31363A31363A35362B30305F31325F"
 \end{lstlisting}
 
-We proceeded working on communication towards the multimeter, which was quite easy. The multimeter was given an \acrshort{ip} address which was related to the \acrshort{ip} address of the connected machine. Creating a socket to this IP address in python and connecting to it was simple. The test programs would start off by clear all buffers with \textbf{:INIT} and then fetch for data on a regular interval with \textbf{:FETCH?; :INIT}. With each reading we converted the string into a list of numbers which we appended to a global list of readings. We found that fetching for new data every 5th second was a good tradeoff between fetching all the time and very rare. We added these functions to the helper file, \textbf{nbiot\_labtest\_helpers.py}, and went on writing a couple of programs to monitor the behaviour of the chip.
+We proceeded working on communication towards the multimeter, which was quite easy. The multimeter was given an \acrshort{ip} address which was related to the \acrshort{ip} address of the connected machine. Creating a socket to this IP address in python and connecting to it was simple. The test programs would start off by clear all buffers with \textbf{:INIT} and then fetch for data on a regular interval with \textbf{:FETCH?; :INIT}. With each reading we converted the string into a list of numbers which we appended to a global list of readings. We found that fetching for new data every 5th second was a good tradeoff between fetching all the time and very rare. We added these functions to the helper file, \textbf{nbiot\_labtest\_helpers.py}, and went on writing a couple of programs to monitor the behavior of the chip.
 
 %%HH
 \paragraph{\textbf{nbiot\_labtest.py}}
@@ -868,8 +867,12 @@ This program continuously transmits packets over \acrshort{nb-iot} - either stat
   \end{tabular}
 \end{center}
 
-\section{Detailed \acrshort{nb-iot} tests} \label{section:detailedtest}
-In this section we will investigate how the \acrshort{nb-iot} chip handles normal usage and edge cases where non default behavior is activated.
+\section{Short term tests} \label{section:detailedtest}
+In this section we will investigate details about how the \acrshort{nb-iot} chip handles normal usage and edge cases where non default behavior is activated. What defines normal behavior? Normal operation of the \acrshort{ue} is when \acrshort{ecl} level is 0 and coverage better than -100dBm. When the \acrshort{ue} has bad reception it may retransmit packets and operation like this over longer periods is not sustainable. With normal operation we also expect the \acrshort{ue} to transmit packets with release indicator set and \acrshort{psm} activated. According to the specifications the device will enter deep sleep mode trailing a each transmit.
+
+We define short term tests as a logging sequence over a short period with frequent data points. The duration of the tests are under ten minutes and the sample rate is high, over 300 samples per second for some tests. These tests will show you how the device performs on a detailed level and will give a good understanding og the transmit process. The reason for including these tests are related to the actual power usage over a short period. By defining power usage statistics for different kinds of transmit we will be able to normalize the data and give an estimation of expected lifetime based on our tests. The detailed tests also will show us if the network providers follow the specifications. It is very interesting to follow \acrshort{psm}, connection status, coverage and power usage over a short period and see how the device handles different scenarios.
+
+We have sectioned the results into categories and we will refer to a set of graphs located after the section. In this way you will be presented with one problem at a time while pointing to the same graphs. To explore the full potential of the graphs you may also visit the thesis web page\cite{url:thesispage} and visit the link with the related caption of the graph.
 
 \subsection{Latency test} \label{ssection:latencytest}
 
@@ -885,10 +888,18 @@ Try different packet sizes and check power usage (are there any perfect packet s
 
 \subsection{Downtime test} \label{ssection:downtimetest}
 
+\subsection{Device states, active, rrc, psm}
+
 
 \section{Long term tests} \label{section:longtermtest}
+A device operating over long time is prone to many bugs and the quality of the software is essential. In this section we will give you an overview of how the network handles continuous transmits over a longer period. We have tested the device at all locations with both network providers where device managed to connect to the network. We define long term test as a set of operations over a long period compared to the detailed tests, typically one or several days. When trying to test many scenarios, the test period per network provider and location is limited. However, the results are comparable to the short term tests and there are clear indications of the networks pros and cons. The reason for the long term tests is to monitor the normal behavior of the chip over a longer period, which would give us statistics at a more abstract level and combine the results with the short term tests. With this relation we will give you an overview of the most common states of a device and how different aspects reflect the behavior.
+
+Also in this section we have divided the results in categories with the related graphs located after the section.
 
 \subsection{Coverage and latency}
+One of the key features of \acrshort{nb-iot} is the extended coverage. Devices should have good reception in normally bad coverage areas, such as tight city areas and far away mountain sides. The transmit power is +23\acrshort{dbm} which is very good, considering each +3\acrshort{dbm} step is actually doubling in power. The coverage is not only related to the distance between the \acrshort{ue} and the base station, but also the obstacles between. By looking at the map, \vref{figure:basemap}, we can see that the distance between the \acrshort{ue} and base station at UiO and Q-Free is low, but the reception was quite different. At Q-Free, with Telenor, the reception was normally at -60\acrshort{dbm}, while at UiO with Telia, the reception was normally at -80\acrshort{dbm}. The main reason for the big difference is due to what lies between the sender and receiver. At Q-Free there are very few obstacles in the way the signal travels directly to the base station. At UiO there are several builds between the \acrshort{ue} and the base station, resulting in lower reception. It would be interesting if Telenor also had a \acrshort{nb-iot} enabled base station at the same location at UiO so that we could compare the two network providers more closely. We might assume that the two network providers use the same technology to offer \acrshort{nb-iot}, but it is probably not from the same producer which might explain the big difference in reception.
+
+Latency is not crucial for \acrshort{iot} applications and not a key performance indicator for \acrshort{nb-iot}. The latency is not to exceed 10 seconds and should be a fair tradeoff for most applications. The reason why latency is not key for \acrshort{nb-iot} is related to the normal operation of \acrshort{iot} devices. They will mostly transmit non time crucial information, hence the delivery time is not important. 
 
 \subsection{Operating modes}
 
@@ -898,7 +909,7 @@ Try different packet sizes and check power usage (are there any perfect packet s
 
 \section{Deviations} \label{section:deviations}
 \subsection{Imprecise clock}
-With the command \textbf{AT+CLOCK?} we get the time from the network. This timestamp is not a precise time, but we believe that it is good enough to test the specified 10 second latency in the \acrshort{nb-iot} network. When doing the detailed tests we tried to verify that the timestamp received from the network was accurate. In most cases the time was very precise, only with a deviation of 10ms. HH verify
+With the command \textbf{AT+CCLK?} we get the time from the network. This timestamp is not a precise time, but we believe that it is good enough to test the specified 10 second latency in the \acrshort{nb-iot} network. When doing the detailed tests we tried to verify that the timestamp received from the network was accurate. In most cases the time was very precise, only with a deviation of 10ms. HH verify
 
 \subsection{Network load}
 Since the \acrshort{nb-iot} network was not in production at the time of the tests, the network was not heavily loaded. This means that the latency could be a bit higher with more general activity on the network. When the network is available the latency should be low and that is our impression on the \acrshort{nb-iot} network as well. HH verify
@@ -915,9 +926,10 @@ Some packet loss, which should not appear since the load on this network was low
 
 
 \part{Conclusion}                     %% ... or Konklusjon
+network is a black box
 
 \chapter{Results}                     %% ... or ??
-
+\section{Combining the results}
 
 \backmatter{}
 \printbibliography

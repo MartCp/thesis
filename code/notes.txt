@@ -1,0 +1,117 @@
+COMMAND >AT+NCONFIG="CELL_RESELECTION","TRUE"
+AT+NCONFIG="CELL_RESELECTION","TRUE"
+38
+rsp:
+OK
+
+MESSAGE >
+COMMAND >AT+NCONFIG?
+AT+NCONFIG?
+13
+rsp:
++NCONFIG: "AUTOCONNECT","TRUE"
++NCONFIG: "CR_0354_0338_SCRAMBLING","TRUE"
++NCONFIG: "CR_0859_SI_AVOID","TRUE"
++NCONFIG: "COMBINE_ATTACH","FALSE"
++NCONFIG: "CELL_RESELECTION","TRUE"
++NCONFIG: "ENABLE_BIP","FALSE"
+
+925', '-858', '150', '10764', '638215', '17021798', '0', '115', '6352', '21', '-108', '18/02/06,08:17:54+00', '50']
+AT+NSOSTF=2,"158.39.77.97",5683,0x0,88,"50021e30B132112AFF2D3932355F2D3835385F3135305F31303736345F3633383231355F31373032313739385F305F3131355F363335325F32315F2D3130385F31382F30322F30362C30383A31373A35342B30305F35305F"
+rsp: 
+2,88
+
+OK
+
+13
+10
+['-979', '-894', '160', '10888', '645548', '17021798', '0', '53', '6352', '21', '-119', '18/02/06,08:18:02+00', '51']
+AT+NSOSTF=2,"158.39.77.97",5683,0x0,87,"50021e30B132112AFF2D3937395F2D3839345F3136305F31303838385F3634353534385F31373032313739385F305F35335F363335325F32315F2D3131395F31382F30322F30362C30383A31383A30322B30305F35315F"
+rsp: 
+
+(La til PSM og eDRX og klokke)
+
+Power on or AT+NRB
+Wait until it is alive (AT+CGMM returns OK)
+
+AT+CSCON=1
+OK
++CSCON: 0 betyr at den i RRC idle mode  (timeren er på 20 sec hos Telenor, lett å se fra disse URC’ene)
++CSCON: 1 betyr at den i RRC connected mode
+
+AT+NPSMR=1
+OK
+Viser når den går i PSM, dette er ikke enabled by default i uBlox.  PSM virker ikke i Telenor-nettet.
+
+AT+CEREG=5
+OK
+Viser nå den søker etter nett.
+
+Kan være veldig nyttig å lese ut fw-versjon, IMEI, sim-nr, osv i starten for å sende i en inventory/status pakke til vår server. Vil sterkt anbefale dette!! Vi må definere ett pakkeformat for det.
+AT+CGMR
+AT+CIMI
+AT+CGSN=1
+AT+CCID
+AT+NUESTATS – Alle tallene
+
+Velge nett. Dette trengs ikke i Telenor, men er nødvendig hos DTAG.
+MCC=262 og MNC=01 må være parameter (16 bit).
+Sett operator (DTAG) 
+AT+COPS=1,2,”26201”
+Telenor is 24201, Telia 24202, se  http://www.mcc-mnc.com/
+
+Sette eDRX mode.   Dette kan være fall-back i nett som ikke støtter PSM.
+AT+NPTWEDRXS=2,5,”0001”,”1101”
+
+Første bit-string er «Paging Time Windows Length». 2.56 – 25.6 seconds.  “0001” betyr 5.12 seconds. (det nest minste)
+Andre bit-string er “E-UTRAN eDRX cycle length duration». 5.12 – 2621 seconds. «1101» betyr 2621 seconds. (det høyeste)
+
+
+Sette PSM mode.
+AT+CPSMS=0,,,”01011111”,”00000001”
+AT+CPSMS=1,,,"01011111","00000001"
+Første bit-string er T3412, «Requested Periodic TAU value - GPRS timer 3 value», 2 sekunder – 310 timer. «01011111» betyr 15 * 31 timer = 310 timer.
+Andre bit-string er T3324, «Requested Active Time value – GPRS Timer”, 2 sekunder – 3 timer. «00000001» betyr 2 sekunder, men Telenor har 32 som minimum.
+
+
+CEREG=5 betyr at du får vite når den begynner å scanne og når den får dekning.
++CEREG: 2,"0000","0",7,,,,
+Begynte å scanne (status 2)
+
++CEREG: 1,"9E99","1074464",7,,,,"00111110"
+Registert på hjemme net (status 1) – telenor SIM på telenor nettverk
+
++CEREG: 5,"9E99","1074464",7,,,,"00111110"
+Registert på fremmed nett (status 5), Med roaming SIM card (DTAG SIM i Tyskland) kommer status=5.
+
+Wait until AT+CGPADDR=0 returns a IP address
+
+Sende:
+AT+NSOCR="DGRAM",17,2234,1
+AT+NSOSTF=0,"46.43.1.252",5683,0x0200,55,"50020001B170112AFF2E000100881300000700BC2D185A0100000001000000881300000161002D00030353003500C7FFB3005B020C0000"
+Note 0x0200 that requests «Release assistance indicator» and 0x0000 does not. The network can choose to ignore the RAI.
+Foreslår at 0x0200 brukes til vanlig og 0x0000 brukes en gang i døgnet for å endable downlink data.
+Eventuelt kan en dummy NSOSTF brukes få kutte RRC connected etter at downlink data er mottatt
+AT+NSOSTF=0,"46.43.1.252",5683,0x0200,1,"30"
+
+For å ACK’e downlink kan vi bruke CoAP sekvensnummer.  En del av de første 9 bytes. Men dersom vi ønsker ACK osv bør vi bruke CoAP confirmed mode, dette beskriver ACK prosedyre. (jeg har ikke dette emplementer i min server)
+
++NSONMI: 0,15
+Dette betyr at det er 15 pending downlink bytes
+Trenger ingen AT kommando for å skru på denne URC
+
+AT+NSORF=0,256
+0,"46.43.1.252",5683,15,"5002E6BFFF6F6C61206D617274696E",0
+OK
+Data her er med CoAP header, men denne er fast.  Du kan alltid be om 256 bytes, selv om NSONMI sa 15 bytes.
+
++NSONMI: 0,7
+AT+NSORF=0,256
+0,"46.43.1.252",5683,7,"5002E6C0FF4141",0
+OK
+Payload her er «AA»
+
+uBlox har real-time klokke som stilles av nettet ved TAU.
+AT+CCLK?
++CCLK: "17/12/18,07:44:19+00"
+OK

@@ -105,7 +105,13 @@ def do_log( modem, prev_time, prev_rx_val, prev_tx_val ):
 
 	return prev_time, prev_rx_val, prev_tx_val
 
-def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, fluke_socket, nbiot_socket):
+def send(modem, nbiot_socket, idx, id, release, nr_bytes):
+	if nr_bytes is not 0:
+		sendToXBytes( modem, nr_bytes, nbiot_socket, id, release)
+	else:
+		send_status_command( modem, nbiot_socket, idx, id, release )
+
+def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, fluke_socket, nbiot_socket, reboot):
 	idx = 0
 	prev_rx_val = 0
 	prev_tx_val = 0
@@ -125,6 +131,16 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 	global cscon_points
 	global cereg_points
 
+	date_points = []
+	coverage_points = []
+	ecl_points = []
+	rx_points = []
+	tx_points = []
+	tx_pwr_points = []
+	psm_points = []
+	cscon_points = []
+	cereg_points = []
+
 	start = time()
 	start_timer = time()
 	idx = 1
@@ -133,17 +149,20 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 
 	prev_time, prev_rx_val, prev_tx_val = do_log( modem, prev_time, prev_rx_val, prev_tx_val)
 	send_and_receive_fluke( fluke_socket, ":INIT")
-	if nr_bytes is not 0:
-		sendToXBytes( modem, nr_bytes, nbiot_socket, id, release)
+	if reboot:
+		startup_command( uart_modem, "AT+NRB" )
 	else:
-		send_status_command( modem, nbiot_socket, idx, id, release )
+		send(modem, nbiot_socket, idx, id, release, nr_bytes)
 
 	start_point = datetime.datetime.now()
 
-	print( "start logging" )
+	print( "start logging(" + str(logging) + ")")
 	while True:
 		if logging is 1:
 			prev_time, prev_rx_val, prev_tx_val = do_log( modem, prev_time, prev_rx_val, prev_tx_val)
+		
+		if logging is 0:
+			sleep(2)
 
 		do_fluke = math.ceil( int( time() - start ) )
 		if do_fluke % 5 is 0 and do_fluke is not prev_do_fluke:
@@ -155,10 +174,8 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 				break
 
 			idx += 1
-			if nr_bytes is not 0:
-				sendToXBytes( modem, nr_bytes, nbiot_socket, id, release)
-			else:
-				send_status_command( modem, nbiot_socket, idx, id, release )
+
+			send(modem, nbiot_socket, idx, id, release, nr_bytes)
 			start = time()
 
 		if print_graph:
@@ -210,6 +227,7 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 	fluke_points = list( map(remove_high_convert_to_ma, fluke_points) )
 	fluke_points = list( filter( None, fluke_points) )
 	fluke_len = len( fluke_points )
+	print(fluke_len)
 	avg_a = np.mean( fluke_points )
 
 	time_diff = end_point - start_point
@@ -264,11 +282,6 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 
 	plotly.offline.plot(fig, filename=filename.replace(" ", "_") + ".html")
 
-	fluke_socket.close()
-
-	close_socket( modem, nbiot_socket )
-	sys.exit()
-
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description='NB IoT LABTEST.')
 
@@ -277,9 +290,10 @@ if __name__ == "__main__":
 	parser.add_argument('-gn', action='store', dest='graph_name', help='Graph name')
 	parser.add_argument('-d', action='store', dest='delay', help='Set delay', type=int, default=5)
 	parser.add_argument('-i', action='store', dest='iterations', help='Set iterations', type=int, default=-1)
-	parser.add_argument('-b', action='store', dest='nr_bytes', help='Set nr bytes (0 equals send NUESTATS)', type=int, default=100)
+	parser.add_argument('-b', action='store', dest='nr_bytes', help='Set nr bytes (0 equals send NUESTATS)', type=int, default=-1)
 	parser.add_argument('-r', action='store_true', dest='release_indicator', help='Set release_indicator (0-1)')
-	parser.add_argument('-l', action='store_true', dest='logging', help='Set device logging (0-1)')
+	parser.add_argument('-l', action='store_true', dest='logging', help='Set device logging')
+	parser.add_argument('-rb', action='store_true', dest='reboot', help='Set reboot test')
 
 	# Parse arguments from user
 	r = parser.parse_args()
@@ -295,7 +309,22 @@ if __name__ == "__main__":
 	uart_modem.flushOutput()
 
 	startup( uart_modem )
-
+	#startup_command( uart_modem, "AT+NPSMR=1" )
 	nbiot_socket = open_socket( uart_modem, 0, 1 )
-	loop(r.node_id, r.graph_name, int(r.delay), int(r.iterations), int(r.nr_bytes), int(r.release_indicator), int(r.logging), uart_modem, fluke_socket, nbiot_socket)
+
+	if r.reboot:
+		loop(0, r.graph_name, int(r.delay), int(r.iterations), 0, 0, int(r.logging), uart_modem, fluke_socket, nbiot_socket, r.reboot)
+	else:
+		keys = [100]#, 50, 200, 512]
+
+		for key in keys:
+			loop(r.node_id, r.graph_name, int(r.delay), int(r.iterations), key, 0, 0, uart_modem, fluke_socket, nbiot_socket, r.reboot)
+			loop(r.node_id, r.graph_name, int(r.delay), int(r.iterations), key, 1, 0, uart_modem, fluke_socket, nbiot_socket, r.reboot)
+			loop(r.node_id, r.graph_name, int(r.delay), int(r.iterations), key, 0, 1, uart_modem, fluke_socket, nbiot_socket, r.reboot)
+			loop(r.node_id, r.graph_name, int(r.delay), int(r.iterations), key, 1, 1, uart_modem, fluke_socket, nbiot_socket, r.reboot)
+
+	fluke_socket.close()
+
+	close_socket( uart_modem, nbiot_socket )
+	sys.exit()
 

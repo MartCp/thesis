@@ -1,4 +1,5 @@
 from time import *
+import datetime
 import string
 import random
 
@@ -174,15 +175,8 @@ def send_status_command( modem, socket, msg_id, id, release_indicator ):
 	nuestats_list = get_nuestats( modem )
 			
 	if nuestats_list is not "ERROR":
-		write( modem, "AT+CCLK?\r\n" )
-
-		clock = read( modem, "OK" ).split('\n')
-		clock_index = find_index_with_delimiter( "OK", clock )
-
-		if clock_index == -1:
-			return "ERROR"
-
-		nuestats_list.append( clock[clock_index - 2][8:28] )
+		utcnow = datetime.datetime.utcnow()
+		nuestats_list.append( utcnow.isoformat() )
 		nuestats_list.append( str(msg_id) )
 
 		print( nuestats_list )

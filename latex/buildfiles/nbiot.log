@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2018 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 MAR 2018 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1554,7 +1554,7 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 187.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 187.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-) <DUO_UiO_segl.png, id=277, 142.3719pt x 142.3719pt>
+) <DUO_UiO_segl.png, id=273, 142.3719pt x 142.3719pt>
 File: DUO_UiO_segl.png Graphic file (type png)
  <use DUO_UiO_segl.png>
 Package pdftex.def Info: DUO_UiO_segl.png used on input line 187.
@@ -1643,7 +1643,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3
 
-] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg, id=490, 2557.555pt x 1081.03876pt>
+] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg, id=485, 2557.555pt x 1081.03876pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg>
 Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg used on input line 211.
@@ -1653,7 +1653,7 @@ Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/lat
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\acrshort' on input line 237.
 
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg, id=515, 1959.32pt x 718.685pt>
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg, id=510, 1959.32pt x 718.685pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>
 Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg used on input line 243.
@@ -1666,231 +1666,234 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [7 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>] [8] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg, id=542, 1405.25pt x 803.0pt>
+ [7 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>] [8] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg, id=537, 1405.25pt x 803.0pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>
 Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg used on input line 276.
 (pdftex.def)             Requested size: 341.42671pt x 170.71794pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg, id=546, 1003.75pt x 664.4825pt>
+ [9 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg, id=549, 1003.75pt x 664.4825pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg used on input line 288.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg used on input line 294.
 (pdftex.def)             Requested size: 341.43896pt x 227.62444pt.
- [9 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>] [10 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg>] [11] [12] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg, id=583, 1423.3175pt x 776.9025pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg, id=557, 2583.6525pt x 1638.12pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg used on input line 300.
+(pdftex.def)             Requested size: 341.40588pt x 227.61053pt.
+
+Underfull \vbox (badness 2181) has occurred while \output is active []
+
+ [11 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>] [12] [13] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg, id=585, 1423.3175pt x 776.9025pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg used on input line 328.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg used on input line 339.
 (pdftex.def)             Requested size: 341.42944pt x 170.71754pt.
-
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg, id=586, 1305.87875pt x 580.1675pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg, id=588, 1305.87875pt x 580.1675pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg used on input line 336.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg used on input line 347.
 (pdftex.def)             Requested size: 341.41344pt x 170.71414pt.
- [13 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg>] [14 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>]
-Chapter 2.
-[15
+ [14 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg>] [15 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>] [16
 
-] [16] [17] [18] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg, id=630, 1411.2725pt x 407.5225pt>
+]
+Chapter 2.
+[17] [18] [19] [20] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg, id=636, 1411.2725pt x 407.5225pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg used on input line 391.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg used on input line 402.
 (pdftex.def)             Requested size: 341.42564pt x 113.80704pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg, id=635, 1547.7825pt x 417.56pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg, id=641, 1547.7825pt x 417.56pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg used on input line 403.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg used on input line 414.
 (pdftex.def)             Requested size: 341.43428pt x 170.71646pt.
- [19 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg>] [20 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>]
+ [21 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg>] [22 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrfull' on input line 425.
+(hyperref)                removing `\acrfull' on input line 436.
 
-[21] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg, id=656, 1304.875pt x 827.09pt>
+[23] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg, id=663, 1304.875pt x 827.09pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg used on input line 433.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg used on input line 444.
 (pdftex.def)             Requested size: 341.42978pt x 170.7156pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrfull' on input line 440.
+(hyperref)                removing `\acrfull' on input line 451.
 
-[22 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>] [23] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png, id=674, 3733.95pt x 2096.83376pt>
+[24 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>] [25] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png, id=680, 3733.95pt x 2096.83376pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png Graphic file (type png)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png used on input line 462.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png used on input line 473.
 (pdftex.def)             Requested size: 341.3967pt x 227.6129pt.
- [24 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg, id=681, 2583.6525pt x 1638.12pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg used on input line 471.
-(pdftex.def)             Requested size: 341.40588pt x 227.61053pt.
- [25 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>] [26] [27
+ [26 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png>] [27] [28
 
-] [28]
+] [29] [30]
 Chapter 3.
-[29
+[31
 
-] [30]
-Overfull \hbox (17.0pt too wide) in paragraph at lines 523--523
+] [32]
+Overfull \hbox (17.0pt too wide) in paragraph at lines 522--522
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 523.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 522.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 525.
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 528.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 524.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 527.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (17.0pt too wide) in paragraph at lines 540--540
+Overfull \hbox (17.0pt too wide) in paragraph at lines 539--539
 [][] 
  []
 
-[31]
-Overfull \hbox (17.0pt too wide) in paragraph at lines 561--561
+[33]
+Overfull \hbox (17.0pt too wide) in paragraph at lines 560--560
 [][] 
  []
 
-[32]
-Overfull \hbox (17.0pt too wide) in paragraph at lines 600--600
+[34]
+Overfull \hbox (17.0pt too wide) in paragraph at lines 599--599
 [][] 
  []
 
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 623--623
+Overfull \hbox (17.0pt too wide) in paragraph at lines 622--622
 [][] 
  []
 
-[33] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png, id=822, 3364.57pt x 1866.975pt>
+[35] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png, id=825, 3364.57pt x 1866.975pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png Graphic file (type png)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png used on input line 642.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png used on input line 641.
 (pdftex.def)             Requested size: 341.40527pt x 227.61679pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png, id=836, 3372.6pt x 1866.975pt>
+ [36] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png, id=839, 3372.6pt x 1866.975pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png Graphic file (type png)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png used on input line 649.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png used on input line 648.
 (pdftex.def)             Requested size: 341.3967pt x 227.61679pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png, id=837, 3372.6pt x 1778.645pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png, id=840, 3372.6pt x 1778.645pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png Graphic file (type png)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png used on input line 656.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png used on input line 655.
 (pdftex.def)             Requested size: 341.3967pt x 227.59521pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png>]
+ [37 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/homepage.png> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_1.png>]
 
-LaTeX Warning: Hyper reference `datasheet:ubloxchip' on page 36 undefined on input line 665.
+LaTeX Warning: Hyper reference `datasheet:ubloxchip' on page 38 undefined on input line 664.
 
 
-LaTeX Warning: Reference `datasheet:ubloxchip' on page 36 undefined on input line 665.
+LaTeX Warning: Reference `datasheet:ubloxchip' on page 38 undefined on input line 664.
 
-[36 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png>] [37]
-Overfull \hbox (7.64133pt too wide) in paragraph at lines 687--712
+[38 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/webapp/nodepage_2.png>] [39]
+Overfull \hbox (7.64133pt too wide) in paragraph at lines 686--711
  [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 719.
-
-[38]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 724.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 727.
-
-[39]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 761.
+(hyperref)                removing `\acrshort' on input line 718.
 
 [40]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\acrshort' on input line 723.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\acrshort' on input line 726.
+
+[41]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\acrshort' on input line 760.
+
+[42]
 Chapter 4.
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg, id=886, 4047.12pt x 3035.34pt>
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg, id=889, 4047.12pt x 3035.34pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg used on input line 776.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg used on input line 775.
 (pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg, id=887, 4047.12pt x 3035.34pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg, id=890, 4047.12pt x 3035.34pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg used on input line 782.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg used on input line 781.
 (pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
- [41
+ [43
 
-] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg, id=894, 4047.12pt x 3035.34pt>
+] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg, id=896, 4047.12pt x 3035.34pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg used on input line 794.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg used on input line 793.
 (pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
- [42 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg>]
-Overfull \hbox (1.34554pt too wide) in paragraph at lines 803--812
+ [44 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg>]
+Overfull \hbox (1.34554pt too wide) in paragraph at lines 802--811
  [] 
  []
 
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg, id=904, 803.0pt x 803.0pt>
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg, id=906, 803.0pt x 803.0pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg used on input line 818.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg used on input line 817.
 (pdftex.def)             Requested size: 284.534pt x 284.534pt.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (17.0pt too wide) in paragraph at lines 825--825
+Overfull \hbox (17.0pt too wide) in paragraph at lines 824--824
 [][] 
  []
 
-[43 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg>]
-Overfull \hbox (17.0pt too wide) in paragraph at lines 835--835
+[45 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/antenna_position.jpg>]
+Overfull \hbox (17.0pt too wide) in paragraph at lines 834--834
 [][] 
  []
 
-[44 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>]
+[46 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>]
+ [47 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>]
+Underfull \vbox (badness 8094) has occurred while \output is active []
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\acrshort' on input line 871.
+ [48]
+Underfull \vbox (badness 4505) has occurred while \output is active []
 
+ [49] [50] [51
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46] [47] [48] [49
-
-] [50]
+] [52]
 Chapter 5.
-[51
+[53
 
-] [52
+] [54
 
-] [53
+] [55
 
-] (buildfiles/nbiot.acr [54] [55
+] (buildfiles/nbiot.acr [56] [57
 
 
-] [56])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 925.
- [57]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 925.
+] [58])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 931.
+ [59]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 931.
  (buildfiles/nbiot.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 925.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 925.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 931.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 931.
 Package rerunfilecheck Info: File `nbiot.out' has not changed.
-(rerunfilecheck)             Checksum: 3C88ABB08B1632C9D208D750D7041871;4487.
+(rerunfilecheck)             Checksum: 4D13B8000EDDAF14A95DA55B86245B08;4397.
 
 
 LaTeX Warning: There were undefined references.
@@ -1900,19 +1903,19 @@ Package logreq Info: Writing requests to 'nbiot.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33842 strings out of 493014
- 589920 string characters out of 6133351
- 1155326 words of memory out of 5000000
- 36552 multiletter control sequences out of 15000+600000
+ 33845 strings out of 493014
+ 590010 string characters out of 6133351
+ 1155346 words of memory out of 5000000
+ 36553 multiletter control sequences out of 15000+600000
  50982 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,92p,10347b,2449s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on buildfiles/nbiot.pdf (71 pages, 9391646 bytes).
+Output written on buildfiles/nbiot.pdf (73 pages, 9394453 bytes).
 PDF statistics:
- 1143 PDF objects out of 1200 (max. 8388607)
- 1011 compressed objects within 11 object streams
- 305 named destinations out of 1000 (max. 500000)
- 640 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1151 PDF objects out of 1200 (max. 8388607)
+ 1017 compressed objects within 11 object streams
+ 307 named destinations out of 1000 (max. 500000)
+ 632 words of extra memory for PDF output out of 10000 (max. 10000000)
 

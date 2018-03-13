@@ -133,6 +133,25 @@
       \verb http://www.gsma.com/connectedliving/wp-content/uploads/2016/03/Mobile-IoT-Low-Power-Wide-Area-Connectivity-GSMA-Industry-Paper.pdf
       \endverb
     \endentry
+    \entry{url:thesispage}{online}{}
+      \name{author}{1}{}{%
+        {{hash=07821a69b7169565de53593dcfb08ab2}{%
+           family={Håkonsen},
+           family_i={H\bibinitperiod},
+           given={Henning},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{07821a69b7169565de53593dcfb08ab2}
+      \strng{fullhash}{07821a69b7169565de53593dcfb08ab2}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thesis webpage}
+      \verb{url}
+      \verb henninghaakonsen.me
+      \endverb
+    \endentry
     \entry{online:gsmTelenorNetcom}{online}{}
       \name{author}{1}{}{%
         {{hash=52cf5b4e807ab29362df8857d4af3642}{%

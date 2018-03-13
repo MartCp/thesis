@@ -32,168 +32,166 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Utilities and smart cities}{9}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Parking - a realistic use case}{9}{section*.13}
+\contentsline {paragraph}{Parking - a realistic use case}{10}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Logistics}{10}{section*.15}
+\contentsline {subsubsection}{Logistics}{12}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Industrial}{11}{section*.16}
+\contentsline {subsubsection}{Industrial}{12}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Consumer}{11}{section*.17}
+\contentsline {subsubsection}{Consumer}{12}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Medical}{11}{section*.18}
+\contentsline {subsubsection}{Medical}{13}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Developing wireless technologies}{12}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Developing wireless technologies}{13}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The general idea}{12}{section*.19}
+\contentsline {subsubsection}{The general idea}{13}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{eMTC/LTE-M and \acrshort {nb-iot}}{12}{section*.20}
+\contentsline {subsubsection}{eMTC/LTE-M and \acrshort {nb-iot}}{14}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{LoRa \cite {online:LoRa}}{13}{section*.21}
+\contentsline {subsubsection}{LoRa \cite {online:LoRa}}{14}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}A dive into NarrowBand IoT}{15}{chapter.2}
+\contentsline {chapter}{\numberline {2}A dive into NarrowBand IoT}{17}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}System design}{15}{section.2.1}
+\contentsline {section}{\numberline {2.1}System design}{17}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Deployment}{18}{section.2.2}
+\contentsline {section}{\numberline {2.2}Deployment}{20}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Operation modes}{18}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Operation modes}{20}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Security}{19}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Security}{21}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Introduction to energy saving}{19}{section.2.3}
+\contentsline {section}{\numberline {2.3}Introduction to energy saving}{21}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Prerequisites}{19}{section*.26}
+\contentsline {subparagraph}{Prerequisites}{21}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}RRC connected mode}{20}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}RRC connected mode}{22}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}RRC idle mode}{21}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}RRC idle mode}{23}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}\acrfull {edrx}}{21}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}\acrfull {edrx}}{23}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}\acrfull {psm}}{22}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}\acrfull {psm}}{24}{subsection.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Paging}{23}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.5}Paging}{25}{subsection.2.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.6}ECL}{23}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.6}ECL}{25}{subsection.2.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.7}The transmit procedure}{23}{subsection.2.3.7}
+\contentsline {subsection}{\numberline {2.3.7}The transmit procedure}{25}{subsection.2.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Parking - outline of the communication}{24}{section.2.4}
+\contentsline {section}{\numberline {2.4}Challenges}{26}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Challenges}{25}{section.2.5}
+\contentsline {part}{II\hspace {1em}The project}{29}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}The project}{27}{part.2}
+\contentsline {chapter}{\numberline {3}Planning the project}{31}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Planning the project}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}The web application}{31}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}The web application}{29}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Backend: Node.js}{32}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Backend: Node.js}{30}{subsection.3.1.1}
+\contentsline {subsubsection}{The database}{32}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The database}{30}{section*.30}
+\contentsline {subsubsection}{\acrlong {npm}}{32}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\acrlong {npm}}{30}{section*.31}
+\contentsline {subsubsection}{Express}{32}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Express}{30}{section*.32}
+\contentsline {subparagraph}{Coap}{33}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Coap}{31}{section*.33}
+\contentsline {subparagraph}{Cluster}{33}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Cluster}{31}{section*.34}
+\contentsline {subparagraph}{Webworker-threads}{34}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Webworker-threads}{32}{section*.35}
+\contentsline {subparagraph}{MongoDB}{35}{section*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{MongoDB}{33}{section*.36}
+\contentsline {subparagraph}{Moment}{35}{section*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Moment}{33}{section*.37}
+\contentsline {subsection}{\numberline {3.1.2}Frontend: React}{36}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Frontend: React}{34}{subsection.3.1.2}
+\contentsline {subsubsection}{Layout}{36}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Layout}{34}{section*.38}
+\contentsline {subsubsection}{Analysis}{38}{section*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Analysis}{36}{section*.42}
+\contentsline {paragraph}{Coverage and Latency}{38}{section*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Coverage and Latency}{36}{section*.43}
+\contentsline {paragraph}{Recieve and transmit time}{38}{section*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Recieve and transmit time}{36}{section*.44}
+\contentsline {paragraph}{\acrshort {ecl}}{39}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\acrshort {ecl}}{37}{section*.45}
+\contentsline {paragraph}{Transmit power}{39}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Transmit power}{37}{section*.46}
+\contentsline {section}{\numberline {3.2}The chip}{39}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}The chip}{37}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Monitoring - NUESTATS}{40}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Monitoring - NUESTATS}{38}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Time - CCLK}{40}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Time - CCLK}{38}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}\acrshort {ue} behaviour - NCONFIG}{41}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}\acrshort {ue} behaviour - NCONFIG}{39}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}CSQ}{41}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}CSQ}{39}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}\acrshort {edrx} settings - CEDRXS}{41}{subsection.3.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}\acrshort {edrx} settings - CEDRXS}{39}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}\acrshort {psm} settings - CPSMS}{41}{subsection.3.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.6}\acrshort {psm} settings - CPSMS}{39}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}NPOWERCLASS}{41}{subsection.3.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.7}NPOWERCLASS}{39}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Create socket - NSOCR}{41}{subsection.3.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.8}Create socket - NSOCR}{39}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}Send command with flags - NSOSTF}{41}{subsection.3.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.9}Send command with flags - NSOSTF}{39}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.10}Signaling connection status - CSCON}{42}{subsection.3.2.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.10}Signaling connection status - CSCON}{40}{subsection.3.2.10}
+\contentsline {subsection}{\numberline {3.2.11}Network registration status - CEREG}{42}{subsection.3.2.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.11}Network registration status - CEREG}{40}{subsection.3.2.11}
+\contentsline {subsection}{\numberline {3.2.12}\acrshort {psm} status - NPSMR}{42}{subsection.3.2.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.12}\acrshort {psm} status - NPSMR}{40}{subsection.3.2.12}
+\contentsline {chapter}{\numberline {4}Testing}{43}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Testing}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Testing environment}{43}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Testing environment}{41}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Devices}{44}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Devices}{42}{subsection.4.1.1}
+\contentsline {subsubsection}{\acrshort {nb-iot} development kit}{44}{section*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\acrshort {nb-iot} development kit}{42}{section*.49}
+\contentsline {subsubsection}{Fluke precision multimeter}{44}{section*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Fluke precision multimeter}{42}{section*.51}
+\contentsline {subsection}{\numberline {4.1.2}Writing tests}{45}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Writing tests}{43}{subsection.4.1.2}
+\contentsline {paragraph}{\textbf {nbiot\_labtest.py}}{47}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textbf {nbiot\_labtest.py}}{45}{section*.53}
+\contentsline {section}{\numberline {4.2}Short term tests}{48}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Detailed \acrshort {nb-iot} tests}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Latency test}{49}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Latency test}{46}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Coverage test}{49}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Coverage test}{46}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Packet size}{49}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Packet size}{46}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Reboot of sensor?}{49}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Reboot of sensor?}{47}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Cell selection test}{49}{subsection.4.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.5}Cell selection test}{47}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Downtime test}{49}{subsection.4.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.6}Downtime test}{47}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Long term tests}{49}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Long term tests}{47}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Coverage and latency}{50}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Coverage and latency}{47}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Operating modes}{50}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Operating modes}{47}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Cell selection}{50}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Cell selection}{47}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Uptime}{50}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Uptime}{47}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Deviations}{50}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Deviations}{47}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Imprecise clock}{50}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Imprecise clock}{47}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Network load}{50}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Network load}{47}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Network density}{50}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Network density}{47}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Early test faults}{50}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Early test faults}{48}{section.4.5}
+\contentsline {part}{III\hspace {1em}Conclusion}{51}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Conclusion}{49}{part.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Results}{51}{chapter.5}
+\contentsline {chapter}{\numberline {5}Results}{53}{chapter.5}
