@@ -5,8 +5,6 @@ import struct
 from time import *
 import argparse
 
-import pandas
-
 import json
 import datetime
 import random
@@ -35,13 +33,14 @@ if __name__ == "__main__":
 
 	parser.add_argument('--h', help='help')
 	parser.add_argument('-id', action='store', dest='node_id', help='Node id', type=str, default='0')
+	parser.add_argument('-s', action='store', dest='socket', help='Socket', type=int, default=-1)
 	parser.add_argument('-d', action='store', dest='delay', help='Set delay', type=int, default=5)
 	parser.add_argument('-r', action='store_true', dest='release_indicator', help='Set release_indicator (0-1)')
 
 	# Parse arguments from user
 	r = parser.parse_args()
 
-	uart_modem = serial.Serial('/dev/tty.usbserial-146100', 9600, timeout = 0)
+	uart_modem = serial.Serial('/dev/tty.usbserial-144100', 9600, timeout = 0)
 	uart_modem.close()
 	uart_modem.open()
 	uart_modem.flushInput()
@@ -49,5 +48,8 @@ if __name__ == "__main__":
 
 	startup_command( uart_modem, "AT+NPSMR=1" )
 
-	nbiot_socket = open_socket( uart_modem, 0, 1 )
+	nbiot_socket = r.socket
+	if r.socket == -1:
+		nbiot_socket = open_socket( uart_modem, 0, 1 )
+
 	do_log( r.node_id, int(r.delay), int(r.release_indicator), uart_modem, nbiot_socket)

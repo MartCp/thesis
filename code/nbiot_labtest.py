@@ -71,9 +71,9 @@ def do_log( modem, prev_time, prev_rx_val, prev_tx_val ):
 		rx_val = int (nuestats_list[4])
 		ecl_point = int (nuestats_list[6])
 
-		psm_point =  get_npsmr( modem )
+		psm_point = get_npsmr( modem )
 		cscon_point = get_cscon( modem )
-		cereg_point = get_cereg( modem ) 
+		cereg_point = get_cereg( modem )
 
 		if prev_rx_val != 0:
 			rx_time = ( rx_val - prev_rx_val )
@@ -106,7 +106,7 @@ def do_log( modem, prev_time, prev_rx_val, prev_tx_val ):
 	return prev_time, prev_rx_val, prev_tx_val
 
 def send(modem, nbiot_socket, idx, id, release, nr_bytes):
-	if nr_bytes is not 0:
+	if nr_bytes != 0:
 		sendToXBytes( modem, nr_bytes, nbiot_socket, id, release)
 	else:
 		send_status_command( modem, nbiot_socket, idx, id, release )
@@ -156,13 +156,10 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 
 	start_point = datetime.datetime.now()
 
-	print( "start logging(" + str(logging) + ")")
+	print( "start logging(" + str(logging) + ", b: " + str(nr_bytes) + ")")
 	while True:
-		if logging is 1:
-			prev_time, prev_rx_val, prev_tx_val = do_log( modem, prev_time, prev_rx_val, prev_tx_val)
-		
-		if logging is 0:
-			sleep(2)
+		if logging == 1:
+			prev_time, prev_rx_val, prev_tx_val = do_log( modem, prev_time, prev_rx_val, prev_tx_val )
 
 		do_fluke = math.ceil( int( time() - start ) )
 		if do_fluke % 5 is 0 and do_fluke is not prev_do_fluke:
@@ -302,7 +299,7 @@ if __name__ == "__main__":
 	fluke_socket.settimeout(15)
 	fluke_socket.connect((HOST, PORT))
 
-	uart_modem = serial.Serial('/dev/tty.usbserial-146100', 9600, timeout = 0)
+	uart_modem = serial.Serial('/dev/tty.usbserial-144100', 9600, timeout = 0)
 	uart_modem.close()
 	uart_modem.open()
 	uart_modem.flushInput()
@@ -314,8 +311,10 @@ if __name__ == "__main__":
 
 	if r.reboot:
 		loop(0, r.graph_name, int(r.delay), int(r.iterations), 0, 0, int(r.logging), uart_modem, fluke_socket, nbiot_socket, r.reboot)
-	else:
-		keys = [100]#, 50, 200, 512]
+	elif r.nr_bytes != -1:
+		loop(r.node_id, r.graph_name, int(r.delay), int(r.iterations), r.nr_bytes, r.release_indicator, r.logging, uart_modem, fluke_socket, nbiot_socket, r.reboot)
+	elif r.nr_bytes == -1:
+		keys = [50, 200, 512]#[100]
 
 		for key in keys:
 			loop(r.node_id, r.graph_name, int(r.delay), int(r.iterations), key, 0, 0, uart_modem, fluke_socket, nbiot_socket, r.reboot)

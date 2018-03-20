@@ -143,7 +143,7 @@ if __name__ == "__main__":
 	fluke_socket.settimeout(15)
 	fluke_socket.connect((HOST, PORT))
 
-	uart_modem = serial.Serial('/dev/tty.usbserial-146100', 9600, timeout = 0)
+	uart_modem = serial.Serial('/dev/tty.usbserial-144100', 9600, timeout = 0)
 	uart_modem.close()
 	uart_modem.open()
 	uart_modem.flushInput()

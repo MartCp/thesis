@@ -13,7 +13,7 @@ from time import sleep
 
 api = 'http://158.39.77.97:9000/'
 
-uart_modem = serial.Serial('/dev/tty.usbserial-146100', 9600, timeout = 1)
+uart_modem = serial.Serial('/dev/tty.usbserial-144100', 9600, timeout = 1)
 
 uart_modem.close()
 uart_modem.open()

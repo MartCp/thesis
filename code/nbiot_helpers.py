@@ -89,6 +89,7 @@ def startup( modem ):
 	startup_command( modem, "AT+CSCON=1" )
 	startup_command( modem, "AT+NPSMR=1" )
 	
+#AT+NSOCR="DGRAM",17,1,1
 def open_socket( modem, socket, start_port ):
 	if socket:
 		write( modem, "AT+NSOCL=" + str(socket) )
@@ -162,7 +163,7 @@ def sendTo( modem, data, socket, id, release_indicator):
 	payload = "5002" + "30" + "30B1" + hex(ord(id)).upper()[2:] + "112AFF" + data
 
 	flag = "0x0"
-	if release_indicator is 1:
+	if release_indicator == 1:
 		flag = "0x200"
 
 	length = int( (len(payload) / 2) )
@@ -172,6 +173,10 @@ def sendTo( modem, data, socket, id, release_indicator):
 	print ( "rsp: " + read( modem, "OK" ) )
 
 def send_status_command( modem, socket, msg_id, id, release_indicator ):
+	write( modem, "AT+CSCON=1\r\n" )
+
+	read( modem, "OK" )
+
 	nuestats_list = get_nuestats( modem )
 			
 	if nuestats_list is not "ERROR":
