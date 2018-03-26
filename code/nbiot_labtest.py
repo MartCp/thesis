@@ -148,7 +148,10 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 	prev_time = datetime.datetime.now()
 
 	prev_time, prev_rx_val, prev_tx_val = do_log( modem, prev_time, prev_rx_val, prev_tx_val)
-	send_and_receive_fluke( fluke_socket, ":INIT")
+
+	if fluke_socket != -1:
+		send_and_receive_fluke( fluke_socket, ":INIT")
+
 	if reboot:
 		startup_command( uart_modem, "AT+NRB" )
 	else:
@@ -162,7 +165,7 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 			prev_time, prev_rx_val, prev_tx_val = do_log( modem, prev_time, prev_rx_val, prev_tx_val )
 
 		do_fluke = math.ceil( int( time() - start ) )
-		if do_fluke % 5 is 0 and do_fluke is not prev_do_fluke:
+		if fluke_socket != -1 and do_fluke % 5 is 0 and do_fluke is not prev_do_fluke:
 			fluke_points.extend( handle_fluke_reading( fluke_socket ) )
 			prev_do_fluke = do_fluke
 
@@ -175,10 +178,12 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 			send(modem, nbiot_socket, idx, id, release, nr_bytes)
 			start = time()
 
+		sleep(1)
 		if print_graph:
 			break
 		
-	fluke_points.extend( handle_fluke_reading( fluke_socket ) )
+	if fluke_socket != -1:
+		fluke_points.extend( handle_fluke_reading( fluke_socket ) )
 
 	end_point = datetime.datetime.now()
 	time_usage = time() - start_timer
@@ -221,27 +226,44 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 																				        color=('green'),
 																			        ), name='REGISTRATION STATUS (0-5)')
 
-	fluke_points = list( map(remove_high_convert_to_ma, fluke_points) )
-	fluke_points = list( filter( None, fluke_points) )
-	fluke_len = len( fluke_points )
-	print(fluke_len)
-	avg_a = np.mean( fluke_points )
+	avg_a = 1
+	if fluke_socket != -1:
+		fluke_points = list( map(remove_high_convert_to_ma, fluke_points) )
+		fluke_points = list( filter( None, fluke_points) )
+		fluke_len = len( fluke_points )
+		print(fluke_len)
+		avg_a = np.mean( fluke_points )
 
-	time_diff = end_point - start_point
-	interval = int( time_diff.total_seconds() * 1000000 / fluke_len )
+		time_diff = end_point - start_point
+		interval = int( time_diff.total_seconds() * 1000000 / fluke_len )
 
-	fluke_range = []
-	temp_date = start_point
-	while temp_date <= end_point:
-		fluke_range.append( temp_date.strftime("%Y-%m-%d %H:%M:%S.%f") )
-		temp_date = temp_date + datetime.timedelta(microseconds=interval)
+		fluke_range = []
+		temp_date = start_point
+		while temp_date <= end_point:
+			fluke_range.append( temp_date.strftime("%Y-%m-%d %H:%M:%S.%f") )
+			temp_date = temp_date + datetime.timedelta(microseconds=interval)
 	
-	fluke_trace = 		go.Scatter(x=fluke_range, y=fluke_points, mode = 'lines', line=dict(
-																				        shape='spline',
-																				        color=('rgb(0, 153, 255)'),
-																				    ), name='PWR USAGE (mA)')
+		fluke_trace = 		go.Scatter(x=fluke_range, y=fluke_points, mode = 'lines', line=dict(
+																					        shape='spline',
+																					        color=('rgb(0, 153, 255)'),
+																					    ), name='PWR USAGE (mA)')
 
-	fig = tools.make_subplots(rows=8, cols=2,
+	
+	if fluke_socket == -1:
+		fig = tools.make_subplots(rows=8, cols=1,
+	                          specs=[
+	                          			[{}],
+	                          			[{}],
+	                          			[{}],
+	                          			[{}],
+	                          			[{}],
+	                          			[{}],
+	                          			[{}],
+	                          			[{}],
+	                                 ],
+	                          print_grid=False)
+	else:
+		fig = tools.make_subplots(rows=8, cols=2,
                           specs=[
                           			[{}, {'rowspan': 8}],
                           			[{}, None],
@@ -262,7 +284,9 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 	fig.append_trace(psm_trace, 6, 1)
 	fig.append_trace(con_trace, 7, 1)
 	fig.append_trace(reg_trace, 8, 1)
-	fig.append_trace(fluke_trace, 1, 2)
+
+	if fluke_socket != -1:
+		fig.append_trace(fluke_trace, 1, 2)
 
 	flag = "0x0"
 	if release is 1:
@@ -274,7 +298,10 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 
 	filename = graph_name + " " + str(datetime.date.today()) + " " + str(logging) + " " + flag + " " + str(delay) + " " +  str(idx) + " " + str(nr_bytes)
 	power_usage = round( ( (avg_a * VOLTAGE) / 60 / 60 ) * time_usage, 6 )
-	graph_name += " " + str(datetime.date.today()) + " " + logging_string + flag + " " + str(delay) + " SEC " + str(idx) + " INTERVALS (TIME USED: " + str(int(time_usage)) +  "S ) " + str(nr_bytes) + " BYTES - AVERAGE LOAD " + str( avg_a ) + "mA, POWER USAGE " + str( power_usage ) + "mWh"
+	graph_name += " " + str(datetime.date.today()) + " " + logging_string + flag + " " + str(delay) + " SEC " + str(idx) + " INTERVALS (TIME USED: " + str(int(time_usage)) +  "S ) " + str(nr_bytes) + " BYTES"
+
+	if fluke_socket != -1:
+		graph_name += " - AVERAGE LOAD " + str( avg_a ) + "mA, POWER USAGE " + str( power_usage ) + "mWh"
 	fig['layout'].update(width = 1800, height = 1000, title = graph_name)
 
 	plotly.offline.plot(fig, filename=filename.replace(" ", "_") + ".html")
@@ -291,13 +318,17 @@ if __name__ == "__main__":
 	parser.add_argument('-r', action='store_true', dest='release_indicator', help='Set release_indicator (0-1)')
 	parser.add_argument('-l', action='store_true', dest='logging', help='Set device logging')
 	parser.add_argument('-rb', action='store_true', dest='reboot', help='Set reboot test')
+	parser.add_argument('-df', action='store_true', dest='disable_fluke', help='Disable fluke logging')
+
 
 	# Parse arguments from user
 	r = parser.parse_args()
 
-	fluke_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	fluke_socket.settimeout(15)
-	fluke_socket.connect((HOST, PORT))
+	fluke_socket = -1
+	if not r.disable_fluke:
+		fluke_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+		fluke_socket.settimeout(15)
+		fluke_socket.connect((HOST, PORT))
 
 	uart_modem = serial.Serial('/dev/tty.usbserial-144100', 9600, timeout = 0)
 	uart_modem.close()
@@ -322,7 +353,8 @@ if __name__ == "__main__":
 			loop(r.node_id, r.graph_name, int(r.delay), int(r.iterations), key, 0, 1, uart_modem, fluke_socket, nbiot_socket, r.reboot)
 			loop(r.node_id, r.graph_name, int(r.delay), int(r.iterations), key, 1, 1, uart_modem, fluke_socket, nbiot_socket, r.reboot)
 
-	fluke_socket.close()
+	if fluke_socket != -1:
+		fluke_socket.close()
 
 	close_socket( uart_modem, nbiot_socket )
 	sys.exit()

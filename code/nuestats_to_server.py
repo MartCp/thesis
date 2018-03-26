@@ -50,6 +50,7 @@ if __name__ == "__main__":
 
 	nbiot_socket = r.socket
 	if r.socket == -1:
+		print("test")
 		nbiot_socket = open_socket( uart_modem, 0, 1 )
 
 	do_log( r.node_id, int(r.delay), int(r.release_indicator), uart_modem, nbiot_socket)
