@@ -319,6 +319,7 @@ if __name__ == "__main__":
 	parser.add_argument('-l', action='store_true', dest='logging', help='Set device logging')
 	parser.add_argument('-rb', action='store_true', dest='reboot', help='Set reboot test')
 	parser.add_argument('-df', action='store_true', dest='disable_fluke', help='Disable fluke logging')
+	parser.add_argument('-s', action='store', dest='socket', help='Socket', type=int, default=-1)
 
 
 	# Parse arguments from user
@@ -337,8 +338,10 @@ if __name__ == "__main__":
 	uart_modem.flushOutput()
 
 	startup( uart_modem )
-	#startup_command( uart_modem, "AT+NPSMR=1" )
-	nbiot_socket = open_socket( uart_modem, 0, 1 )
+
+	nbiot_socket = r.socket
+	if r.socket == -1:
+		nbiot_socket = open_socket( uart_modem, 0, 1 )
 
 	if r.reboot:
 		loop(0, r.graph_name, int(r.delay), int(r.iterations), 0, 0, int(r.logging), uart_modem, fluke_socket, nbiot_socket, r.reboot)
