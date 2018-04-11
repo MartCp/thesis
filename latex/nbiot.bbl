@@ -1,0 +1,605 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{online:result4}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labeltitlesource}{title}
+      \field{title}{1 x 40 Q-FREE, Telenor - device logging}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/Q-FREE_TELENOR_5.02_2018-03-07_1_0x0_40_1_200
+      \endverb
+    \endentry
+    \entry{online:result3}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labeltitlesource}{title}
+      \field{title}{1 x 40 Q-FREE, Telenor - no device logging}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/Q-FREE_TELENOR_5.02_2018-03-07_0_0x0_40_1_200
+      \endverb
+    \endentry
+    \entry{online:result5}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labeltitlesource}{title}
+      \field{title}{1 x 60 UiO, Telia - ECL 0}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/UiO_TELIA_5.02_precision_2018-03-16_1_0x2_60_1_50
+      \endverb
+    \endentry
+    \entry{online:result6}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labeltitlesource}{title}
+      \field{title}{1 x 60 UiO, Telia - ECL 2}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/UiO_TELIA_5.02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50
+      \endverb
+    \endentry
+    \entry{online:rohde}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://cdn.rohde-schwarz.com/pws/dl_downloads/dl_application/application_notes/1ma266/1MA266_0e_NB_IoT.pdf}}
+      \field{note}{(Accessed on 03/26/2018)}
+      \field{title}{1MA266\_0e\_NB\_IoT.pdf}
+    \endentry
+    \entry{online:result2}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labeltitlesource}{title}
+      \field{title}{2 x 150 Q-FREE, Telenor}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/Q-FREE_TELENOR_2018-02-28_1_0x0_150_2_100
+      \endverb
+    \endentry
+    \entry{online:result0}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labeltitlesource}{title}
+      \field{title}{2 x 150, Q-Free Telia, weird behavior}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/Q-FREE_TELIA_5.02_precision_2018-03-13_1_0x0_150_2_100
+      \endverb
+    \endentry
+    \entry{online:result1}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labeltitlesource}{title}
+      \field{title}{2 x 150 UiO, Telia}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/UiO_TELIA_5.02_precision_2018-03-13_1_0x0_150_2_100
+      \endverb
+    \endentry
+    \entry{online:LoRa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8bac09502bd0526e24883d87e5a70e89}{%
+           family={Allience},
+           family_i={A\bibinitperiod},
+           given={LoRa},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8bac09502bd0526e24883d87e5a70e89}
+      \strng{fullhash}{8bac09502bd0526e24883d87e5a70e89}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A technical overview of LoRa® and LoRaWAN™}
+      \field{urlday}{23}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb http://www.semtech.com/wireless-rf/iot/LoRaWAN101_final.pdf
+      \endverb
+    \endentry
+    \entry{code:atcommand}{online}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeltitlesource}{title}
+      \field{title}{AT command REPL}
+      \verb{url}
+      \verb https://github.com/henninghaakonsen/thesis/blob/master/code/at_command_test.py
+      \endverb
+    \endentry
+    \entry{online:IoT2020}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           family_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{IoT Growth}
+      \field{urlday}{01}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb http://www.cisco.com/c/en/us/about/security-center/secure-iot-proposed-framework.htm
+      \endverb
+    \endentry
+    \entry{online:pop2300}{article}{}
+      \name{author}{1}{}{%
+        {{hash=81f3480e9e63cd0fddc84c4671a5b65f}{%
+           family={DESA},
+           family_i={D\bibinitperiod},
+           given={UN},
+           given_i={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \strng{fullhash}{81f3480e9e63cd0fddc84c4671a5b65f}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{United Nations Department of Economics and Social Affairs, New York, NY [available at www. un. org/esa/population/publications/longrange2/WorldPop2300final. pdf]}
+      \field{title}{World Population to 2300}
+      \field{urlday}{01}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \field{year}{2004}
+      \verb{url}
+      \verb http://www.un.org/esa/population/publications/longrange2/WorldPop2300final.pdf
+      \endverb
+    \endentry
+    \entry{online:result8}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labeltitlesource}{title}
+      \field{title}{Details - RAI set}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/UiO_TELIA_long_term_2018-03-22_0x2_30_20
+      \endverb
+    \endentry
+    \entry{online:result7}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labeltitlesource}{title}
+      \field{title}{Details - RAI unset}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/UiO_TELIA_long_term_2018-03-22_0x0_30_20
+      \endverb
+    \endentry
+    \entry{email:telia}{unpublished}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labeltitlesource}{title}
+      \field{title}{Email correspondance}
+    \endentry
+    \entry{online:lteIntroduction}{online}{}
+      \name{author}{1}{}{%
+        {{hash=065783ac35ee9560f47d809802f22b7b}{%
+           family={Ericsson},
+           family_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{065783ac35ee9560f47d809802f22b7b}
+      \strng{fullhash}{065783ac35ee9560f47d809802f22b7b}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LTE: AN INTRODUCTION}
+      \field{urlday}{14}
+      \field{urlmonth}{01}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://www.ericsson.com/res/docs/2011/lte_an_introduction.pdf
+      \endverb
+    \endentry
+    \entry{online:finnsenderen}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://finnsenderen.no}}
+      \field{note}{(Accessed on 04/01/2018)}
+      \field{title}{Finnsenderen}
+    \endentry
+    \entry{fluke88435:online}{misc}{}
+      \field{sortinit}{f}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://3.imimg.com/data3/AR/PU/MY-754870/fluke8846a-bench-multimeter-500x500.png}}
+      \field{note}{(Accessed on 02/19/2018)}
+      \field{title}{fluke8846a-bench-multimeter-500x500.png (500×335)}
+    \endentry
+    \entry{online:lpwaFuture}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fcb2ddd38b17f9632bd4b309111dc52e}{%
+           family={GSMA},
+           family_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcb2ddd38b17f9632bd4b309111dc52e}
+      \strng{fullhash}{fcb2ddd38b17f9632bd4b309111dc52e}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mobile internet of things low Power wide Area Connectivity}
+      \field{urlday}{10}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb http://www.gsma.com/connectedliving/wp-content/uploads/2016/03/Mobile-IoT-Low-Power-Wide-Area-Connectivity-GSMA-Industry-Paper.pdf
+      \endverb
+    \endentry
+    \entry{url:thesispage}{online}{}
+      \name{author}{1}{}{%
+        {{hash=07821a69b7169565de53593dcfb08ab2}{%
+           family={Håkonsen},
+           family_i={H\bibinitperiod},
+           given={Henning},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{07821a69b7169565de53593dcfb08ab2}
+      \strng{fullhash}{07821a69b7169565de53593dcfb08ab2}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thesis webpage}
+      \verb{url}
+      \verb henninghaakonsen.me
+      \endverb
+    \endentry
+    \entry{online:gsmTelenorNetcom}{online}{}
+      \name{author}{1}{}{%
+        {{hash=52cf5b4e807ab29362df8857d4af3642}{%
+           family={Hansen},
+           family_i={H\bibinitperiod},
+           given={Thor},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{52cf5b4e807ab29362df8857d4af3642}
+      \strng{fullhash}{52cf5b4e807ab29362df8857d4af3642}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{History of GSM}
+      \field{urlday}{19}
+      \field{urlmonth}{01}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://snl.no/GSM
+      \endverb
+    \endentry
+    \entry{ingagrue31:online}{misc}{}
+      \field{sortinit}{i}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://openclipart.org/image/2400px/svg_to_png/219943/inga_gruen.png}}
+      \field{note}{(Accessed on 02/19/2018)}
+      \field{title}{inga\_gruen.png (2400×1349)}
+    \endentry
+    \entry{online:husholdningstatistikk}{online}{}
+      \name{author}{1}{}{%
+        {{hash=864000009da509dbc4314b57da1f4d3a}{%
+           family={Kommune},
+           family_i={K\bibinitperiod},
+           given={Oslo},
+           given_i={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{864000009da509dbc4314b57da1f4d3a}
+      \strng{fullhash}{864000009da509dbc4314b57da1f4d3a}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Statistikk over husholdninger}
+      \field{urlday}{09}
+      \field{urlmonth}{03}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://www.oslo.kommune.no/politikk-og-administrasjon/statistikk/befolkning/husholdninger/
+      \endverb
+    \endentry
+    \entry{online:edrxpsm}{online}{}
+      \name{author}{1}{}{%
+        {{hash=61802816beb569ceb8b583f7ed386f8f}{%
+           family={LinkLabs},
+           family_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{61802816beb569ceb8b583f7ed386f8f}
+      \strng{fullhash}{61802816beb569ceb8b583f7ed386f8f}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LTE eDRX and PSM Explained for LTE-M1}
+      \field{urlday}{17}
+      \field{urlmonth}{03}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb http://www.link-labs.com/blog/lte-e-drx-psm-explained-for-lte-m1
+      \endverb
+    \endentry
+    \entry{online:epc}{online}{}
+      \name{author}{1}{}{%
+        {{hash=099fc18a9d7ef617eeb705cdf7310b40}{%
+           family={lte},
+           family_i={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{099fc18a9d7ef617eeb705cdf7310b40}
+      \strng{fullhash}{099fc18a9d7ef617eeb705cdf7310b40}
+      \field{sortinit}{l}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LTE Network Infrastructure and Elements}
+      \field{urlday}{25}
+      \field{urlmonth}{01}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://sites.google.com/site/lteencyclopedia/lte-network-infrastructure-and-elements
+      \endverb
+    \endentry
+    \entry{online:lyseAMS}{online}{}
+      \name{author}{1}{}{%
+        {{hash=70bfb99c873373ccc58bcc1e63064c79}{%
+           family={Lyse},
+           family_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{70bfb99c873373ccc58bcc1e63064c79}
+      \strng{fullhash}{70bfb99c873373ccc58bcc1e63064c79}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Automatiske strømmålere}
+      \field{urlday}{10}
+      \field{urlmonth}{02}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb http://www.lysekonsern.no/prosjekter/automatiske-strommalere-article565-321.html
+      \endverb
+    \endentry
+    \entry{email:nack}{unpublished}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labeltitlesource}{title}
+      \field{title}{NACK mail correspondance between Ola and Ublox}
+    \endentry
+    \entry{code:nbiotlabtest}{online}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labeltitlesource}{title}
+      \field{title}{NB IoT labtest}
+      \verb{url}
+      \verb https://github.com/henninghaakonsen/thesis/blob/master/code/nbiot_labtest.py
+      \endverb
+    \endentry
+    \entry{code:nbiotdetails}{online}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labeltitlesource}{title}
+      \field{title}{NB IoT packet size test}
+      \verb{url}
+      \verb https://github.com/henninghaakonsen/thesis/blob/master/code/nbiot_labtest_details.py
+      \endverb
+    \endentry
+    \entry{online:lteTopology}{online}{}
+      \name{author}{1}{}{%
+        {{hash=49f17151a1bc1d859e8db35cd7b2059b}{%
+           family={Nokia},
+           family_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{49f17151a1bc1d859e8db35cd7b2059b}
+      \strng{fullhash}{49f17151a1bc1d859e8db35cd7b2059b}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{EPC and components}
+      \field{urlday}{25}
+      \field{urlmonth}{01}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb http://www.rcrwireless.com/20140509/diameter-signaling-controller-dsc/lte-mme-epc#prettyPhoto/1/
+      \endverb
+    \endentry
+    \entry{online:legacyWire}{online}{}
+      \name{author}{1}{}{%
+        {{hash=49f17151a1bc1d859e8db35cd7b2059b}{%
+           family={Nokia},
+           family_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{49f17151a1bc1d859e8db35cd7b2059b}
+      \strng{fullhash}{49f17151a1bc1d859e8db35cd7b2059b}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LTE evolution for IoT connectivity}
+      \field{urlday}{24}
+      \field{urlmonth}{01}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb http://resources.alcatel-lucent.com/asset/200178
+      \endverb
+    \endentry
+    \entry{online:industryApplications}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={OECD},
+           family_i={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Smart Sensor Networks: Technologies and Applications for Green Growth}
+      \field{urlday}{06}
+      \field{urlmonth}{04}
+      \field{urlyear}{2017}
+      \field{year}{2009}
+      \verb{url}
+      \verb https://www.oecd.org/sti/ieconomy/44379113.pdf
+      \endverb
+    \endentry
+    \entry{person:ola}{unpublished}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labeltitlesource}{title}
+      \field{title}{Ola Martin Lykkja}
+    \endentry
+    \entry{pcpng35052:online}{misc}{}
+      \field{sortinit}{p}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.reactos.org/images/pc.png}}
+      \field{note}{(Accessed on 02/19/2018)}
+      \field{title}{pc.png (350×280)}
+    \endentry
+    \entry{code:powercalc}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{Power calculator}
+      \verb{url}
+      \verb https://github.com/henninghaakonsen/thesis/blob/master/code/power_calculator.py
+      \endverb
+    \endentry
+    \entry{online:result11}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{Power comparison}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/Q-FREE_TELENOR_SHORT_TEST_2018-02-28_0_0x2_5_1_100
+      \endverb
+    \endentry
+    \entry{webapp:powerexample}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labeltitlesource}{title}
+      \field{title}{Power example}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/UiO_TELIA_5.02_precision_2018-03-16_1_0x2_60_1_512
+      \endverb
+    \endentry
+    \entry{online:petabitGoogle}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0e293eca498e4bcd29fa1802f1543558}{%
+           family={Sverdlik},
+           family_i={S\bibinitperiod},
+           given={Yevgeniy},
+           given_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e293eca498e4bcd29fa1802f1543558}
+      \strng{fullhash}{0e293eca498e4bcd29fa1802f1543558}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{06}
+      \field{title}{Custom Google Data Center Network Pushes 1 Petabit Per Second}
+      \field{urlday}{19}
+      \field{urlmonth}{01}
+      \field{urlyear}{2017}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://www.datacenterknowledge.com/archives/2015/06/18/custom-google-data-center-network-pushes-1-petabit-per-second/
+      \endverb
+    \endentry
+    \entry{online:result9}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labeltitlesource}{title}
+      \field{title}{Telenor reboot}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/UiO_TELENOR_5.02_precision_reboot_2018-03-16_0_0x0_120_1_0
+      \endverb
+    \endentry
+    \entry{mail:teliaMailThread}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labeltitlesource}{title}
+      \field{title}{Telia mail thread}
+      \verb{file}
+      \verb telia_mail_thread
+      \endverb
+    \endentry
+    \entry{online:result10}{online}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labeltitlesource}{title}
+      \field{title}{Telia reboot}
+      \verb{url}
+      \verb http://158.39.77.97:9000/#/results/UiO_TELIA_5.02_precision_reboot_2018-03-16_0_0x0_60_1_0
+      \endverb
+    \endentry
+    \entry{datasheet:ubloxchip}{article}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labeltitlesource}{title}
+      \field{day}{09}
+      \field{month}{10}
+      \field{title}{Ublox NB-IoT chip}
+      \field{year}{2017}
+      \verb{file}
+      \verb SARA-N2_DataSheet_(UBX-15025564).pdf
+      \endverb
+    \endentry
+    \entry{atcommand:ubloxchip}{article}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
+      \field{labeltitlesource}{title}
+      \field{day}{03}
+      \field{month}{10}
+      \field{title}{Ublox NB-IoT chip - AT commands manual}
+      \field{year}{2017}
+      \verb{file}
+      \verb SARA-N2_ATCommands_(UBX-16014887 R09).pdf
+      \endverb
+    \endentry
+    \entry{online:ddosAttack}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2016 Dyn cyberattack}
+      \field{urlday}{09}
+      \field{urlmonth}{03}
+      \field{urlyear}{2017}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/2016_Dyn_cyberattack
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

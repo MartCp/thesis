@@ -77,11 +77,11 @@ def do_log( modem, prev_time, prev_rx_val, prev_tx_val ):
 
 		if prev_rx_val != 0:
 			rx_time = ( rx_val - prev_rx_val )
-			rx_result = rx_time / ( interval * 1000 )
+			rx_result = rx_time
 			rx_point = rx_result
 
 			tx_time = ( tx_val - prev_tx_val )
-			tx_result = tx_time / ( interval * 1000 )
+			tx_result = tx_time
 			tx_point = tx_result
 
 		prev_time = time_val
@@ -120,6 +120,7 @@ def loop(id, graph_name, delay, iterations, nr_bytes, release, logging, modem, f
 	fluke_points = []
 
 	signal.signal(signal.SIGINT, signal_handler)
+	signal.signal(signal.SIGTERM, signal_handler)
 
 	global date_points
 	global coverage_points

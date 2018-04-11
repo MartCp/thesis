@@ -13,8 +13,7 @@
 \ProcessOptions \relax
 
 %% Base class load part:
-
-\LoadClass[a4paper,11pt,twoside,openright]{report}
+\LoadClass[a4paper,12pt,twoside,openright]{report}
 
 %% Adjustments:
 

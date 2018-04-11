@@ -1,0 +1,239 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {USenglish}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Background}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Goal of the thesis}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Current status}{4}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Internet}{4}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Mobile networks}{4}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.3}A closer look at \acrshort {lte}}{5}{subsection.1.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.4}\acrshort {epc}}{5}{subsection.1.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\acrshort {mme}}{6}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\acrshort {hss}}{6}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\acrshort {s-gw} and \acrshort {p-gw}}{6}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Future - mobile networks}{7}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.1}Applications}{7}{subsection.1.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Utilities and smart cities}{8}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Parking - a realistic use case}{9}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Logistics}{10}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Industrial}{11}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Consumer}{11}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Medical}{12}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Developing wireless technologies}{12}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.1}The general idea}{12}{subsection.1.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.2}eMTC/LTE-M and \acrshort {nb-iot}}{13}{subsection.1.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.5.3}LoRa \cite {online:LoRa}}{13}{subsection.1.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}A dive into NarrowBand IoT}{15}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}System design}{16}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Deployment}{18}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Operation modes}{19}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Introduction to energy saving}{19}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Prerequisites}{20}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}RRC connected mode}{21}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}RRC idle mode}{21}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}\acrfull {edrx}}{22}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}\acrfull {psm}}{23}{subsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.5}Paging}{24}{subsection.2.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.6}ECL}{24}{subsection.2.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.7}The transmit procedure}{24}{subsection.2.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}The current market and deployment strategies}{25}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Manufacturers and stakeholders}{25}{subsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}Deployment}{26}{subsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Telenor}{27}{section*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Telia}{27}{section*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\acrshort {iot} platform}{27}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Challenges}{28}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{I\hspace {1em}The project}{29}{part.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Where, why and how?}{33}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Testing environment}{33}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Maps and distances}{35}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Devices}{36}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Server}{36}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}\acrshort {nb-iot} development kit}{36}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sara N2 Ublox chip}{37}{section*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Monitoring - NUESTATS}{38}{section*.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Time - CCLK}{39}{section*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\acrshort {edrx} settings - CEDRXS}{39}{section*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\acrshort {psm} settings - CPSMS}{39}{section*.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Create socket - NSOCR}{40}{section*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Send command with flags - NSOSTF}{40}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Signaling connection status - CSCON}{40}{section*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Network registration status - CEREG}{41}{section*.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\acrshort {psm} status - NPSMR}{41}{section*.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Fluke precision multimeter}{41}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Software}{41}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Test programs}{43}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {at\_command\_test.py}}{43}{section*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {nbiot\_labtest.py}}{44}{section*.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {power\_calculator.py}}{46}{section*.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {nbiot\_labtest\_details.py}}{46}{section*.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}The web application}{47}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Backend: Node.js}{47}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}The database}{48}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}JavaScript packages for the server}{48}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Express}{48}{section*.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{\acrfull {coap}}{49}{section*.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Cluster}{50}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Webworker-threads}{51}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}MongoDB}{51}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.4}Moment}{52}{subsection.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Frontend: React}{52}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Layout}{52}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Analysis}{55}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Coverage and Latency}{55}{section*.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Recieve and transmit time}{55}{section*.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\acrshort {ecl}}{56}{section*.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Transmit power}{56}{section*.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Testing}{57}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Short term tests}{57}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}General}{58}{subsection.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Transmit power spike}{62}{subsection.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Loss of connection prior to transmit}{62}{subsection.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.4}Coverage and \acrshort {ecl} level}{64}{subsection.5.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.5}Transmit comparison}{66}{subsection.5.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.6}Packet size}{68}{subsection.5.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.7}Sensor reboot}{70}{subsection.5.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.8}Downtime test}{73}{subsection.5.1.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Short term figures}{75}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}General}{75}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Downtime prior to transmit}{78}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}\acrshort {ecl} level}{80}{subsection.5.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Long term tests}{81}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Coverage and latency}{82}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Telenor}{83}{section*.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Telia}{86}{section*.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Cell selection}{88}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}\acrfull {tsr}}{88}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Deviations}{89}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Imprecise clock}{89}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Imprecise \textbf {NUESTATS}}{90}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}Network load}{90}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.4}Network density}{90}{subsection.5.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.5}Theoretical vs. practical power usage}{90}{subsection.5.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Conclusion}{91}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Combining the results}{91}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Transmit process}{91}{subsection.6.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Coverage and latency}{92}{subsection.6.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.3}Connection time}{92}{subsection.6.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.4}Uptime}{92}{subsection.6.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Real world application guidelines}{92}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Final remarks}{94}{section.6.3}
