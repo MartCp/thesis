@@ -27,7 +27,31 @@ def dict_raise_on_duplicates(ordered_pairs):
           d[k]=v
   return d
 
+
+
+
+VOLTAGE = 3.3
+regex = r"(<script type=\"text/javascript\">window\.PLOTLYENV=window\.PLOTLYENV.*?\[).*?(\], {\"xaxis1\")"
+
+parser = argparse.ArgumentParser(description='NB IoT POWER CALCULATOR')
+
+parser.add_argument('--h', help='help')
+parser.add_argument('-f', action='store', dest='file', help='File name', type=str, default='')
+parser.add_argument('-pt', action='store', dest='plot_type', help='Select plot type', type=int, default=0)
+
+# Parse arguments from user
+r = parser.parse_args()
+
 font_size = 26
+if (r.plot_type == 1):
+	font_size = 32
+elif (r.plot_type == 2):
+	font_size = 32
+elif (r.plot_type == 3):
+	font_size = 32
+elif (r.plot_type == 4):
+	font_size = 32
+
 def get_layout():
 	return dict(
 		showticklabels=True,
@@ -57,17 +81,6 @@ def get_basic_layout():
 		)
 
 
-VOLTAGE = 3.3
-regex = r"(<script type=\"text/javascript\">window\.PLOTLYENV=window\.PLOTLYENV.*?\[).*?(\], {\"xaxis1\")"
-
-parser = argparse.ArgumentParser(description='NB IoT POWER CALCULATOR')
-
-parser.add_argument('--h', help='help')
-parser.add_argument('-f', action='store', dest='file', help='File name', type=str, default='')
-parser.add_argument('-pt', action='store', dest='plot_type', help='Select plot type', type=int, default=0)
-
-# Parse arguments from user
-r = parser.parse_args()
 
 with open(r.file, 'r') as myfile:
 	data = myfile.read()
@@ -88,33 +101,6 @@ con_trace = None
 reg_trace = None
 fluke_trace = None
 
-lines = {
-'rx': dict(
-	shape='spline', 
-	color=('red')), 
-'tx': dict(
-	shape='spline', 
-	color=('blue')), 
-'tx_pwr': dict(
-	shape='hv',
-	color=('black')),
-'coverage': dict(
-	shape='spline',
-	color=('purple')), 
-'ecl': dict(
-	shape='hv',
-	color=('magenta')), 
-'psm': dict(
-	shape='hv',
-	color=('rgb(0, 0, 255)')), 
-'con': dict(
-	shape='hv',
-	color=('rgb(204, 204, 0)')), 
-'reg': dict(
-	shape='hv',
-	color=('green'))
-}
-
 xaxises = {}
 yaxises = {}
 
@@ -127,33 +113,35 @@ for matchNum, match in enumerate(matches):
 
 	user = json.loads(result, object_pairs_hook=dict_raise_on_duplicates)
 	for entry in user:
+		line = user[entry]['line']
+		line['width'] = 1.5
 		if "RECEIVE" in user[entry]['name']:
 			rx_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=user[entry]['line'], name=user[entry]['name'])
+				mode = 'lines', line=line, name=user[entry]['name'])
 		elif "TRANSMIT" in user[entry]['name']:
 			tx_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=user[entry]['line'], name=user[entry]['name'])
+				mode = 'lines', line=line, name=user[entry]['name'])
 		elif "TX POWER" in user[entry]['name']:
 			tx_pwr_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=user[entry]['line'], name=user[entry]['name'])
+				mode = 'lines', line=line, name=user[entry]['name'])
 		elif "COVERAGE" in user[entry]['name']:
 			coverage_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=user[entry]['line'], name=user[entry]['name'])
+				mode = 'lines', line=line, name='SIGNAL POWER (dBm)')
 		elif "ECL" in user[entry]['name']:
 			ecl_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=user[entry]['line'], name=user[entry]['name'])
+				mode = 'lines', line=line, name=user[entry]['name'])
 		elif "PSM" in user[entry]['name']:
 			psm_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=user[entry]['line'], name=user[entry]['name'])
+				mode = 'lines', line=line, name=user[entry]['name'])
 		elif "RRC" in user[entry]['name']:
 			con_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=user[entry]['line'], name=user[entry]['name'])
+				mode = 'lines', line=line, name=user[entry]['name'])
 		elif "REGISTRATION" in user[entry]['name']:
 			reg_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=user[entry]['line'], name=user[entry]['name'])
+				mode = 'lines', line=line, name=user[entry]['name'])
 		elif "PWR" in user[entry]['name']:
 			fluke_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=user[entry]['line'], name=user[entry]['name'])
+				mode = 'lines', line=line, name=user[entry]['name'])
 
 fig = None
 
@@ -230,7 +218,6 @@ elif r.plot_type == 3:
 	                         ],
 	                  print_grid=False)
 	fig.append_trace(fluke_trace, 1, 1)
-	
 elif r.plot_type == 4:
 	fig = tools.make_subplots(rows=7, cols=1,
 	                  specs=[
@@ -258,7 +245,7 @@ layout = go.Layout(
 		orientation='h',
 		font=dict(
             family='sans-serif',
-            size=22,
+            size=font_size,
             color='#000'
         ),
 	),
@@ -268,7 +255,7 @@ layout = go.Layout(
     yaxis2=get_layout(),
     xaxis3=get_layout() if r.plot_type == 1 else get_basic_layout(),
     yaxis3=get_layout(),
-    xaxis4=get_layout() if r.plot_type == 2 else get_basic_layout(),
+    xaxis4=get_layout() if r.plot_type >= 2 else get_basic_layout(),
     yaxis4=get_layout(),
     xaxis5=get_basic_layout(),
     yaxis5=get_layout(),
@@ -290,9 +277,8 @@ for matchNum, match in enumerate(matches):
 	title = match.group(0).split("1000, \"title\": \"", 1)[-1][:-1]
 
 fig['layout'].update(layout)
-#fig = go.Figure(data = fig_data, layout = layout)
 
 filename = 'short_' + r.file if r.plot_type >= 1 else 'full_' + r.file
-py.image.save_as(fig, filename=filename.split('.html', 1)[0].replace('.', '_') + ".jpeg", format='jpeg')
+py.image.save_as(fig, filename=filename.split('.html', 1)[0].replace('.', '_'), format='jpeg', scale=3)
 
 

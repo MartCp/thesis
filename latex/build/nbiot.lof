@@ -4,106 +4,108 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces \acrshort {iot} Growth}}{2}{figure.caption.9}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \acrshort {iot} Growth}}{4}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces \acrlong {epc} overview}}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Cost comparison figure}}{5}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces \acrshort {lpwan} applications}}{8}{figure.caption.15}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \acrlong {epc} overview}}{7}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Parking sensor}}{9}{figure.caption.18}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces \acrshort {lpwan} applications}}{9}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Outline of sensor communication}}{10}{figure.caption.19}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Parking sensor}}{11}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces \acrshort {lora} overview}}{13}{figure.caption.24}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Outline of sensor communication}}{12}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces \acrshort {lpwan} technologies}}{14}{figure.caption.25}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces \acrshort {lora} overview}}{15}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \acrshort {nb-iot} deployment overview}}{19}{figure.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \acrshort {nb-iot} transmit overview}}{20}{figure.caption.27}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces \acrshort {edrx} operation}}{23}{figure.caption.29}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces \acrshort {ecl} and transmit power relation}}{25}{figure.caption.30}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces \acrshort {lpwan} technologies}}{16}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \acrshort {nb-iot} lab setup\relax }}{32}{figure.caption.34}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \acrshort {nb-iot} deployment overview}}{21}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Development kit, antenna position\relax }}{32}{figure.caption.35}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \acrshort {nb-iot} transmit overview}}{22}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Distance map - IFI, UiO}}{33}{figure.caption.36}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \acrshort {edrx} operation}}{25}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Distance map - Q-Free}}{34}{figure.caption.37}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Distance map - Lambertseter}}{34}{figure.caption.38}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Closeup of Ublox \acrshort {nb-iot} development kit}}{36}{figure.caption.39}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Lab setup overview}}{41}{figure.caption.53}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \acrshort {ecl} and transmit power relation}}{27}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces SensorApp homepage}}{54}{figure.caption.61}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \acrshort {nb-iot} lab setup\relax }}{34}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces SensorApp nodepage part 1}}{54}{figure.caption.62}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Distance map - IFI, UiO}}{34}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces SensorApp nodepage part 2}}{55}{figure.caption.63}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Distance map - Q-Free}}{35}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Distance map - Lambertseter}}{35}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Short-term test - unusual behavior, Telia}}{61}{figure.caption.69}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Closeup of Ublox \acrshort {nb-iot} development kit}}{37}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Short-term test - normal behavior, Telia}}{63}{figure.caption.70}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Short-term test - normal behavior, Telenor}}{63}{figure.caption.71}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Short-term test - loss of connection, with device logging}}{65}{figure.caption.72}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Short-term test - loss of connection, without device logging}}{66}{figure.caption.73}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Short-term test - \acrshort {ecl} 0}}{68}{figure.caption.74}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Short-term test - \acrshort {ecl} 2}}{68}{figure.caption.75}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Short-term test - comparison without \acrshort {rai}}}{70}{figure.caption.76}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Short-term test - comparison with \acrshort {rai}}}{70}{figure.caption.77}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Short-term test - packet size comparison without \acrshort {rai}}}{72}{figure.caption.78}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Short-term test - packet size comparison with \acrshort {rai}}}{72}{figure.caption.79}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Short-term test - device reboot, Telenor}}{74}{figure.caption.80}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Short-term test - device reboot, Telia}}{75}{figure.caption.81}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Short-term test - downtime}}{76}{figure.caption.82}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Short-term figure - unusual behavior, Telia\relax }}{77}{figure.caption.83}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Short-term figure - normal behavior, Telia\relax }}{78}{figure.caption.84}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Short-term figure - normal behavior, Telenor\relax }}{79}{figure.caption.85}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Short-term figure - loss of connection, without device logging\relax }}{80}{figure.caption.86}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Short-term figure - loss of connection, with device logging\relax }}{81}{figure.caption.87}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Short-term figure - \acrshort {ecl} 0\relax }}{82}{figure.caption.88}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Short-term figure - \acrshort {ecl} 2\relax }}{83}{figure.caption.89}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Long-term test - Telenor 23.03-28.03, latency and coverage}}{87}{figure.caption.91}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Long-term test - Telenor 23.03-28.03, statistics}}{88}{figure.caption.92}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Long-term test - Telia 20.03-23.03, latency and coverage}}{89}{figure.caption.94}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Long-term test - Telia 20.03-23.03, latency and coverage}}{90}{figure.caption.95}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Lab setup overview}}{41}{figure.caption.51}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces SensorApp homepage}}{53}{figure.caption.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces SensorApp nodepage part 1}}{54}{figure.caption.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces SensorApp nodepage part 2}}{54}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Short-term test - unusual behavior, Telia}}{59}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Short-term test - normal behavior, Telia}}{61}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Short-term test - normal behavior, Telenor}}{61}{figure.caption.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Short-term test - loss of connection, with device logging}}{63}{figure.caption.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Short-term test - loss of connection, without device logging}}{64}{figure.caption.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Short-term test - \acrshort {ecl} 0}}{66}{figure.caption.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Short-term test - \acrshort {ecl} 2}}{66}{figure.caption.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Short-term test - comparison without \acrshort {rai}}}{67}{figure.caption.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Short-term test - comparison with \acrshort {rai}}}{68}{figure.caption.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Short-term test - packet size comparison without \acrshort {rai}}}{69}{figure.caption.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Short-term test - packet size comparison with \acrshort {rai}}}{70}{figure.caption.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Short-term test - device reboot, Telenor}}{72}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Short-term test - device reboot, Telia}}{72}{figure.caption.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Short-term test - downtime}}{73}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Short-term figure - unusual behavior, Telia\relax }}{75}{figure.caption.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Short-term figure - normal behavior, Telia\relax }}{76}{figure.caption.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Short-term figure - normal behavior, Telenor\relax }}{77}{figure.caption.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Short-term figure - loss of connection, without device logging\relax }}{78}{figure.caption.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Short-term figure - loss of connection, with device logging\relax }}{79}{figure.caption.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Short-term figure - \acrshort {ecl} 0\relax }}{80}{figure.caption.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Short-term figure - \acrshort {ecl} 2\relax }}{81}{figure.caption.87}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Long-term test - Telenor 23.03-28.03, signal power and latency}}{85}{figure.caption.89}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Long-term test - Telenor 23.03-28.03, statistics}}{86}{figure.caption.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Long-term test - Telia 20.03-23.03, signal power and latency}}{87}{figure.caption.92}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Long-term test - Telia 20.03-23.03, statistics}}{88}{figure.caption.93}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Long-term accumulated performance chart}}{95}{figure.caption.94}
