@@ -92,6 +92,22 @@
       \verb http://158.39.77.97:9000/#/results/UiO_TELIA_5.02_precision_2018-03-13_1_0x0_150_2_100
       \endverb
     \endentry
+    \entry{APrimero97:online}{online}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://ieeexplore.ieee.org/document/7876968/}}
+      \field{note}{(Accessed on 02/19/2018)}
+      \field{title}{A Primer on 3GPP Narrowband Internet of Things - IEEE Journals \& Magazine}
+    \endentry
+    \entry{ASurveyo24:online}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://ieeexplore.ieee.org/document/7416135/}}
+      \field{note}{(Accessed on 02/19/2018)}
+      \field{title}{A Survey of Traffic Issues in Machine-to-Machine Communications Over LTE - IEEE Journals \& Magazine}
+    \endentry
     \entry{online:LoRa}{online}{}
       \name{author}{1}{}{%
         {{hash=8bac09502bd0526e24883d87e5a70e89}{%
@@ -184,8 +200,10 @@
       \field{sortinit}{E}
       \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
       \field{labeltitlesource}{title}
-      \field{note}{(\url{https://github.com/henninghaakonsen/thesis/references/Emails})}
       \field{title}{Email correspondance with Telia}
+      \verb{url}
+      \verb https://github.com/henninghaakonsen/thesis/tree/master/references/Emails
+      \endverb
     \endentry
     \entry{online:lteIntroduction}{online}{}
       \name{author}{1}{}{%
@@ -215,7 +233,7 @@
       \verb https://github.com/expressjs/express
       \endverb
     \endentry
-    \entry{communication_prepost_nbiot}{misc}{}
+    \entry{communication_prepost_nbiot}{online}{}
       \field{sortinit}{F}
       \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
       \field{labeltitlesource}{title}
@@ -400,8 +418,10 @@
       \field{sortinit}{N}
       \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
       \field{labeltitlesource}{title}
-      \field{note}{(\url{https://github.com/henninghaakonsen/thesis/references/Emails})}
       \field{title}{NACK mail correspondance between Ola and Ublox}
+      \verb{url}
+      \verb https://github.com/henninghaakonsen/thesis/tree/master/references/Emails
+      \endverb
     \endentry
     \entry{online:lteTopology}{online}{}
       \name{author}{1}{}{%
@@ -464,6 +484,14 @@
       \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
       \field{labeltitlesource}{title}
       \field{title}{Ola Martin Lykkja}
+    \endentry
+    \entry{Overview74:online}{online}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://ieeexplore.ieee.org/document/8120239/}}
+      \field{note}{(Accessed on 02/19/2018)}
+      \field{title}{Overview of 3GPP Release 14 Enhanced NB-IoT - IEEE Journals \& Magazine}
     \endentry
     \entry{pcpng35052:online}{online}{}
       \field{sortinit}{p}
@@ -597,20 +625,24 @@
       \field{sortinit}{U}
       \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
       \field{labeltitlesource}{title}
-      \field{note}{(\url{https://github.com/henninghaakonsen/thesis/references})}
       \field{title}{Ublox NB-IoT chip}
       \verb{file}
       \verb SARA-N2_DataSheet_(UBX-15025564).pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/henninghaakonsen/thesis/tree/master/references
       \endverb
     \endentry
     \entry{atcommand:ubloxchip}{article}{}
       \field{sortinit}{U}
       \field{sortinithash}{8145509bd2718876fc77d31fd2cde117}
       \field{labeltitlesource}{title}
-      \field{note}{(\url{https://github.com/henninghaakonsen/thesis/references})}
       \field{title}{Ublox NB-IoT chip - AT commands manual}
       \verb{file}
       \verb SARA-N2_ATCommands_(UBX-16014887 R09).pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/henninghaakonsen/thesis/tree/master/references
       \endverb
     \endentry
     \entry{online:ddosAttack}{online}{}

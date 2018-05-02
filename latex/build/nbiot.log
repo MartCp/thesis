@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 APR 2018 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2018 09:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1448,11 +1448,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \glo@main@file=\write6
 \openout6 = `nbiot.glo'.
 
-Package glossaries Info: Writing glossary file nbiot.glo on input line 191.
+Package glossaries Info: Writing glossary file nbiot.glo on input line 190.
 \glo@acronym@file=\write7
 \openout7 = `nbiot.acn'.
 
-Package glossaries Info: Writing glossary file nbiot.acn on input line 191.
+Package glossaries Info: Writing glossary file nbiot.acn on input line 190.
  (./glossary.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -1474,29 +1474,29 @@ File: english.lbx 2016/05/14 v3.4 biblatex localization (PK/JW/AB)
 ))) (build/nbiot.aux)
 \openout1 = `nbiot.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 200.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 200.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 199.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 199.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 200.
-LaTeX Font Info:    ... okay on input line 200.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 200.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 199.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ) (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1531,15 +1531,15 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'nbiot.bbl' found.
  (build/nbiot.bbl)
-Package biblatex Info: Reference section=0 on input line 200.
-Package biblatex Info: Reference segment=0 on input line 200.
+Package biblatex Info: Reference section=0 on input line 199.
+Package biblatex Info: Reference segment=0 on input line 199.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 200.
+. Activating mapping `default' on line 199.
 .................................................
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 200.
+Package hyperref Info: Link coloring ON on input line 199.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
  (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1548,27 +1548,27 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 \c@section@level=\count434
 LaTeX Info: Redefining \Ref on input line 513.
 )
-LaTeX Info: Redefining \ref on input line 200.
-LaTeX Info: Redefining \pageref on input line 200.
-LaTeX Info: Redefining \nameref on input line 200.
+LaTeX Info: Redefining \ref on input line 199.
+LaTeX Info: Redefining \pageref on input line 199.
+LaTeX Info: Redefining \nameref on input line 199.
  (build/nbiot.out) (build/nbiot.out)
 \@outlinefile=\write8
 \openout8 = `nbiot.out'.
 
-LaTeX Info: Redefining \Ref on input line 200.
+LaTeX Info: Redefining \Ref on input line 199.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count435
-Package hyperref Info: Option `pageanchor' set `false' on input line 205.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 205.
+Package hyperref Info: Option `pageanchor' set `false' on input line 204.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 204.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-) <DUO_UiO_segl.png, id=357, 142.3719pt x 142.3719pt>
+) <DUO_UiO_segl.png, id=353, 142.3719pt x 142.3719pt>
 File: DUO_UiO_segl.png Graphic file (type png)
  <use DUO_UiO_segl.png>
-Package pdftex.def Info: DUO_UiO_segl.png used on input line 205.
+Package pdftex.def Info: DUO_UiO_segl.png used on input line 204.
 (pdftex.def)             Requested size: 170.71652pt x 170.73027pt.
  [1
 
@@ -1577,41 +1577,39 @@ Package pdftex.def Info: DUO_UiO_segl.png used on input line 205.
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./DUO_UiO_segl.png>] [2]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 205.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 204.
  [1]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 205.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 204.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 205.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 204.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 205.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 204.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 205.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 204.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 205.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 204.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 205.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 204.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 ) [1]
-Package hyperref Info: Option `pageanchor' set `true' on input line 205.
+Package hyperref Info: Option `pageanchor' set `true' on input line 204.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 207.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 206.
  (build/nbiot.toc
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 13.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 11.
  [1
 
 ]
@@ -1666,167 +1664,14 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 
 ] (./chapters/abstract.tex) [13] [14
 
-] [1
-
-] [2]
+]
 Chapter 1.
-[3
-
-] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg, id=677, 2557.555pt x 1081.03876pt>
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg, id=658, 2557.555pt x 1081.03876pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg used on input line 236.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg used on input line 233.
 (pdftex.def)             Requested size: 341.43057pt x 170.70987pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg, id=689, 769.87625pt x 561.09625pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg used on input line 249.
-(pdftex.def)             Requested size: 175.49881pt x 127.90216pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg, id=690, 769.87625pt x 562.1pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg used on input line 255.
-(pdftex.def)             Requested size: 175.49881pt x 128.13097pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 302.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrlong' on input line 305.
-
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg, id=711, 1959.32pt x 718.685pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg used on input line 309.
-(pdftex.def)             Requested size: 341.4212pt x 170.7114pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg, id=735, 1405.25pt x 803.0pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg used on input line 339.
-(pdftex.def)             Requested size: 389.99365pt x 227.61984pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg, id=754, 1003.75pt x 664.4825pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg used on input line 357.
-(pdftex.def)             Requested size: 341.43896pt x 227.62444pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg, id=757, 2583.6525pt x 1638.12pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg used on input line 363.
-(pdftex.def)             Requested size: 341.40588pt x 227.61053pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 391.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg, id=790, 1423.3175pt x 776.9025pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg used on input line 400.
-(pdftex.def)             Requested size: 389.991pt x 227.61945pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg, id=793, 1305.87875pt x 580.1675pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg used on input line 408.
-(pdftex.def)             Requested size: 389.99323pt x 227.61885pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>]
-Chapter 2.
-[17
+ [1
 
 ]
 
@@ -1835,21 +1680,186 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
+[2 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/popTo2300.jpg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg, id=679, 769.87625pt x 561.09625pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg used on input line 246.
+(pdftex.def)             Requested size: 175.49881pt x 127.90216pt.
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg, id=680, 769.87625pt x 562.1pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg used on input line 252.
+(pdftex.def)             Requested size: 175.49881pt x 128.13097pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg, id=827, 1411.2725pt x 407.5225pt>
+[3 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_pre_nbiot.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/communication_nbiot.jpg>]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 292.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrshort' on input line 298.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrlong' on input line 301.
+
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg, id=701, 1959.32pt x 718.685pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg used on input line 305.
+(pdftex.def)             Requested size: 341.4212pt x 170.7114pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/epc.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg, id=723, 1405.25pt x 803.0pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg used on input line 335.
+(pdftex.def)             Requested size: 389.99365pt x 227.61984pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaArea.jpg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg, id=736, 1003.75pt x 664.4825pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg used on input line 353.
+(pdftex.def)             Requested size: 341.43896pt x 227.62444pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg, id=745, 2583.6525pt x 1638.12pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg used on input line 359.
+(pdftex.def)             Requested size: 341.40588pt x 227.61053pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/parkingsensor.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/sensorcommunication.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrshort' on input line 387.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg, id=770, 1423.3175pt x 776.9025pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg used on input line 396.
+(pdftex.def)             Requested size: 389.991pt x 227.61945pt.
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg, id=773, 1305.87875pt x 580.1675pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg used on input line 404.
+(pdftex.def)             Requested size: 389.99323pt x 227.61885pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lora.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/lpwaKeyFeatures.jpg>] [14
+
+]
+Chapter 2.
+[15]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg, id=822, 1411.2725pt x 407.5225pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg used on input line 457.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg used on input line 474.
 (pdftex.def)             Requested size: 341.42564pt x 113.80704pt.
 
-Underfull \vbox (badness 2529) has occurred while \output is active []
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrshort' on input line 485.
+
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg, id=834, 1547.7825pt x 417.56pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg used on input line 492.
+(pdftex.def)             Requested size: 350.99925pt x 170.71646pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1860,7 +1870,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [20]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 468.
+(hyperref)                removing `\acrshort' on input line 512.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1868,11 +1878,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot-operationmodes.jpg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg, id=843, 1547.7825pt x 417.56pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg used on input line 475.
-(pdftex.def)             Requested size: 350.99925pt x 170.71646pt.
+[21 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrshort' on input line 519.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrlong' on input line 522.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1880,144 +1893,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nb-iot-timeconverge.jpg>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 495.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 502.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrlong' on input line 505.
-
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg, id=863, 1304.875pt x 827.09pt>
+[22] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg, id=859, 1304.875pt x 827.09pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg used on input line 513.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg used on input line 530.
 (pdftex.def)             Requested size: 341.42978pt x 170.7156pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrlong' on input line 525.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrlong' on input line 530.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png, id=888, 3733.95pt x 2096.83376pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png Graphic file (type png)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png used on input line 544.
-(pdftex.def)             Requested size: 389.99672pt x 256.0565pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29] [30
-
-] [31] [32]
-Chapter 3.
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg, id=924, 4047.12pt x 3035.34pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg used on input line 578.
-(pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
- [33
-
-] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg, id=929, 1961.3275pt x 1262.7175pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg used on input line 585.
-(pdftex.def)             Requested size: 389.98407pt x 259.99554pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg, id=934, 2519.4125pt x 1441.385pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg used on input line 591.
-(pdftex.def)             Requested size: 389.9667pt x 259.98795pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg, id=941, 2260.445pt x 1383.1675pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg used on input line 597.
-(pdftex.def)             Requested size: 389.99617pt x 259.97643pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[35 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 608.
-
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg, id=948, 4047.12pt x 3035.34pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg used on input line 612.
-(pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2027,7 +1908,176 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>]
+[23 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/edrx.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrlong' on input line 542.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrlong' on input line 547.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png, id=879, 3733.95pt x 2096.83376pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png Graphic file (type png)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png used on input line 561.
+(pdftex.def)             Requested size: 389.99672pt x 256.0565pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/ecl_tx_power_relation.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
+Chapter 3.
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg, id=906, 4047.12pt x 3035.34pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg used on input line 592.
+(pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29
+
+] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg, id=911, 1961.3275pt x 1262.7175pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg used on input line 599.
+(pdftex.def)             Requested size: 389.98407pt x 259.99554pt.
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg, id=916, 2519.4125pt x 1441.385pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg used on input line 605.
+(pdftex.def)             Requested size: 389.9667pt x 259.98795pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_nbiot_setup.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_uio.jpg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg, id=924, 2260.445pt x 1383.1675pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg used on input line 611.
+(pdftex.def)             Requested size: 389.99617pt x 259.97643pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_qfree.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/map_avstikkeren.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrshort' on input line 622.
+
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg, id=932, 4047.12pt x 3035.34pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg used on input line 626.
+(pdftex.def)             Requested size: 341.37611pt x 227.59436pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nbiot_devkit.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg, id=987, 803.0pt x 803.0pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg used on input line 726.
+(pdftex.def)             Requested size: 284.534pt x 284.534pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 733.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 733.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 733.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Underfull \vbox (badness 1769) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2042,52 +2092,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39]
-Underfull \vbox (badness 1107) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg, id=1001, 803.0pt x 803.0pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg used on input line 714.
-(pdftex.def)             Requested size: 284.534pt x 284.534pt.
-
+[40]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/labsetup.jpg>] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 723.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 723.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 723.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
+[41] [42
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
+]
+Chapter 4.
 [43]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2096,16 +2117,36 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 845.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 848.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrshort' on input line 857.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] [46
+[45]
 
-]
-Chapter 4.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [47]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2113,16 +2154,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 837.
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 840.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmtt.fd
-File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
+[48] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png, id=1209, 3372.6pt x 1866.975pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png Graphic file (type png)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png used on input line 972.
+(pdftex.def)             Requested size: 389.9765pt x 256.04752pt.
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png, id=1210, 3372.6pt x 1778.645pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png Graphic file (type png)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png used on input line 979.
+(pdftex.def)             Requested size: 389.9765pt x 256.06497pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 849.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png, id=1218, 3372.6pt x 1778.645pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png Graphic file (type png)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png used on input line 986.
+(pdftex.def)             Requested size: 389.9765pt x 256.06497pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2130,14 +2183,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[50]
+[50 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2151,67 +2197,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png, id=1211, 3372.6pt x 1866.975pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png Graphic file (type png)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png used on input line 946.
-(pdftex.def)             Requested size: 389.9765pt x 256.04752pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png, id=1212, 3372.6pt x 1778.645pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png Graphic file (type png)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png used on input line 953.
-(pdftex.def)             Requested size: 389.9765pt x 256.06497pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[53 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/homepage.png>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png, id=1218, 3372.6pt x 1778.645pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png Graphic file (type png)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png used on input line 960.
-(pdftex.def)             Requested size: 389.9765pt x 256.06497pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_1.png> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/nodepage_2.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[55]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[56]
+[52]
 Chapter 5.
-[57
+[53
 
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[58] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg, id=1259, 5420.25pt x 5420.25pt>
+] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg, id=1251, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg used on input line 1017.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg used on input line 1039.
 (pdftex.def)             Requested size: 389.95996pt x 259.94574pt.
 
 
@@ -2220,53 +2213,63 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg, id=1278, 5420.25pt x 5420.25pt>
+[54]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg, id=1275, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg used on input line 1029.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg used on input line 1052.
 (pdftex.def)             Requested size: 389.95996pt x 259.94574pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[60] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg, id=1289, 5420.25pt x 5420.25pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg, id=1282, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg used on input line 1036.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg used on input line 1059.
 (pdftex.def)             Requested size: 389.95996pt x 259.94574pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg>]
+[56 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg, id=1318, 5420.25pt x 5420.25pt>
+[57 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg, id=1307, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg used on input line 1058.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg used on input line 1081.
 (pdftex.def)             Requested size: 350.9226pt x 259.94574pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg, id=1325, 5420.25pt x 5420.25pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg, id=1321, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg used on input line 1065.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg used on input line 1088.
 (pdftex.def)             Requested size: 350.9226pt x 259.94574pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2274,10 +2277,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg>]
+[59 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 1072.
+(hyperref)                removing `\acrshort' on input line 1095.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2285,10 +2288,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg, id=1347, 5420.25pt x 5420.25pt>
+[60] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg, id=1348, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg used on input line 1099.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg used on input line 1123.
+(pdftex.def)             Requested size: 350.9226pt x 259.94574pt.
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg, id=1355, 5420.25pt x 5420.25pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg used on input line 1130.
 (pdftex.def)             Requested size: 350.9226pt x 259.94574pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2300,54 +2308,55 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg, id=1360, 5420.25pt x 5420.25pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg used on input line 1106.
-(pdftex.def)             Requested size: 350.9226pt x 259.94574pt.
-
+[61 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_0.jpg, id=1376, 1991.44pt x 1230.5975pt>
+[62 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_0.jpg, id=1376, 1991.44pt x 1230.5975pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_0.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_0.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_0.jpg used on input line 1121.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_0.jpg used on input line 1144.
 (pdftex.def)             Requested size: 389.98532pt x 227.61942pt.
  </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_1.jpg, id=1377, 1995.455pt x 1230.5975pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_1.jpg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_1.jpg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_1.jpg used on input line 1127.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_1.jpg used on input line 1150.
 (pdftex.def)             Requested size: 389.97993pt x 227.61942pt.
 
+Underfull \vbox (badness 1320) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_0.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[68 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_1.jpg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_0.png, id=1391, 3011.25pt x 3011.25pt>
+[63 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_0.jpg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/transmitcomparison_1.jpg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_0.png, id=1386, 3011.25pt x 3011.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_0.png Graphic file (type png)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_0.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_0.png used on input line 1141.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_0.png used on input line 1164.
 (pdftex.def)             Requested size: 350.99612pt x 259.97331pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_1.png, id=1396, 1445.4pt x 1445.4pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_1.png, id=1396, 1445.4pt x 1445.4pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_1.png Graphic file (type png)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_1.png>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_1.png used on input line 1148.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_1.png used on input line 1171.
 (pdftex.def)             Requested size: 350.98326pt x 259.98433pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2384) has occurred while \output is active []
 
 
 
@@ -2356,35 +2365,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[69 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_0.png>]
+[65 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_0.png> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_1.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[70 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/details_1.png>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELENOR_5_02_precision_reboot_2018-03-16_0_0x0_120_1_0.jpeg, id=1418, 5420.25pt x 5420.25pt>
+[66] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELENOR_5_02_precision_reboot_2018-03-16_0_0x0_120_1_0.jpeg, id=1418, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELENOR_5_02_precision_reboot_2018-03-16_0_0x0_120_1_0.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELENOR_5_02_precision_reboot_2018-03-16_0_0x0_120_1_0.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELENOR_5_02_precision_reboot_2018-03-16_0_0x0_120_1_0.jpeg used on input line 1164.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELENOR_5_02_precision_reboot_2018-03-16_0_0x0_120_1_0.jpeg used on input line 1187.
 (pdftex.def)             Requested size: 350.9226pt x 259.94574pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[71] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_reboot_2018-03-16_0_0x0_60_1_0.jpeg, id=1428, 5420.25pt x 5420.25pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_reboot_2018-03-16_0_0x0_60_1_0.jpeg, id=1423, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_reboot_2018-03-16_0_0x0_60_1_0.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_reboot_2018-03-16_0_0x0_60_1_0.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_reboot_2018-03-16_0_0x0_60_1_0.jpeg used on input line 1171.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_reboot_2018-03-16_0_0x0_60_1_0.jpeg used on input line 1194.
 (pdftex.def)             Requested size: 350.9226pt x 259.94574pt.
 
-Underfull \vbox (badness 2401) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2393,32 +2392,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[72 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELENOR_5_02_precision_reboot_2018-03-16_0_0x0_120_1_0.jpeg> </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_reboot_2018-03-16_0_0x0_60_1_0.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/downtime.pdf, id=1441, 1359.0775pt x 756.8275pt>
+[67 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELENOR_5_02_precision_reboot_2018-03-16_0_0x0_120_1_0.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/downtime.pdf, id=1436, 1359.0775pt x 756.8275pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/downtime.pdf Graphic file (type pdf)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/downtime.pdf>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/downtime.pdf used on input line 1181.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/downtime.pdf used on input line 1204.
 (pdftex.def)             Requested size: 389.99556pt x 390.00725pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[73 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/downtime.pdf
+[68 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_UiO_TELIA_5_02_precision_reboot_2018-03-16_0_0x0_60_1_0.jpeg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/downtime.pdf
 
 pdfTeX warning: pdflatex (file /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/downtime.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] [74
+>] [70
 
-] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg, id=1462, 5420.25pt x 5420.25pt>
+] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg, id=1461, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg used on input line 1191.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg used on input line 1214.
 (pdftex.def)             Requested size: 350.9226pt x 519.9742pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg, id=1463, 5420.25pt x 5420.25pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg, id=1462, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg used on input line 1198.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg used on input line 1221.
 (pdftex.def)             Requested size: 350.9226pt x 519.9742pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2430,10 +2439,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[75 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg, id=1468, 5420.25pt x 5420.25pt>
+[71 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg, id=1467, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg used on input line 1205.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg used on input line 1228.
 (pdftex.def)             Requested size: 350.9226pt x 519.9742pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2445,10 +2454,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[76 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>]
+[72 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-13_1_0x0_150_2_100.jpeg>]
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg used on input line 1213.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/short_Q-Free_TELENOR_5_02_2018-03-07_0_0x0_40_1_200.jpeg used on input line 1236.
 (pdftex.def)             Requested size: 350.9226pt x 519.9742pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2460,15 +2469,64 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[77 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg, id=1477, 5420.25pt x 5420.25pt>
+[73 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_2018-02-28_1_0x0_150_2_100.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg, id=1477, 5420.25pt x 5420.25pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg Graphic file (type jpg)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg used on input line 1220.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg used on input line 1243.
 (pdftex.def)             Requested size: 350.9226pt x 519.9742pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\acrshort' on input line 1248.
+
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg, id=1482, 5420.25pt x 5420.25pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg used on input line 1251.
+(pdftex.def)             Requested size: 350.9226pt x 519.9742pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[75 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg, id=1487, 5420.25pt x 5420.25pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg Graphic file (type jpg)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg used on input line 1258.
+(pdftex.def)             Requested size: 350.9226pt x 519.9742pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2477,76 +2535,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [78]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrshort' on input line 1225.
-
-</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg, id=1482, 5420.25pt x 5420.25pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg used on input line 1228.
-(pdftex.def)             Requested size: 350.9226pt x 519.9742pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[79 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_Q-Free_TELENOR_5_02_2018-03-07_1_0x0_40_1_200.jpeg>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg, id=1488, 5420.25pt x 5420.25pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg Graphic file (type jpg)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg used on input line 1235.
-(pdftex.def)             Requested size: 350.9226pt x 519.9742pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[80 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_2018-03-16_1_0x2_60_1_50.jpeg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[81 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/results/included_in_thesis/full_UiO_TELIA_5_02_precision_+30dBm_att_2018-03-16_1_0x2_60_1_50.jpeg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[82]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[83]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[84] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_lc.pdf, id=1518, 1359.0775pt x 1359.0775pt>
+[79] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_lc.pdf, id=1513, 1359.0775pt x 1359.0775pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_lc.pdf Graphic file (type pdf)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_lc.pdf>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_lc.pdf used on input line 1264.
-(pdftex.def)             Requested size: 350.9877pt x 324.98247pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf, id=1521, 1359.0775pt x 1359.0775pt>
-File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf Graphic file (type pdf)
- <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf used on input line 1271.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_lc.pdf used on input line 1285.
 (pdftex.def)             Requested size: 350.9877pt x 324.98247pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2558,7 +2555,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[85 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_lc.pdf
+[80] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf, id=1520, 1359.0775pt x 1359.0775pt>
+File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf Graphic file (type pdf)
+ <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf>
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf used on input line 1292.
+(pdftex.def)             Requested size: 350.9877pt x 324.98247pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[81 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_lc.pdf
 
 pdfTeX warning: pdflatex (file /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_lc.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
@@ -2568,18 +2580,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[86 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf
+[82 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf
 
 pdfTeX warning: pdflatex (file /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telenor_stat.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_lc.pdf, id=1561, 1359.0775pt x 1359.0775pt>
+>] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_lc.pdf, id=1559, 1359.0775pt x 1359.0775pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_lc.pdf Graphic file (type pdf)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_lc.pdf>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_lc.pdf used on input line 1284.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_lc.pdf used on input line 1304.
 (pdftex.def)             Requested size: 350.9877pt x 259.99013pt.
- </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_stat.pdf, id=1564, 1359.0775pt x 1359.0775pt>
+ </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_stat.pdf, id=1562, 1359.0775pt x 1359.0775pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_stat.pdf Graphic file (type pdf)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_stat.pdf>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_stat.pdf used on input line 1291.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_stat.pdf used on input line 1311.
 (pdftex.def)             Requested size: 350.9877pt x 259.99013pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2591,13 +2603,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[87 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_lc.pdf
+[83 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_lc.pdf
 
 pdfTeX warning: pdflatex (file /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_lc.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\acrlong' on input line 1299.
+(hyperref)                removing `\acrlong' on input line 1319.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2605,7 +2617,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[88 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_stat.pdf
+[84 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_stat.pdf
 
 pdfTeX warning: pdflatex (file /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/uio_telia_stat.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 >] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -2619,25 +2631,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[89] [90
+[85] [86
 
 ]
 Chapter 6.
-[91]
+[87]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[92]
+[88]
 Chapter 7.
-[93
+[89
 
-] </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/longterm_calculation.pdf, id=1631, 1045.9075pt x 712.6625pt>
+]
+Overfull \hbox (38.27563pt too wide) in paragraph at lines 1363--1364
+\T1/ppl/m/n/12 flaws for ten years. I have cre-ate an ex-cel spread-sheet(\T1/ppl/b/n/12 longterm_calulations.xlxs\T1/ppl/m/n/12 ),
+ []
+
+</Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/longterm_calculation.pdf, id=1630, 1045.9075pt x 712.6625pt>
 File: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/longterm_calculation.pdf Graphic file (type pdf)
  <use /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/longterm_calculation.pdf>
-Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/longterm_calculation.pdf used on input line 1347.
+Package pdftex.def Info: /Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/longterm_calculation.pdf used on input line 1367.
 (pdftex.def)             Requested size: 351.00758pt x 259.9946pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2649,7 +2666,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[94]
+[90]
 Underfull \vbox (badness 1142) has occurred while \output is active []
 
 
@@ -2659,7 +2676,35 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[95 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/longterm_calculation.pdf>]
+[91 </Users/henninghakonsen/Dropbox/Masteroppgave/thesis/latex/images/longterm_calculation.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[92]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[93]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94] [95
+
+
+]
+Overfull \hbox (17.43091pt too wide) in paragraph at lines 1420--1420
+[]\T1/ppl/m/n/12 Oslo Kom-mune. \T1/ppl/m/it/12 Statis-tikk over hush-old-ninger\T1/ppl/m/n/12 . (Ac-cessed on 09/03/2017).
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2673,45 +2718,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[97] [98
-
-] [99
-
-]
-Overfull \hbox (17.43091pt too wide) in paragraph at lines 1395--1395
-[]\T1/ppl/m/n/12 Oslo Kom-mune. \T1/ppl/m/it/12 Statis-tikk over hush-old-ninger\T1/ppl/m/n/12 . (Ac-cessed on 09/03/2017).
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[100]
-Overfull \hbox (13.26631pt too wide) in paragraph at lines 1395--1395
+[97]
+Overfull \hbox (13.26631pt too wide) in paragraph at lines 1420--1420
 \T1/ppl/m/n/12 cessed on 04/11/2018). \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : [][]$https : / / github . com / henninghaakonsen /
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[101]
-Overfull \hbox (13.26631pt too wide) in paragraph at lines 1395--1395
+Overfull \hbox (13.26631pt too wide) in paragraph at lines 1420--1420
 \T1/ppl/m/n/12 cessed on 04/11/2018). \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : [][]$https : / / github . com / henninghaakonsen /
  []
 
 
-Overfull \hbox (13.26631pt too wide) in paragraph at lines 1395--1395
+Overfull \hbox (13.26631pt too wide) in paragraph at lines 1420--1420
 \T1/ppl/m/n/12 cessed on 04/11/2018). \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : [][]$https : / / github . com / henninghaakonsen /
- []
-
-
-Overfull \hbox (12.10603pt too wide) in paragraph at lines 1395--1395
-[]\T1/ppl/m/n/12 ^^P  Ublox NB-IoT chip.^^Q In: (). ([][]$https : / / github . com / henninghaakonsen /
  []
 
 (build/nbiot.acr
@@ -2721,7 +2740,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[102] [103
+[98] [99
 
 
 ]
@@ -2731,8 +2750,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[104])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1397.
+[100])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1422.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2740,31 +2759,31 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[105]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1397.
+[101]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1422.
  (build/nbiot.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1397.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1397.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1422.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1422.
 Package rerunfilecheck Info: File `nbiot.out' has not changed.
-(rerunfilecheck)             Checksum: 7E704900223BD9E1138254023D41EF73;12029.
+(rerunfilecheck)             Checksum: 555B495DB090FFE43BBDD35AA7D9EC6B;12006.
 Package logreq Info: Writing requests to 'nbiot.run.xml'.
 \openout1 = `nbiot.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38019 strings out of 493014
- 658488 string characters out of 6133351
- 1193061 words of memory out of 5000000
- 40520 multiletter control sequences out of 15000+600000
+ 38166 strings out of 493014
+ 660933 string characters out of 6133351
+ 1194826 words of memory out of 5000000
+ 40651 multiletter control sequences out of 15000+600000
  61716 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,13n,94p,10347b,3323s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,13n,94p,10347b,3321s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on build/nbiot.pdf (123 pages, 37811792 bytes).
+Output written on build/nbiot.pdf (119 pages, 37280073 bytes).
 PDF statistics:
- 1961 PDF objects out of 2073 (max. 8388607)
- 1683 compressed objects within 17 object streams
- 453 named destinations out of 1000 (max. 500000)
- 945 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1970 PDF objects out of 2073 (max. 8388607)
+ 1695 compressed objects within 17 object streams
+ 469 named destinations out of 1000 (max. 500000)
+ 937 words of extra memory for PDF output out of 10000 (max. 10000000)
 

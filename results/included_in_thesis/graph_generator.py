@@ -104,6 +104,8 @@ fluke_trace = None
 xaxises = {}
 yaxises = {}
 
+ordering = {'0': ['1', '2', '3', '4', '5', '6', '7', '8', '9'], "1": ['1', '2', '0', '0', '0', '0', '0', '0', '3'], "2": ['1', '2', '0', '0', '0', '3', '0', '0', '4'], "3": ['0', '0', '0', '0', '0', '0', '0', '0', '1'], "4": ['0', '0', '1', '2', '3', '0', '0', '0', '4']}
+
 for matchNum, match in enumerate(matches):
 	matchNum = matchNum + 1
 
@@ -114,34 +116,35 @@ for matchNum, match in enumerate(matches):
 	user = json.loads(result, object_pairs_hook=dict_raise_on_duplicates)
 	for entry in user:
 		line = user[entry]['line']
-		line['width'] = 1.5
+		line['width'] = 2
+		plot_type = str(r.plot_type)
 		if "RECEIVE" in user[entry]['name']:
 			rx_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=line, name=user[entry]['name'])
+				mode = 'lines', line=line, name=ordering[plot_type][0] + ': ' + user[entry]['name'])
 		elif "TRANSMIT" in user[entry]['name']:
 			tx_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=line, name=user[entry]['name'])
+				mode = 'lines', line=line, name=ordering[plot_type][1] + ': ' + user[entry]['name'])
 		elif "TX POWER" in user[entry]['name']:
 			tx_pwr_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=line, name=user[entry]['name'])
+				mode = 'lines', line=line, name=ordering[plot_type][2] + ': ' + user[entry]['name'])
 		elif "COVERAGE" in user[entry]['name']:
 			coverage_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=line, name='SIGNAL POWER (dBm)')
+				mode = 'lines', line=line, name=ordering[plot_type][3] + ': ' + 'SIGNAL POWER (dBm)')
 		elif "ECL" in user[entry]['name']:
 			ecl_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=line, name=user[entry]['name'])
+				mode = 'lines', line=line, name=ordering[plot_type][4] + ': ' + user[entry]['name'])
 		elif "PSM" in user[entry]['name']:
 			psm_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=line, name=user[entry]['name'])
+				mode = 'lines', line=line, name=ordering[plot_type][5] + ': ' + user[entry]['name'])
 		elif "RRC" in user[entry]['name']:
 			con_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=line, name=user[entry]['name'])
+				mode = 'lines', line=line, name=ordering[plot_type][6] + ': ' + user[entry]['name'])
 		elif "REGISTRATION" in user[entry]['name']:
 			reg_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=line, name=user[entry]['name'])
+				mode = 'lines', line=line, name=ordering[plot_type][7] + ': ' + user[entry]['name'])
 		elif "PWR" in user[entry]['name']:
 			fluke_trace = go.Scatter(x=user[entry]['x'], y=user[entry]['y'], 
-				mode = 'lines', line=line, name=user[entry]['name'])
+				mode = 'lines', line=line, name=ordering[plot_type][8] + ': ' + user[entry]['name'])
 
 fig = None
 
@@ -232,8 +235,8 @@ elif r.plot_type == 4:
 	                  print_grid=False)
 
 	fig.append_trace(tx_pwr_trace, 1, 1)
-	fig.append_trace(ecl_trace, 2, 1)
-	fig.append_trace(coverage_trace, 3, 1)
+	fig.append_trace(coverage_trace, 2, 1)
+	fig.append_trace(ecl_trace, 3, 1)
 	fig.append_trace(fluke_trace, 4, 1)
 
 
@@ -249,7 +252,7 @@ layout = go.Layout(
             color='#000'
         ),
 	),
-    xaxis1=get_layout_with_title('PWR USAGE') if r.plot_type == 3 else get_basic_layout(),
+    xaxis1=get_layout_with_title('PWR USAGE (mA)') if r.plot_type == 3 else get_basic_layout(),
     yaxis1=get_layout(),
     xaxis2=get_basic_layout(),
     yaxis2=get_layout(),
