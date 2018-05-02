@@ -1,0 +1,73 @@
+[1] Config.pm:343> INFO - This is Biber 2.5
+[1] Config.pm:346> INFO - Logfile is 'build/haakonsen_nbiot.blg'
+[89] biber-darwin:290> INFO - === Wed May  2, 2018, 09:46:55
+[131] Biber.pm:351> INFO - Reading 'build/haakonsen_nbiot.bcf'
+[338] Biber.pm:776> INFO - Found 54 citekeys in bib section 0
+[356] Biber.pm:3493> INFO - Processing section 0
+[377] Biber.pm:3657> INFO - Looking for bibtex format file 'mybib.bib' for section 0
+[383] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[386] bibtex.pm:1048> INFO - Found BibTeX data source 'mybib.bib'
+[387] Utils.pm:149> WARN - Duplicate entry key: 'online:epc' in file 'mybib.bib', skipping ...
+[436] Utils.pm:149> WARN - The field 'author' in entry 'communication_prepost_nbiot' cannot be null, deleting it
+[437] Utils.pm:149> WARN - The field 'author' in entry 'online:epc' cannot be null, deleting it
+[437] Utils.pm:149> WARN - The field 'month' in entry 'online:epc' cannot be null, deleting it
+[437] Utils.pm:149> WARN - The field 'year' in entry 'online:epc' cannot be null, deleting it
+[437] Utils.pm:149> WARN - The field 'author' in entry 'EFCCENTC29:online' cannot be null, deleting it
+[437] Utils.pm:149> WARN - The field 'month' in entry 'EFCCENTC29:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'year' in entry 'EFCCENTC29:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'author' in entry 'ASurveyo24:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'month' in entry 'ASurveyo24:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'year' in entry 'ASurveyo24:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'author' in entry 'APrimero97:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'month' in entry 'APrimero97:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'year' in entry 'APrimero97:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'author' in entry 'IEEEXplo82:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'month' in entry 'IEEEXplo82:online' cannot be null, deleting it
+[438] Utils.pm:149> WARN - The field 'year' in entry 'IEEEXplo82:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'author' in entry 'pcpng35052:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'month' in entry 'pcpng35052:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'year' in entry 'pcpng35052:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'author' in entry 'fluke88435:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'month' in entry 'fluke88435:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'year' in entry 'fluke88435:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'author' in entry 'ingagrue31:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'month' in entry 'ingagrue31:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'year' in entry 'ingagrue31:online' cannot be null, deleting it
+[439] Utils.pm:149> WARN - The field 'author' in entry 'code:atcommand' cannot be null, deleting it
+[440] Utils.pm:149> WARN - The field 'month' in entry 'code:atcommand' cannot be null, deleting it
+[440] Utils.pm:149> WARN - The field 'year' in entry 'code:atcommand' cannot be null, deleting it
+[440] Utils.pm:149> WARN - The field 'author' in entry 'code:nbiotlabtest' cannot be null, deleting it
+[440] Utils.pm:149> WARN - The field 'month' in entry 'code:nbiotlabtest' cannot be null, deleting it
+[440] Utils.pm:149> WARN - The field 'year' in entry 'code:nbiotlabtest' cannot be null, deleting it
+[440] Utils.pm:149> WARN - The field 'author' in entry 'code:powercalc' cannot be null, deleting it
+[441] Utils.pm:149> WARN - The field 'month' in entry 'code:powercalc' cannot be null, deleting it
+[441] Utils.pm:149> WARN - The field 'year' in entry 'code:powercalc' cannot be null, deleting it
+[441] Utils.pm:149> WARN - The field 'author' in entry 'code:nbiotdetails' cannot be null, deleting it
+[441] Utils.pm:149> WARN - The field 'month' in entry 'code:nbiotdetails' cannot be null, deleting it
+[441] Utils.pm:149> WARN - The field 'year' in entry 'code:nbiotdetails' cannot be null, deleting it
+[441] Utils.pm:149> WARN - The field 'author' in entry 'npm:express' cannot be null, deleting it
+[442] Utils.pm:149> WARN - The field 'month' in entry 'npm:express' cannot be null, deleting it
+[442] Utils.pm:149> WARN - The field 'year' in entry 'npm:express' cannot be null, deleting it
+[442] Utils.pm:149> WARN - The field 'author' in entry 'npm:coap' cannot be null, deleting it
+[442] Utils.pm:149> WARN - The field 'month' in entry 'npm:coap' cannot be null, deleting it
+[443] Utils.pm:149> WARN - The field 'year' in entry 'npm:coap' cannot be null, deleting it
+[443] Utils.pm:149> WARN - The field 'author' in entry 'npm:cluster' cannot be null, deleting it
+[443] Utils.pm:149> WARN - The field 'month' in entry 'npm:cluster' cannot be null, deleting it
+[443] Utils.pm:149> WARN - The field 'year' in entry 'npm:cluster' cannot be null, deleting it
+[443] Utils.pm:149> WARN - The field 'author' in entry 'npm:mongodb' cannot be null, deleting it
+[444] Utils.pm:149> WARN - The field 'month' in entry 'npm:mongodb' cannot be null, deleting it
+[444] Utils.pm:149> WARN - The field 'year' in entry 'npm:mongodb' cannot be null, deleting it
+[444] Utils.pm:149> WARN - The field 'author' in entry 'npm:moment' cannot be null, deleting it
+[444] Utils.pm:149> WARN - The field 'month' in entry 'npm:moment' cannot be null, deleting it
+[445] Utils.pm:149> WARN - The field 'year' in entry 'npm:moment' cannot be null, deleting it
+[445] Utils.pm:149> WARN - The field 'author' in entry 'online:rohde' cannot be null, deleting it
+[445] Utils.pm:149> WARN - The field 'author' in entry 'Overview74:online' cannot be null, deleting it
+[445] Utils.pm:149> WARN - The field 'month' in entry 'Overview74:online' cannot be null, deleting it
+[446] Utils.pm:149> WARN - The field 'year' in entry 'Overview74:online' cannot be null, deleting it
+[509] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[509] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[509] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[509] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[584] bbl.pm:526> INFO - Writing 'build/haakonsen_nbiot.bbl' with encoding 'UTF-8'
+[589] bbl.pm:619> INFO - Output to build/haakonsen_nbiot.bbl
+[589] Biber.pm:108> INFO - WARNINGS: 57
